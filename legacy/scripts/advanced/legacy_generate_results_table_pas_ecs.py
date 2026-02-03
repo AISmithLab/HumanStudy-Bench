@@ -18,8 +18,9 @@ from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Add repo root to path for imports (this file lives in legacy/scripts/advanced/)
+_REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(_REPO_ROOT))
 
 
 def calculate_usage_from_individual_data(benchmark_data: dict) -> dict:
@@ -1562,7 +1563,7 @@ def main():
                     if not test_results:
                         continue
                     
-                    gt_path = Path(__file__).parent.parent / "data" / "studies" / study_id / "ground_truth.json"
+                    gt_path = _REPO_ROOT / "data" / "studies" / study_id / "ground_truth.json"
                     gt_lookup = None
                     if gt_path.exists():
                         try:

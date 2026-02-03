@@ -14,9 +14,12 @@ CLI and table-generation tools for the benchmark.
 - `run_studies_parallel.py` — run studies in parallel.
 - `compute_random_alignment.py` — random alignment baseline.
 
-**Advanced** (visualization, production tables, legacy PAS+ECS):
+**Advanced** (visualization, production tables):
 - `advanced/generate_production_results.py` — LaTeX production tables (ECS vs cost).
 - `advanced/generate_detailed_metrics_table.py` — detailed hierarchical metrics.
-- `advanced/legacy_generate_*` — legacy PAS+ECS table generators.
+
+**Legacy PAS+ECS** (moved to `legacy/scripts/`):
+- `legacy/scripts/legacy_generate_results_table_pas_ecs.py` — legacy results table (PAS+ECS).
+- `legacy/scripts/legacy_generate_production_results_pas_ecs.py` — legacy production LaTeX tables (PAS+ECS).
 
 Outputs: default `results/benchmark/`; with `--run-name X`, `results/runs/X/`.

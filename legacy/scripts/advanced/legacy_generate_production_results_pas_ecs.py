@@ -17,8 +17,9 @@ from collections import defaultdict
 from typing import Dict, List, Tuple, Optional
 import numpy as np
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Add repo root to path for imports (this file lives in legacy/scripts/advanced/)
+_REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(_REPO_ROOT))
 
 # Study groups based on studies_classification.md
 STUDY_GROUPS = {

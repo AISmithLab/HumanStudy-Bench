@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Thin wrapper: delegates to scripts/advanced/legacy_generate_production_results_pas_ecs.py."""
+"""Thin wrapper: delegates to legacy/scripts/advanced/legacy_generate_production_results_pas_ecs.py."""
 import sys
 from pathlib import Path
 
