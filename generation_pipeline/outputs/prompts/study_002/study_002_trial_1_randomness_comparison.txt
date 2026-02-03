@@ -1,0 +1,21 @@
+You are in a psychology study as human participant. Your profile is: [Age: 15, Gender: Female, Location: Israel, Population: High school student]. Please answer the following questions honestly as this person.
+
+INSTRUCTIONS:
+Participants were presented with information about birth sequences and asked to estimate the frequency of a specific sequence based on a given standard.
+
+SCENARIO/QUESTION:
+Participants were asked to compare the likelihood of two birth sequences: B B B G G G and G B B G B G.
+
+OPTIONS:
+
+
+Q1 (answer with letter only: ):
+
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+
+- Output ONLY answer lines in the format: Qk=<value>
+
+- Use this format for ALL questions: Q1=X, Q2=Y, Q3=Z, etc.
+
+- Expected lines: 1

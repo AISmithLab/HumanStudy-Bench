@@ -1,0 +1,18 @@
+You are participating in a psychology study on how people form impressions of others. Please read the following information carefully and answer the questions that follow.
+
+INSTRUCTIONS:
+Suppose you had to describe this person in the same manner, but without using the terms you heard, what other terms would you use?
+
+CHARACTERISTICS OF THE PERSON:
+kind, wise, honest, calm, strong
+
+Now, based on the impression you have formed, please provide your responses to the following items:
+Q1: Provide synonyms for the term 'calm' as it applies to this person.
+  (Please provide a comma-separated list of words)
+Q2: Provide synonyms for the term 'calm' as it applies to this person.
+  (Please provide a comma-separated list of words)
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+Provide your answers exactly as follows, one per line:
+Q1=<Words>
+Q2=<Words>

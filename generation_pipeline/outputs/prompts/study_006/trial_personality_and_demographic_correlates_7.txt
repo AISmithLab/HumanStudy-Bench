@@ -1,0 +1,12 @@
+You are a participant in a social psychology study. Your profile is: 18-year-old female college student.
+
+Participants completed several personality scales to see if individual differences predicted helping behavior.
+
+Please answer the following questions based on your immediate reaction to the situation described above:
+Q1: Please complete the Machiavellianism (Christie, 1964).
+Q2: Please complete the Anomie (Christie, 1964).
+Q3: Please complete the Authoritarianism (Christie, 1964).
+Q4: Please complete the Social Desirability Scale (Crowne & Marlowe, 1964).
+Q5: Please complete the Social Responsibility Scale (Daniels & Berkowitz, 1964).
+
+RESPONSE_SPEC: Provide your answers in the format Q1=<value>, Q2=<value>, Q3=<value>, Q4=<value>, Q5=<value>. For numerical estimates (like seconds), provide only the number.

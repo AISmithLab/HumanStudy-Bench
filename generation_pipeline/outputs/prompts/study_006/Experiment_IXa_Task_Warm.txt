@@ -1,0 +1,24 @@
+You are participating in a psychology study on how people form impressions of others. Please read the following information carefully and answer the questions that follow.
+
+INSTRUCTIONS:
+Based on the single trait provided ('warm' or 'cold'), select the fitting qualities from the list.
+
+CHARACTERISTICS OF THE PERSON:
+warm
+
+Now, based on the impression you have formed, please provide your responses to the following items:
+Q1: Does this person seem emotional or unemotional?
+  A) emotional
+  B) unemotional
+Q2: Does this person seem pale or ruddy?
+  A) pale
+  B) ruddy
+Q3: Does this person seem cheerful or sad?
+  A) cheerful
+  B) sad
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+Provide your answers exactly as follows, one per line:
+Q1=<Letter A, B, etc.>
+Q2=<Letter A, B, etc.>
+Q3=<Letter A, B, etc.>

@@ -1,0 +1,52 @@
+{
+  "paper_title": "Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm",
+  "paper_authors": [
+    "Deborah A. Prentice",
+    "Dale T. Miller"
+  ],
+  "paper_abstract": "Four studies examined the relation between college students' own attitudes toward alcohol use and their estimates of the attitudes of their peers. All studies found widespread evidence of pluralistic ignorance: Students believed that they were more uncomfortable with campus alcohol practices than was the average student. Study 2 demonstrated this perceived self-other difference also with respect to one's friends. Study 3 tracked attitudes toward drinking over the course of a semester and found gender differences in response to perceived deviance: Male students shifted their attitudes over time in the direction of what they mistakenly believed to be the norm, whereas female students showed no such attitude change. Study 4 found that students' perceived deviance correlated with various measures of campus alienation, even though that deviance was illusory. The implications of these results for general issues of norm estimation and responses to perceived deviance are discussed.",
+  "experiments": [
+    {
+      "experiment_id": "Study 1",
+      "experiment_name": "Pluralistic Ignorance regarding Alcohol Habits",
+      "input": "A one-page questionnaire asking participants to rate their own comfort with Princeton's alcohol drinking habits and estimate the comfort of the 'average' Princeton undergraduate on an 11-point scale (1 = not at all comfortable, 11 = very comfortable), including an estimate of the interquartile range for other students.",
+      "participants": "132 Princeton University undergraduates (69 women, 63 men) across 1st- through 4th-year classes.",
+      "output": "Self-comfort ratings vs. estimated average student comfort ratings (means and standard deviations); estimated variability of others' attitudes.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Study 2",
+      "experiment_name": "Pluralistic Ignorance regarding Friends and Order Effects",
+      "input": "Questionnaire assessing comfort with alcohol drinking habits for self, friends, and the 'average student'. The order of questions (self-question first vs. other-question first) was manipulated.",
+      "participants": "242 Princeton University undergraduates (145 women, 97 men) across 1st- through 4th-year classes.",
+      "output": "Comfort ratings for self, friends, and average student; analysis of question order effects.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Study 3",
+      "experiment_name": "Longitudinal Tracking of Attitude Internalization",
+      "input": "Two telephone interviews conducted 8 weeks apart (September and December) assessing self-comfort, estimated average student comfort, and weekly/typical alcohol consumption.",
+      "participants": "50 Princeton University sophomores (25 women, 25 men) randomly selected from the student telephone directory.",
+      "output": "Change in self-ratings and perceived norms over the course of a semester; correlation between attitudes and behavior over time.",
+      "replicable": "NO",
+      "exclusion_reasons": [
+        "Requires time perception/measurement (reaction time, duration judgments)"
+      ]
+    },
+    {
+      "experiment_id": "Study 4",
+      "experiment_name": "Pluralistic Ignorance and Campus Alienation regarding Keg Ban",
+      "input": "Questionnaire regarding a campus-wide policy banning beer kegs. Items included personal attitude toward the ban (0-10 scale), perceived average student attitude (1-5 scale), and willingness to engage in social action (collecting signatures, time spent discussing) or show institutional connection (reunion attendance, likelihood of donations).",
+      "participants": "94 Princeton University undergraduates (52 women, 42 men) across 1st- through 4th-year classes.",
+      "output": "Attitude toward the keg ban, perceived deviance from the norm, and behavioral measures of institutional alienation.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    }
+  ],
+  "overall_replicable": false,
+  "confidence": 0.95,
+  "notes": "Studies 1, 2, and 4 are cross-sectional surveys that use text-based inputs and quantitative scales, making them highly suitable for replication with LLM agents. Study 3 is a longitudinal study requiring the measurement of attitude change over a significant duration (8 weeks/one semester) of real-world social immersion and environmental experience (e.g., observing the negative consequences of alcohol use), which cannot be effectively replicated by static LLM agents.",
+  "paper_id": "social_norm"
+}

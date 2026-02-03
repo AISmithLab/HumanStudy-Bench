@@ -1,0 +1,63 @@
+You are in a psychology study as human participant. Your profile is: [Age: 15, Gender: Male, Location: Israel, Population: High school student]. Please answer the following questions honestly as this person.
+
+INSTRUCTIONS:
+Participants estimated the posterior probability that a sample was drawn from one of two symmetric populations.
+
+SCENARIO/QUESTION:
+Consider two very large decks of cards, denoted A and B. In deck A, p of the cards are marked X, and (1-p) are marked O. In deck B, (1-p) of the cards are marked X, and p are marked O. One of the decks has been selected by chance, and N cards have been drawn at random from it, of which r are marked X and b are marked O. What do you think the probability is that the N cards were drawn from deck A? (Condition: p=5/6, sample=4:2)
+
+Q1 (answer with number only):
+
+SCENARIO/QUESTION:
+Consider two very large decks of cards, denoted A and B. In deck A, p of the cards are marked X, and (1-p) are marked O. In deck B, (1-p) of the cards are marked X, and p are marked O. One of the decks has been selected by chance, and N cards have been drawn at random from it, of which r are marked X and b are marked O. What do you think the probability is that the N cards were drawn from deck A? (Condition: p=5/6, sample=8:4)
+
+Q2 (answer with number only):
+
+SCENARIO/QUESTION:
+Consider two very large decks of cards, denoted A and B. In deck A, p of the cards are marked X, and (1-p) are marked O. In deck B, (1-p) of the cards are marked X, and p are marked O. One of the decks has been selected by chance, and N cards have been drawn at random from it, of which r are marked X and b are marked O. What do you think the probability is that the N cards were drawn from deck A? (Condition: p=5/6, sample=40:20)
+
+Q3 (answer with number only):
+
+SCENARIO/QUESTION:
+Consider two very large decks of cards, denoted A and B. In deck A, p of the cards are marked X, and (1-p) are marked O. In deck B, (1-p) of the cards are marked X, and p are marked O. One of the decks has been selected by chance, and N cards have been drawn at random from it, of which r are marked X and b are marked O. What do you think the probability is that the N cards were drawn from deck A? (Condition: p=5/6, sample=18:14)
+
+Q4 (answer with number only):
+
+SCENARIO/QUESTION:
+Consider two very large decks of cards, denoted A and B. In deck A, p of the cards are marked X, and (1-p) are marked O. In deck B, (1-p) of the cards are marked X, and p are marked O. One of the decks has been selected by chance, and N cards have been drawn at random from it, of which r are marked X and b are marked O. What do you think the probability is that the N cards were drawn from deck A? (Condition: p=5/6, sample=5:1)
+
+Q5 (answer with number only):
+
+SCENARIO/QUESTION:
+Consider two very large decks of cards, denoted A and B. In deck A, p of the cards are marked X, and (1-p) are marked O. In deck B, (1-p) of the cards are marked X, and p are marked O. One of the decks has been selected by chance, and N cards have been drawn at random from it, of which r are marked X and b are marked O. What do you think the probability is that the N cards were drawn from deck A? (Condition: p=2/3, sample=4:2)
+
+Q6 (answer with number only):
+
+SCENARIO/QUESTION:
+Consider two very large decks of cards, denoted A and B. In deck A, p of the cards are marked X, and (1-p) are marked O. In deck B, (1-p) of the cards are marked X, and p are marked O. One of the decks has been selected by chance, and N cards have been drawn at random from it, of which r are marked X and b are marked O. What do you think the probability is that the N cards were drawn from deck A? (Condition: p=2/3, sample=8:4)
+
+Q7 (answer with number only):
+
+SCENARIO/QUESTION:
+Consider two very large decks of cards, denoted A and B. In deck A, p of the cards are marked X, and (1-p) are marked O. In deck B, (1-p) of the cards are marked X, and p are marked O. One of the decks has been selected by chance, and N cards have been drawn at random from it, of which r are marked X and b are marked O. What do you think the probability is that the N cards were drawn from deck A? (Condition: p=2/3, sample=40:20)
+
+Q8 (answer with number only):
+
+SCENARIO/QUESTION:
+Consider two very large decks of cards, denoted A and B. In deck A, p of the cards are marked X, and (1-p) are marked O. In deck B, (1-p) of the cards are marked X, and p are marked O. One of the decks has been selected by chance, and N cards have been drawn at random from it, of which r are marked X and b are marked O. What do you think the probability is that the N cards were drawn from deck A? (Condition: p=2/3, sample=18:14)
+
+Q9 (answer with number only):
+
+SCENARIO/QUESTION:
+Consider two very large decks of cards, denoted A and B. In deck A, p of the cards are marked X, and (1-p) are marked O. In deck B, (1-p) of the cards are marked X, and p are marked O. One of the decks has been selected by chance, and N cards have been drawn at random from it, of which r are marked X and b are marked O. What do you think the probability is that the N cards were drawn from deck A? (Condition: p=2/3, sample=5:1)
+
+Q10 (answer with number only):
+
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+
+- Output ONLY answer lines in the format: Qk=<value>
+
+- Use this format for ALL questions: Q1=X, Q2=Y, Q3=Z, etc.
+
+- Expected lines: 10

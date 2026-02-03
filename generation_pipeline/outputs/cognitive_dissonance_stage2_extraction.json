@@ -1,0 +1,162 @@
+{
+  "studies": [
+    {
+      "study_id": "Experiment 1",
+      "study_name": "Cognitive Consequences of Forced Compliance",
+      "phenomenon": "Cognitive Dissonance",
+      "hypotheses": [
+        "If a person is induced to do or say something which is contrary to his private opinion, there will be a tendency for him to change his opinion so as to bring it into correspondence with what he has done or said.",
+        "The larger the pressure used to elicit the overt behavior (beyond the minimum needed to elicit it) the weaker will be the above-mentioned tendency."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "forced_compliance_experiment",
+          "type": "laboratory experiment",
+          "content": "Participants performed two repetitive, boring physical tasks for one hour. They were then induced (via a payment of $1 or $20) to act as a 'hired' assistant and tell a waiting girl (confederate) that the tasks were very interesting and enjoyable. A control group performed the tasks but was not asked to lie. Finally, all participants were interviewed by a separate researcher to measure their true private opinions of the tasks.",
+          "materials": {
+            "boring_tasks": [
+              "Task 1: Putting 12 spools onto a tray, emptying the tray, and refilling it for 30 minutes using one hand.",
+              "Task 2: Turning 48 square pegs on a board a quarter turn clockwise, then another quarter turn, for 30 minutes using one hand."
+            ],
+            "confederate_script_points": [
+              "It was very enjoyable",
+              "I had a lot of fun",
+              "I enjoyed myself",
+              "It was very interesting",
+              "It was intriguing",
+              "It was exciting"
+            ]
+          },
+          "items": [
+            {
+              "question_id": "enjoyment",
+              "question_text": "Were the tasks interesting and enjoyable? In what way? In what way were they not? Would you rate how you feel about them on a scale from -5 to +5 where -5 means they were extremely dull and boring, +5 means they were extremely interesting and enjoyable, and zero means they were neutral, neither interesting nor uninteresting.",
+              "response_scale": "-5 to +5",
+              "anchors": {
+                "-5": "extremely dull and boring",
+                "0": "neutral",
+                "+5": "extremely interesting and enjoyable"
+              }
+            },
+            {
+              "question_id": "learning",
+              "question_text": "Did the experiment give you an opportunity to learn about your own ability to perform these tasks? In what way? In what way not? Would you rate how you feel about this on a scale from 0 to 10 where 0 means you learned nothing and 10 means you learned a great deal.",
+              "response_scale": "0 to 10",
+              "anchors": {
+                "0": "learned nothing",
+                "10": "learned a great deal"
+              }
+            },
+            {
+              "question_id": "scientific_importance",
+              "question_text": "From what you know about the experiment and the tasks involved in it, would you say the experiment was measuring anything important? That is, do you think the results may have scientific value? In what way? In what way not? Would you rate your opinion on this matter on a scale from 0 to 10 where 0 means the results have no scientific value or importance and 10 means they have a great deal of value and importance.",
+              "response_scale": "0 to 10",
+              "anchors": {
+                "0": "no scientific value or importance",
+                "10": "great deal of value and importance"
+              }
+            },
+            {
+              "question_id": "future_participation",
+              "question_text": "Would you have any desire to participate in another similar experiment? Why? Why not? Would you rate your desire to participate in a similar experiment again on a scale from -5 to +5, where -5 means you would definitely dislike to participate, +5 means you would definitely like to participate, and 0 means you have no particular feeling about it one way or the other.",
+              "response_scale": "-5 to +5",
+              "anchors": {
+                "-5": "definitely dislike to participate",
+                "0": "no particular feeling",
+                "+5": "definitely like to participate"
+              }
+            }
+          ],
+          "participants": {
+            "n_final": 60,
+            "n_initial": 71,
+            "gender": "male",
+            "population": "Stanford University introductory psychology students",
+            "condition_assignment": "20 per condition (Control, One Dollar, Twenty Dollars)",
+            "exclusion_details": "11 subjects discarded: 5 for suspicion of the payment purpose, 2 for telling the confederate they were hired, 3 for refusing money/hire, and 1 for demanding the girl's phone number to explain the truth later."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "item_id": "enjoyment",
+                "means": {
+                  "Control": -0.45,
+                  "One Dollar": 1.35,
+                  "Twenty Dollars": -0.05
+                }
+              },
+              {
+                "item_id": "learning",
+                "means": {
+                  "Control": 3.08,
+                  "One Dollar": 2.8,
+                  "Twenty Dollars": 3.15
+                }
+              },
+              {
+                "item_id": "scientific_importance",
+                "means": {
+                  "Control": 5.6,
+                  "One Dollar": 6.45,
+                  "Twenty Dollars": 5.18
+                }
+              },
+              {
+                "item_id": "future_participation",
+                "means": {
+                  "Control": -0.62,
+                  "One Dollar": 1.2,
+                  "Twenty Dollars": -0.25
+                }
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Student's t-test (two-tailed)",
+                "statistic": "t = 2.48",
+                "p_value": "p = .02",
+                "claim": "The One Dollar condition rated the tasks as significantly more enjoyable than the Control condition.",
+                "location": "Page 207, Results section"
+              },
+              {
+                "test_name": "Student's t-test (two-tailed)",
+                "statistic": "t = 2.22",
+                "p_value": "p = .03",
+                "claim": "The One Dollar condition rated the tasks as significantly more enjoyable than the Twenty Dollar condition.",
+                "location": "Page 208, Results section"
+              },
+              {
+                "test_name": "Student's t-test (two-tailed)",
+                "statistic": "t = 1.78",
+                "p_value": "p = .08",
+                "claim": "The difference between One Dollar and Control conditions on desire to participate is significant at the .08 level.",
+                "location": "Page 208, Results section"
+              },
+              {
+                "test_name": "Student's t-test (two-tailed)",
+                "statistic": "t = 1.79",
+                "p_value": "p = .08",
+                "claim": "The difference between One and Twenty Dollar conditions on scientific importance reaches the .08 level of significance.",
+                "location": "Page 208, Results section"
+              },
+              {
+                "test_name": "Student's t-test (two-tailed)",
+                "statistic": "t = 0.48",
+                "p_value": "not significant",
+                "claim": "There were no significant differences between conditions regarding how much participants learned.",
+                "location": "Page 208, Results section"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "paper_id": "cognitive_dissonance",
+  "paper_title": "COGNITIVE CONSEQUENCES OF FORCED COMPLIANCE",
+  "paper_authors": [
+    "LEON FESTINGER",
+    "JAMES M. CARLSMITH"
+  ],
+  "paper_abstract": "The study explores the effect of forced compliance on private opinion. Specifically, it tests the theory of cognitive dissonance, which suggests that if a person is induced to act in a way contrary to their private opinion, they will experience dissonance. To reduce this dissonance, the individual may change their private opinion to align with their behavior. The experiment specifically tests the derivation that the smaller the reward used to elicit the behavior, the greater the magnitude of dissonance and, consequently, the greater the subsequent opinion change. Subjects performed boring tasks and were then paid either $1 or $20 to tell a waiting participant that the tasks were enjoyable. Results showed that participants paid $1 changed their opinions more significantly than those paid $20, supporting the dissonance theory."
+}

@@ -1,0 +1,59 @@
+{
+  "paper_title": "The Framing of Decisions and the Psychology of Choice",
+  "paper_authors": [
+    "Amos Tversky",
+    "Daniel Kahneman"
+  ],
+  "paper_abstract": "The psychological principles that govern the perception of decision problems and the evaluation of probabilities and outcomes produce predictable shifts of preference when the same problem is framed in different ways. Reversals of preference are demonstrated in choices regarding monetary outcomes, both hypothetical and real, and in questions pertaining to the loss of human lives. The effects of frames on preferences are compared to the effects of perspectives on perceptual appearance. The dependence of preferences on the formulation of decision problems is a significant concern for the theory of rational choice.",
+  "experiments": [
+    {
+      "experiment_id": "Problem 1 & 2",
+      "experiment_name": "The Asian Disease Problem (Lives Saved vs. Lives Lost)",
+      "input": "A hypothetical scenario regarding an outbreak of an Asian disease expected to kill 600 people. Participants are given two programs. In Problem 1, programs are framed in terms of lives saved (200 saved vs. 1/3 chance 600 saved). In Problem 2, programs are framed in terms of lives lost (400 die vs. 2/3 chance 600 die).",
+      "participants": "Students at Stanford University and the University of British Columbia (N=152 for Problem 1; N=155 for Problem 2).",
+      "output": "The percentage of participants who favor each program (A/B or C/D).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Problem 3 & 4",
+      "experiment_name": "Framing of Acts (Concurrent Decisions)",
+      "input": "Problem 3 presents a pair of concurrent decisions: Decision (i) involves a sure gain vs. a risky gain; Decision (ii) involves a sure loss vs. a risky loss. Problem 4 presents the combined (integrated) versions of these choices to test for dominance.",
+      "participants": "Students at Stanford University and the University of British Columbia (N=150 for Problem 3; N=86 for Problem 4).",
+      "output": "The percentage of participants choosing each option and the distribution of combined patterns (e.g., A&D).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Problem 5, 6, & 7",
+      "experiment_name": "Framing of Contingencies (Certainty and Pseudocertainty Effects)",
+      "input": "Three problems involving gambling choices. Problem 5 is a direct choice between a sure win and a risky win. Problem 6 is a two-stage game where a choice is made before the first stage outcome is known. Problem 7 is a mathematically equivalent single-stage risky choice.",
+      "participants": "Students at Stanford University and the University of British Columbia (N=77 for Problem 5; N=85 for Problem 6; N=81 for Problem 7).",
+      "output": "The percentage of participants choosing the sure/safer win vs. the higher-value risky win.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Problem 8 & 9",
+      "experiment_name": "Psychological Accounting (Theater Ticket vs. Cash Loss)",
+      "input": "Problem 8: Participant has decided to see a play ($10) and discovers they lost a $10 bill. Problem 9: Participant has decided to see a play, paid $10 for a ticket, and discovers they lost the ticket.",
+      "participants": "Students at Stanford University and the University of British Columbia (N=183 for Problem 8; N=200 for Problem 9).",
+      "output": "Percentage of participants willing to pay $10 for a ticket (Yes/No).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Problem 10",
+      "experiment_name": "Psychological Accounting (Saving on Jacket vs. Calculator)",
+      "input": "A scenario where a participant is buying a jacket and a calculator. They are told one item is on sale at another branch 20 minutes away. One group is offered $5 off a $15 calculator; the other group is offered $5 off a $125 calculator.",
+      "participants": "Students at Stanford University and the University of British Columbia (N=93 for one version; N=88 for the other).",
+      "output": "Percentage of participants willing to make the trip to the other store.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    }
+  ],
+  "overall_replicable": true,
+  "confidence": 1.0,
+  "notes": "All experiments in this paper are based on text-based decision-making scenarios with clear quantitative outcomes (N and percentages). The participant profile (university students) is easily simulated by LLM agents. None of the experiments require visual stimuli or physical time measurements.",
+  "paper_id": "tverskykahneman1981"
+}

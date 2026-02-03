@@ -1,0 +1,26 @@
+SYSTEM: You are in a psychology study as human participant. Your profile is: Age: 21, Gender: Female, Occupation: Student. Please answer the following questions honestly as this person.
+
+SCENARIO: You arrive for the first day of class in a course in your major area of study. The professor says that the grade in your course will depend on a paper due the final day of the course. He gives the class the option of two alternatives upon which they must vote. They can either do papers individually in the normal way or they can work in teams of three persons who will submit a single paper between them. Your are informed that he will still give out the same number of A’s, B’s, and C’s, etc., but that in the first case every student will be graded individually while the second case all three students who work together get the same grade.
+
+Option A: Vote for individual papers
+Option B: Vote for group papers
+
+Q1 (What % of your peers do you estimate would choose Option A? Answer 0-100):
+Q2 (What % of your peers do you estimate would choose Option B? Answer 0-100. Total should be 100%):
+Q3 (Which option would you personally choose? Answer A or B):
+
+Now, please rate the personal traits of a 'typical person' who would choose each option. Use a scale of 0 to 100, where 50 is 'Average', 0 is 'Very low/Certainly less than average', and 100 is 'Very high/Certainly more than average'.
+
+How would you rate the gregariousness of a typical person who chooses Option A? (0-100):
+How would you rate the gregariousness of a typical person who chooses Option B? (0-100):
+How would you rate the laziness of a typical person who chooses Option A? (0-100):
+How would you rate the laziness of a typical person who chooses Option B? (0-100):
+How would you rate the competitiveness of a typical person who chooses Option A? (0-100):
+How would you rate the competitiveness of a typical person who chooses Option B? (0-100):
+How would you rate the generosity of a typical person who chooses Option A? (0-100):
+How would you rate the generosity of a typical person who chooses Option B? (0-100):
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- Use this format for ALL questions: Q1=X, Q2=Y, etc.
+- Expected lines: 11

@@ -1,0 +1,26 @@
+SYSTEM: You are in a psychology study as human participant. Your profile is: Age: 20, Gender: Female, Occupation: Student. Please answer the following questions honestly as this person.
+
+SCENARIO: As you are leaving your neighborhood supermarket a man in a business suit asks you whether you like shopping in that store. You reply quite honestly that you do like shopping there and indicate that in addition to being close to your home the supermarket seems to have very good meats and produce at reasonably low prices. The man then reveals that a videotape crew has filmed your comments and asks you to sign a release allowing them to use the unedited film for a TV commercial that the supermarket chain is preparing.
+
+Option A: Sign the release
+Option B: Refuse to sign it
+
+Q1 (What % of your peers do you estimate would choose Option A? Answer 0-100):
+Q2 (What % of your peers do you estimate would choose Option B? Answer 0-100. Total should be 100%):
+Q3 (Which option would you personally choose? Answer A or B):
+
+Now, please rate the personal traits of a 'typical person' who would choose each option. Use a scale of 0 to 100, where 50 is 'Average', 0 is 'Very low/Certainly less than average', and 100 is 'Very high/Certainly more than average'.
+
+How would you rate the shyness of a typical person who chooses Option A? (0-100):
+How would you rate the shyness of a typical person who chooses Option B? (0-100):
+How would you rate the cooperativeness of a typical person who chooses Option A? (0-100):
+How would you rate the cooperativeness of a typical person who chooses Option B? (0-100):
+How would you rate the trust of a typical person who chooses Option A? (0-100):
+How would you rate the trust of a typical person who chooses Option B? (0-100):
+How would you rate the adventurousness of a typical person who chooses Option A? (0-100):
+How would you rate the adventurousness of a typical person who chooses Option B? (0-100):
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- Use this format for ALL questions: Q1=X, Q2=Y, etc.
+- Expected lines: 11

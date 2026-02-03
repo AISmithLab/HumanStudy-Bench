@@ -1,0 +1,85 @@
+You are participating in a psychology study on how people form impressions of others. Please read the following information carefully and answer the questions that follow.
+
+INSTRUCTIONS:
+I shall read to you a number of characteristics that belong to a particular person. Please listen to them carefully and try to form an impression of the kind of person described. You will later be asked to give a brief characterization of the person in just a few sentences. I will read the list slowly and will repeat it once. After forming your impression, please complete the following task.
+Task: Select the term from each pair that best fits your impression.
+
+CHARACTERISTICS OF THE PERSON:
+intelligent, skillful, industrious, cold, determined, practical, cautious
+
+Now, based on the impression you have formed, please provide your responses to the following items:
+Q1: Which characteristic better fits the person described?
+  A) generous
+  B) ungenerous
+Q2: Which characteristic better fits the person described?
+  A) shrewd
+  B) wise
+Q3: Which characteristic better fits the person described?
+  A) unhappy
+  B) happy
+Q4: Which characteristic better fits the person described?
+  A) irritable
+  B) good-natured
+Q5: Which characteristic better fits the person described?
+  A) humorous
+  B) humorless
+Q6: Which characteristic better fits the person described?
+  A) sociable
+  B) unsociable
+Q7: Which characteristic better fits the person described?
+  A) popular
+  B) unpopular
+Q8: Which characteristic better fits the person described?
+  A) unreliable
+  B) reliable
+Q9: Which characteristic better fits the person described?
+  A) important
+  B) insignificant
+Q10: Which characteristic better fits the person described?
+  A) ruthless
+  B) humane
+Q11: Which characteristic better fits the person described?
+  A) good-looking
+  B) unattractive
+Q12: Which characteristic better fits the person described?
+  A) persistent
+  B) unstable
+Q13: Which characteristic better fits the person described?
+  A) frivolous
+  B) serious
+Q14: Which characteristic better fits the person described?
+  A) restrained
+  B) talkative
+Q15: Which characteristic better fits the person described?
+  A) self-centered
+  B) altruistic
+Q16: Which characteristic better fits the person described?
+  A) imaginative
+  B) hard-headed
+Q17: Which characteristic better fits the person described?
+  A) strong
+  B) weak
+Q18: Which characteristic better fits the person described?
+  A) dishonest
+  B) honest
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+Provide your answers exactly as follows, one per line:
+Q1=<Letter A, B, etc.>
+Q2=<Letter A, B, etc.>
+Q3=<Letter A, B, etc.>
+Q4=<Letter A, B, etc.>
+Q5=<Letter A, B, etc.>
+Q6=<Letter A, B, etc.>
+Q7=<Letter A, B, etc.>
+Q8=<Letter A, B, etc.>
+Q9=<Letter A, B, etc.>
+Q10=<Letter A, B, etc.>
+Q11=<Letter A, B, etc.>
+Q12=<Letter A, B, etc.>
+Q13=<Letter A, B, etc.>
+Q14=<Letter A, B, etc.>
+Q15=<Letter A, B, etc.>
+Q16=<Letter A, B, etc.>
+Q17=<Letter A, B, etc.>
+Q18=<Letter A, B, etc.>

@@ -1,0 +1,76 @@
+Background: You are a 15-year-old male participant in this study.
+
+You are participating in a psychological study on decision-making. The study consists of two parts.
+
+Part 1: You were shown twelve pairs of abstract paintings by the artists Klee and Kandinsky. For each pair, you indicated which painting you preferred.
+
+Part 2: You are now asked to make a series of decisions regarding the distribution of real money to other participants. You will be given a booklet containing several reward matrices. For each matrix, you must select exactly one box. Each box contains two numbers: the top number is the amount of money (in points) to be awarded to one person, and the bottom number is the amount to be awarded to another person. Each point is worth 1/10 p.
+
+Important Rules:
+1. You will work individually and anonymously. Your identity and the identity of the others are kept secret.
+2. Other participants are identified only by code numbers and, in some cases, by their group membership (e.g., 'Klee Group' or 'Group X').
+3. You will NEVER award money to yourself. You are always allotting money to two other people.
+4. At the end of the experiment, you will receive the total amount of money that other participants have awarded to you.
+
+Please consider each matrix carefully and select the box that represents the distribution you prefer.
+
+Group Assignment Info: You have been assigned a code number in the 70s based on a random toss of a coin. Some participants were randomly given numbers in the 70s, and others were given numbers in the 40s. In the following tasks, you will allot money to two other people. One is a person with a code number in the 70s, and the other is a person with a code number in the 40s.
+
+For each matrix below, select the box (e.g., Box 1, Box 2, etc.) that represents your preferred distribution.
+
+Matrix 1:
+Recipient 1 (Top Row): Person with Code 70s
+Recipient 2 (Bottom Row): Person with Code 40s
+Options:
+Box 1: Top: 1, Bottom: 14
+Box 2: Top: 2, Bottom: 13
+Box 3: Top: 3, Bottom: 12
+Box 4: Top: 4, Bottom: 11
+Box 5: Top: 5, Bottom: 10
+Box 6: Top: 6, Bottom: 9
+Box 7: Top: 7, Bottom: 8
+Box 8: Top: 8, Bottom: 7
+Box 9: Top: 9, Bottom: 6
+Box 10: Top: 10, Bottom: 5
+Box 11: Top: 11, Bottom: 4
+Box 12: Top: 12, Bottom: 3
+Box 13: Top: 13, Bottom: 2
+Box 14: Top: 14, Bottom: 1
+
+Matrix 2:
+Recipient 1 (Top Row): Person with Code 70s
+Recipient 2 (Bottom Row): Person with Code 40s
+Options:
+Box 1: Top: 19, Bottom: 1
+Box 2: Top: 18, Bottom: 3
+Box 3: Top: 17, Bottom: 5
+Box 4: Top: 16, Bottom: 7
+Box 5: Top: 15, Bottom: 9
+Box 6: Top: 14, Bottom: 11
+Box 7: Top: 13, Bottom: 13
+Box 8: Top: 12, Bottom: 15
+Box 9: Top: 11, Bottom: 17
+Box 10: Top: 10, Bottom: 19
+Box 11: Top: 9, Bottom: 21
+Box 12: Top: 8, Bottom: 23
+Box 13: Top: 7, Bottom: 25
+
+Matrix 3:
+Recipient 1 (Top Row): Person with Code 70s
+Recipient 2 (Bottom Row): Person with Code 40s
+Options:
+Box 1: Top: 14, Bottom: 14
+Box 2: Top: 15, Bottom: 13
+Box 3: Top: 16, Bottom: 12
+Box 4: Top: 17, Bottom: 11
+Box 5: Top: 18, Bottom: 10
+Box 6: Top: 19, Bottom: 9
+Box 7: Top: 20, Bottom: 8
+Box 8: Top: 21, Bottom: 7
+Box 9: Top: 22, Bottom: 6
+Box 10: Top: 23, Bottom: 5
+Box 11: Top: 24, Bottom: 4
+Box 12: Top: 25, Bottom: 3
+Box 13: Top: 26, Bottom: 2
+
+RESPONSE_SPEC: Provide your choices for each matrix using the format: Q1=<Box X>, Q2=<Box Y>, Q3=<Box Z>.

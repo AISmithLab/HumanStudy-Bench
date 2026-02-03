@@ -1,0 +1,564 @@
+{
+  "studies": [
+    {
+      "study_id": "Experiment 1",
+      "study_name": "$5 Dictator Game with Pay (DG-P)",
+      "phenomenon": "Fairness and Altruism in Bargaining",
+      "hypotheses": [
+        "Replicability Hypothesis: The distribution of offers is the same across different experimental sessions (April vs. September).",
+        "Fairness Hypothesis: The distribution of offers in the Dictator Game is identical to the distribution of offers in the Ultimatum Game (rejected).",
+        "Pay Hypothesis: The distribution of offers is the same regardless of whether real monetary payoffs are involved (rejected for Dictator games).",
+        "Pie-Size Hypothesis: The distribution of the proportions of the pie offered is the same for $5 and $10 pies."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "DG-P_April_Sept",
+          "type": "Experimental Session Comparison",
+          "content": "Proposers (Player 1) were asked to divide a $5 pie between themselves and an anonymous Receiver (Player 2). Player 2 had no power to reject the offer. Participants were paid their share in cash.",
+          "items": [
+            {
+              "item_id": "proposal_form",
+              "item_text": "A sum of $5 has been provisionally allocated to each pair... the person in Room A can propose how much of this each person is to receive... Person in Room A makes the proposal... Person in Room B is to receive {amount}... Person in Room A receives $5 - {amount}."
+            }
+          ],
+          "participants": {
+            "n": 45,
+            "description": "Students (undergraduate Econ/Accounting and MBA) at the University of Iowa. April session (n=21), September session (n=24).",
+            "incentives": "$3 participation fee plus real monetary winnings from the game."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "April Session Offers ($)",
+                "values": [
+                  0,
+                  1,
+                  1,
+                  2.5,
+                  0,
+                  2.5,
+                  0,
+                  0,
+                  0,
+                  1,
+                  3,
+                  1,
+                  2,
+                  1.5,
+                  2.5,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1
+                ]
+              },
+              {
+                "condition": "September Session Offers ($)",
+                "values": [
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  3,
+                  0,
+                  1,
+                  2.5,
+                  0,
+                  1,
+                  2.5,
+                  2.5,
+                  0,
+                  0,
+                  2,
+                  2,
+                  1,
+                  1,
+                  1,
+                  2,
+                  1.5,
+                  2
+                ]
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Anderson-Darling (AD) test (Replicability: April vs Sept)",
+                "statistic": "AD = 0.58",
+                "p_value": "p = 0.66",
+                "claim": "The null hypothesis that the distributions of proposals are the same at different times cannot be rejected for Dictator games with pay.",
+                "location": "Page 356, Table I"
+              },
+              {
+                "test_name": "Characteristic Function (CF) test (Replicability: April vs Sept)",
+                "statistic": "CF = 1.14",
+                "p_value": "p = 0.89",
+                "claim": "Replicability is confirmed for the Dictator game with pay.",
+                "location": "Page 356, Table I"
+              },
+              {
+                "test_name": "Anderson-Darling (AD) test (Fairness Hypothesis: DG-P vs UG-P)",
+                "statistic": "AD = 13.00",
+                "p_value": "p = 0.00",
+                "claim": "The fairness hypothesis is strongly rejected; distributions of offers in DG and UG with pay are significantly different.",
+                "location": "Page 358, Table II"
+              },
+              {
+                "test_name": "Characteristic Function (CF) test (Fairness Hypothesis: DG-P vs UG-P)",
+                "statistic": "CF = 43.58",
+                "p_value": "p = 0.00",
+                "claim": "Reject the fairness hypothesis; proposers are more generous in the Ultimatum game.",
+                "location": "Page 358, Table II"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment 2",
+      "study_name": "$5 Ultimatum Game with Pay (UG-P)",
+      "phenomenon": "Strategic Fairness and Rejection Power",
+      "hypotheses": [
+        "Replicability Hypothesis: The distribution of offers is the same across different experimental sessions.",
+        "Fairness Hypothesis: The distribution of offers in the Ultimatum Game is identical to the Dictator Game (rejected).",
+        "Pay Hypothesis: The distribution of offers is the same with and without monetary payoffs."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "UG-P_April_Sept",
+          "type": "Experimental Session Comparison",
+          "content": "Proposers (Player 1) offered a division of a $5 pie. Receivers (Player 2) could accept or reject. If rejected, both received $0. If accepted, the proposal was enforced. Real money was paid.",
+          "items": [
+            {
+              "item_id": "ultimatum_proposal_form",
+              "item_text": "Person in Room B will then be given a chance to accept or reject the proposal... If Person in Room B accepts, then both will be divided as specified... If Person in Room B rejects, then both receive zero."
+            }
+          ],
+          "participants": {
+            "n": 43,
+            "description": "Students at the University of Iowa. April session (n=20), September session (n=23).",
+            "incentives": "$3 participation fee plus real monetary winnings."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "April Session Offers ($) (* denotes rejection)",
+                "values": [
+                  2,
+                  2.5,
+                  2.5,
+                  1,
+                  2.5,
+                  "1*",
+                  3,
+                  3,
+                  2.5,
+                  "2*",
+                  2.5,
+                  2.5,
+                  2.5,
+                  2.5,
+                  2.5,
+                  2,
+                  2.75,
+                  2,
+                  2,
+                  2.5
+                ]
+              },
+              {
+                "condition": "September Session Offers ($) (* denotes rejection)",
+                "values": [
+                  2.5,
+                  2,
+                  1.5,
+                  3,
+                  2,
+                  2,
+                  2.5,
+                  1,
+                  2.5,
+                  2,
+                  2.5,
+                  2.5,
+                  2.5,
+                  3,
+                  2.5,
+                  2,
+                  2.5,
+                  2,
+                  2.5,
+                  2.5,
+                  2.5,
+                  2.5,
+                  3
+                ]
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Anderson-Darling (AD) test (Replicability: April vs Sept)",
+                "statistic": "AD = 0.74",
+                "p_value": "p = 0.52",
+                "claim": "Replicability is confirmed for the Ultimatum game with pay.",
+                "location": "Page 356, Table I"
+              },
+              {
+                "test_name": "Characteristic Function (CF) test (Replicability: April vs Sept)",
+                "statistic": "CF = 2.10",
+                "p_value": "p = 0.72",
+                "claim": "The distribution of offers is consistent over time for UG with pay.",
+                "location": "Page 356, Table I"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment 3",
+      "study_name": "$5 Dictator Game without Pay (DG-NP)",
+      "phenomenon": "Hypothetical Fairness and Incentive Effects",
+      "hypotheses": [
+        "Replicability Hypothesis: The distribution of offers is consistent.",
+        "Pay Hypothesis: Monetary incentives do not affect the distribution of offers (rejected)."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "DG-NP_April_Sept",
+          "type": "Experimental Session Comparison",
+          "content": "Same rules as Experiment 1, but participants were informed the division was hypothetical and they would only receive the $3 participation fee.",
+          "items": [
+            {
+              "item_id": "no_pay_instruction",
+              "item_text": "After the proposal forms have been returned to Room A each person will be paid. The experimenter will pay you the $3 for your participation in this experiment."
+            }
+          ],
+          "participants": {
+            "n": 46,
+            "description": "Students at the University of Iowa. April session (n=22), September session (n=24).",
+            "incentives": "$3 participation fee only."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "April Session Offers ($)",
+                "values": [
+                  2,
+                  2,
+                  1,
+                  0,
+                  2.5,
+                  2.5,
+                  2,
+                  2.5,
+                  2.5,
+                  2.5,
+                  2,
+                  2.5,
+                  2.5,
+                  2.5,
+                  2,
+                  2,
+                  2.5,
+                  2.5,
+                  4,
+                  2.5,
+                  0,
+                  2
+                ]
+              },
+              {
+                "condition": "September Session Offers ($)",
+                "values": [
+                  2,
+                  2,
+                  1,
+                  2,
+                  2.5,
+                  2.5,
+                  0,
+                  2,
+                  2.5,
+                  0,
+                  0,
+                  0,
+                  2.5,
+                  1,
+                  2.5,
+                  1,
+                  1,
+                  2.5,
+                  2.5,
+                  2.5,
+                  2.5,
+                  2,
+                  2.5,
+                  1
+                ]
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Anderson-Darling (AD) test (Replicability: April vs Sept)",
+                "statistic": "AD = 0.83",
+                "p_value": "p = 0.45",
+                "claim": "Replicability confirmed for DG without pay.",
+                "location": "Page 356, Table I"
+              },
+              {
+                "test_name": "Anderson-Darling (AD) test (Pay Hypothesis: Pooled DG-P vs DG-NP)",
+                "statistic": "AD = 6.72",
+                "p_value": "p = 0.00",
+                "claim": "The pay hypothesis is rejected for Dictator games; players are more generous when the money is hypothetical.",
+                "location": "Page 360, Table III"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment 4",
+      "study_name": "$5 Ultimatum Game without Pay (UG-NP)",
+      "phenomenon": "Hypothetical Strategic Behavior",
+      "hypotheses": [
+        "Replicability Hypothesis: The distribution of offers is consistent (rejected).",
+        "Pay Hypothesis: Monetary incentives do not affect the distribution of offers (inconclusive due to replicability issues)."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "UG-NP_April_Sept",
+          "type": "Experimental Session Comparison",
+          "content": "Same rules as Experiment 2, but the division and decisions were hypothetical.",
+          "participants": {
+            "n": 48,
+            "description": "Students at the University of Iowa. April session (n=24), September session (n=24).",
+            "incentives": "$3 participation fee only."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "April Session Offers ($) (* denotes rejection)",
+                "values": [
+                  2.5,
+                  3,
+                  2.5,
+                  2.5,
+                  "0*",
+                  "2*",
+                  3,
+                  3,
+                  2.5,
+                  3.5,
+                  2.5,
+                  2.25,
+                  2,
+                  2.5,
+                  2.5,
+                  2.75,
+                  2.5,
+                  2,
+                  2.5,
+                  2.5,
+                  2.5,
+                  2.5,
+                  3,
+                  2.5
+                ]
+              },
+              {
+                "condition": "September Session Offers ($) (* denotes rejection)",
+                "values": [
+                  2.5,
+                  2,
+                  2,
+                  "0*",
+                  2.5,
+                  2.5,
+                  "1*",
+                  2.5,
+                  "2*",
+                  2.5,
+                  2.5,
+                  2.5,
+                  2,
+                  2.25,
+                  2,
+                  "1.75*",
+                  2,
+                  2,
+                  2,
+                  2,
+                  1,
+                  2.5,
+                  "1*",
+                  2.5
+                ]
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Anderson-Darling (AD) test (Replicability: April vs Sept)",
+                "statistic": "AD = 5.09",
+                "p_value": "p = 0.00",
+                "claim": "Replicability is rejected for the Ultimatum game without pay.",
+                "location": "Page 356, Table I"
+              },
+              {
+                "test_name": "Anderson-Darling (AD) test (Pay Hypothesis: Pooled UG-P vs UG-NP)",
+                "statistic": "AD = 0.53",
+                "p_value": "p = 0.71",
+                "claim": "The pay hypothesis for Ultimatum games is accepted, but results are inconclusive due to the lack of replicability in the no-pay condition.",
+                "location": "Page 360, Table III"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment 5",
+      "study_name": "$10 Dictator Game with Pay ($10 DG-P)",
+      "phenomenon": "Effect of Stake Size on Altruism",
+      "hypotheses": [
+        "Pie-Size Hypothesis: The distribution of proportions offered is the same for $5 and $10 pies (accepted)."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "DG-P_10_dollars",
+          "type": "Stake Size Treatment",
+          "content": "Same as Experiment 1, but the amount to divide was increased to $10.",
+          "participants": {
+            "n": 24,
+            "description": "Students at the University of Iowa. Session conducted in November 1988.",
+            "incentives": "Participation fee plus real monetary winnings from a $10 pie."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "November Session Offers ($)",
+                "values": [
+                  5,
+                  3,
+                  1,
+                  0,
+                  2,
+                  3,
+                  0,
+                  2,
+                  3,
+                  5,
+                  5,
+                  3,
+                  1,
+                  5,
+                  1,
+                  3,
+                  3,
+                  0,
+                  0,
+                  0,
+                  1,
+                  5,
+                  2
+                ]
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Anderson-Darling (AD) test (Pie-Size: Pooled $5 DG-P vs $10 DG-P)",
+                "statistic": "AD = 0.46",
+                "p_value": "p = 0.76",
+                "claim": "The size of the pie does not affect the distribution of proportions offered in the Dictator game.",
+                "location": "Page 361, Table IV"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment 6",
+      "study_name": "$10 Ultimatum Game with Pay ($10 UG-P)",
+      "phenomenon": "Effect of Stake Size on Strategic Fairness",
+      "hypotheses": [
+        "Pie-Size Hypothesis: The distribution of proportions offered is the same for $5 and $10 pies (accepted)."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "UG-P_10_dollars",
+          "type": "Stake Size Treatment",
+          "content": "Same as Experiment 2, but the amount to divide was increased to $10.",
+          "participants": {
+            "n": 24,
+            "description": "Students at the University of Iowa. Session conducted in November 1988.",
+            "incentives": "Participation fee plus real monetary winnings from a $10 pie."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "November Session Offers ($) (* denotes rejection)",
+                "values": [
+                  4,
+                  2,
+                  5,
+                  5,
+                  6,
+                  5,
+                  5,
+                  5,
+                  5,
+                  5,
+                  5,
+                  5,
+                  5,
+                  5,
+                  5,
+                  "4*",
+                  5,
+                  5,
+                  4,
+                  5,
+                  4,
+                  5,
+                  3,
+                  5
+                ]
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Anderson-Darling (AD) test (Pie-Size: Pooled $5 UG-P vs $10 UG-P)",
+                "statistic": "AD = 0.65",
+                "p_value": "p = 0.60",
+                "claim": "The size of the pie does not affect the distribution of proportions offered in the Ultimatum game.",
+                "location": "Page 361, Table IV"
+              },
+              {
+                "test_name": "Anderson-Darling (AD) test (Fairness Hypothesis: $10 DG-P vs $10 UG-P)",
+                "statistic": "AD = 10.02",
+                "p_value": "p = 0.00",
+                "claim": "The fairness hypothesis is rejected for $10 pies; UG offers are significantly more generous than DG offers.",
+                "location": "Page 361, Table IV"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "paper_id": "dictator_game",
+  "paper_title": "Fairness in Simple Bargaining Experiments",
+  "paper_authors": [
+    "ROBERT FORSYTHE",
+    "JOEL L. HOROWITZ",
+    "N. E. SAVIN",
+    "AND MARTIN SEFTON"
+  ],
+  "paper_abstract": "We present an experiment to test whether fairness alone can explain proposers' willingness to make nontrivial offers in simple bargaining games. We examine two treatments: game (ultimatum or dictator) and pay (pay or no pay). The outcomes of the ultimatum and dictator games with pay are significantly different, implying that fairness, by itself, cannot explain the observed behavior. Doubling the amount of money available in games with pay does not affect these results. The outcomes of both games are replicable when players are paid, but the outcome of the ultimatum game is not replicable when players are not paid. Journal of Economic Literature Classification Numbers: 026, 215."
+}

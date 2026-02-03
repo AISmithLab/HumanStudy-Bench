@@ -1,0 +1,207 @@
+{
+  "version": "0.1.0",
+  "last_updated": "2025-11-24",
+  "total_studies": 12,
+  "studies": [
+    {
+      "id": "study_001",
+      "title": "The \"False Consensus Effect\": An Egocentric Bias in Social Perception",
+      "domain": "social_psychology",
+      "subdomain": "social_cognition",
+      "difficulty": "medium",
+      "tags": ["false_consensus", "social_perception", "attribution", "cognitive_bias", "ross_greene_house"],
+      "status": "active",
+      "added_date": "2025-11-25",
+      "version": "1.0",
+      "estimated_time_minutes": 10
+    },
+    {
+      "id": "study_002",
+      "title": "Measures of Anchoring in Estimation Tasks",
+      "domain": "cognitive_psychology",
+      "subdomain": "judgment_and_decision_making",
+      "difficulty": "medium",
+      "tags": ["anchoring", "heuristics_and_biases", "numerical_estimation", "cognitive_bias", "jacowitz_kahneman"],
+      "status": "active",
+      "added_date": "2025-11-04",
+      "version": "1.0",
+      "estimated_time_minutes": 5
+    },
+    {
+      "id": "study_003",
+      "title": "The Framing of Decisions and the Psychology of Choice",
+      "domain": "behavioral_economics",
+      "subdomain": "choice_under_uncertainty",
+      "difficulty": "easy",
+      "tags": ["framing_effect", "prospect_theory", "loss_aversion", "decision_making", "risk_preference", "tversky_kahneman"],
+      "status": "active",
+      "added_date": "2025-10-28",
+      "version": "1.0",
+      "estimated_time_minutes": 10
+    },
+    {
+      "id": "study_004",
+      "title": "Subjective Probability: A Judgment of Representativeness",
+      "domain": "cognitive_psychology",
+      "subdomain": "judgment_and_decision_making",
+      "difficulty": "medium",
+      "tags": ["representativeness_heuristic", "heuristics_and_biases", "probability_judgment", "cognitive_bias", "kahneman_tversky"],
+      "status": "active",
+      "added_date": "2025-11-04",
+      "version": "1.0",
+      "estimated_time_minutes": 10
+    },
+    {
+      "id": "study_005",
+      "title": "Administrative Obedience: Carrying Out Orders to Use Psychological-Administrative Violence",
+      "domain": "social_psychology",
+      "subdomain": "obedience_to_authority",
+      "difficulty": "medium",
+      "tags": ["obedience", "authority", "conformity", "ethical_conflict", "psychological_violence", "meeus_raaijmakers"],
+      "status": "active",
+      "added_date": "2025-11-13",
+      "version": "1.0",
+      "estimated_time_minutes": 15
+    },
+    {
+      "id": "study_006",
+      "title": "A Room with a Viewpoint: Using Social Norms to Motivate Environmental Conservation in Hotels",
+      "domain": "consumer_psychology",
+      "subdomain": "prosocial_behavior",
+      "difficulty": "medium",
+      "tags": ["social_norms", "descriptive_norms", "provincial_norms", "environmental_conservation", "prosocial_behavior", "field_experiment", "goldstein_cialdini"],
+      "status": "active",
+      "added_date": "2025-11-24",
+      "version": "1.0",
+      "estimated_time_minutes": 5
+    },
+    {
+      "id": "study_007",
+      "title": "Social categorization and similarity in intergroup behaviour",
+      "domain": "social_psychology",
+      "subdomain": "group_dynamics",
+      "difficulty": "medium",
+      "tags": ["social_categorization", "intergroup_behavior", "minimal_group_paradigm", "tajfel"],
+      "status": "active",
+      "added_date": "2025-12-29",
+      "version": "1.0",
+      "estimated_time_minutes": 10
+    },
+    {
+      "id": "study_008",
+      "title": "Pluralistic Ignorance and Alcohol Use on Campus",
+      "domain": "social_psychology",
+      "subdomain": "social_cognition",
+      "difficulty": "medium",
+      "tags": ["pluralistic_ignorance", "social_norms", "alcohol", "college_students"],
+      "status": "active",
+      "added_date": "2025-12-29",
+      "version": "1.0",
+      "estimated_time_minutes": 10
+    },
+    {
+      "id": "study_009",
+      "title": "Unraveling in Guessing Games: An Experimental Study",
+      "domain": "cognitive_psychology",
+      "subdomain": "judgment_and_decision_making",
+      "difficulty": "medium",
+      "tags": ["guessing_games", "strategic_thinking", "game_theory", "bounded_rationality"],
+      "status": "active",
+      "added_date": "2025-12-29",
+      "version": "1.0",
+      "estimated_time_minutes": 10
+    },
+    {
+      "id": "study_010",
+      "title": "Thinking through Uncertainty: Nonconsequential Reasoning",
+      "domain": "cognitive_psychology",
+      "subdomain": "judgment_and_decision_making",
+      "difficulty": "medium",
+      "tags": ["uncertainty", "reasoning", "decision_making"],
+      "status": "active",
+      "added_date": "2025-12-29",
+      "version": "1.0",
+      "estimated_time_minutes": 10
+    },
+    {
+      "id": "study_011",
+      "title": "Fairness in Simple Bargaining Experiments",
+      "domain": "social_psychology",
+      "subdomain": "prosocial_behavior",
+      "difficulty": "medium",
+      "tags": ["fairness", "bargaining", "dictator_game", "ultimatum_game"],
+      "status": "active",
+      "added_date": "2025-12-29",
+      "version": "1.0",
+      "estimated_time_minutes": 10
+    },
+    {
+      "id": "study_012",
+      "title": "Trust, Reciprocity, and Social History",
+      "domain": "social_psychology",
+      "subdomain": "prosocial_behavior",
+      "difficulty": "medium",
+      "tags": ["trust", "reciprocity", "trust_game", "social_exchange"],
+      "status": "active",
+      "added_date": "2025-12-29",
+      "version": "1.0",
+      "estimated_time_minutes": 10
+    }
+  ],
+  "statistics": {
+    "by_domain": {
+      "cognitive_psychology": 2,
+      "social_psychology": 2,
+      "consumer_psychology": 1,
+      "developmental_psychology": 0,
+      "behavioral_economics": 1,
+      "neuroscience": 0
+    },
+    "by_difficulty": {
+      "easy": 1,
+      "medium": 4,
+      "hard": 0
+    },
+    "by_status": {
+      "active": 5,
+      "deprecated": 0,
+      "in_review": 0
+    }
+  },
+  "domains": {
+    "cognitive_psychology": {
+      "description": "Studies of mental processes including attention, memory, perception, and decision-making",
+      "subdomains": ["attention", "memory", "perception", "language", "decision_making"]
+    },
+    "social_psychology": {
+      "description": "Studies of how people's thoughts, feelings, and behaviors are influenced by others",
+      "subdomains": ["conformity", "obedience_to_authority", "attitudes", "group_dynamics", "social_cognition", "prosocial_behavior"]
+    },
+    "developmental_psychology": {
+      "description": "Studies of psychological development across the lifespan",
+      "subdomains": ["cognitive_development", "social_development", "language_acquisition"]
+    },
+    "behavioral_economics": {
+      "description": "Studies combining psychology and economics to understand economic decision-making",
+      "subdomains": ["choice_under_uncertainty", "temporal_discounting", "fairness", "cooperation"]
+    },
+    "neuroscience": {
+      "description": "Studies of brain and nervous system function underlying behavior",
+      "subdomains": ["neuroimaging", "electrophysiology", "neuropsychology"]
+    }
+  },
+  "difficulty_levels": {
+    "easy": {
+      "description": "Simple designs with clear-cut effects and standard measures",
+      "criteria": ["Simple 2x2 or single-factor design", "Large effect sizes", "Minimal confounds"]
+    },
+    "medium": {
+      "description": "Within-subjects or mixed designs with moderate complexity",
+      "criteria": ["Multiple DVs or IVs", "Counterbalancing required", "Moderately complex analyses"]
+    },
+    "hard": {
+      "description": "Complex factorial designs with subtle effects",
+      "criteria": ["Complex interactions", "Individual differences important", "Advanced statistical methods"]
+    }
+  }
+}

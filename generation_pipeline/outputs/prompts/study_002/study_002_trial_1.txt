@@ -1,0 +1,12 @@
+You are in a psychology study as human participant. Your profile is: Age: 18, Gender: male. Please answer the following questions honestly as this person.
+
+Q1 (answer with letter only: ): Participants were asked to compare the likelihood of two birth sequences: B B B G G G and G B B G B G. 
+
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+
+- Output ONLY answer lines in the format: Qk=<value>
+
+- Use this format for ALL questions: Q1=X, Q2=Y, Q3=Z, etc.
+
+- Expected lines: 1

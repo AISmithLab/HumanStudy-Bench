@@ -1,0 +1,532 @@
+{
+  "studies": [
+    {
+      "study_id": "Study 1",
+      "study_name": "Questionnaire study with hypothetical situations",
+      "phenomenon": "False Consensus Effect",
+      "hypotheses": [
+        "Subjects who 'choose' a particular hypothetical response will rate that response as more probable for 'people in general' than will subjects who 'choose' the alternative response.",
+        "Subjects who 'choose' a specified response will use less extreme and less confident trait ratings in characterizing a 'typical' person making that response than will subjects who 'choose' the alternative response."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "study_1_hypothetical_stories",
+          "type": "questionnaire_and_estimation",
+          "content": "Participants read one of four brief stories describing a situation ending in a behavioral choice between two options. They estimated the percentage of peers who would choose each option, indicated their own choice, and rated the traits of a 'typical person' who would choose either option.",
+          "items": [
+            {
+              "item_id": "supermarket_story",
+              "text": "As you are leaving your neighborhood supermarket a man in a business suit asks you whether you like shopping in that store. You reply quite honestly that you do like shopping there and indicate that in addition to being close to your home the supermarket seems to have very good meats and produce at reasonably low prices. The man then reveals that a videotape crew has filmed your comments and asks you to sign a release allowing them to use the unedited film for a TV commercial that the supermarket chain is preparing.",
+              "options": [
+                "Sign the release",
+                "Refuse to sign it"
+              ],
+              "questions": [
+                "What % of your peers do you estimate would sign the release?",
+                "What % would refuse to sign it? (Total % should be 100%)"
+              ],
+              "traits_rated": [
+                "shyness",
+                "cooperativeness",
+                "trust",
+                "adventurousness"
+              ]
+            },
+            {
+              "item_id": "term_paper_story",
+              "text": "You arrive for the first day of class in a course in your major area of study. The professor says that the grade in your course will depend on a paper due the final day of the course. He gives the class the option of two alternatives upon which they must vote. They can either do papers individually in the normal way or they can work in teams of three persons who will submit a single paper between them. Your are informed that he will still give out the same number of A’s, B’s, and C’s, etc., but that in the first case every student will be graded individually while the second case all three students who work together get the same grade.",
+              "options": [
+                "Vote for individual papers",
+                "Vote for group papers"
+              ],
+              "questions": [
+                "What % of your peers do you estimate would vote for group papers?",
+                "What % would vote for individual papers? (Total % should be 100%)"
+              ],
+              "traits_rated": [
+                "gregariousness",
+                "laziness",
+                "competitiveness",
+                "generosity"
+              ]
+            },
+            {
+              "item_id": "traffic_ticket_story",
+              "text": "While driving through a rural area near your home you are stopped by a county police officer who informs you that you have been clocked (with radar) at 38 miles per hour in a 25-mph zone. You believe this information to be accurate. After the policeman leaves, you inspect your citation and find that the details on the summons regarding weather, visibility, time, and location of violation are highly inaccurate. The citation informs you that you may either pay a $20 fine by mail without appearing in court or you must appear in municipal court within the next two weeks to contest the charge.",
+              "options": [
+                "Pay the $20 fine by mail",
+                "Go to court to contest the charge"
+              ],
+              "questions": [
+                "What % of your peers do you estimate would pay the $20 fine by mail?",
+                "What % would go to court to contest the charge? (Total should be 100%)"
+              ],
+              "traits_rated": [
+                "self-confidence",
+                "legal knowledge",
+                "argumentativeness",
+                "miserliness"
+              ]
+            },
+            {
+              "item_id": "space_program_referendum_story",
+              "text": "It is proposed in Congress that the space program be revived and that large sums be allocated for the manned and unmanned exploration of the moon and planets nearest Earth. Supporters of the proposal argue that it will provide jobs, spur technology, and promote national pride and unity. Opponents argue that a space program will either necessitate higher taxes, or else drain money from important domestic priorities. Furthermore, they deny that it will accomplish the desirable effects claimed by the program’s supporters. Both sides, of course, refute each other’s claims and ultimately a public referendum is held.",
+              "options": [
+                "Vote for cutback (against allocation)",
+                "Vote against cutback (for allocation)"
+              ],
+              "questions": [
+                "What % of your peers do you estimate would vote for the proposed allocation of funds for space exploration?",
+                "What % would vote against it? (Total should be 100%)"
+              ],
+              "traits_rated": [
+                "rationality",
+                "social concern",
+                "idealism",
+                "selfishness"
+              ]
+            }
+          ],
+          "participants": {
+            "n": 320,
+            "description": "Stanford undergraduates (80 for each of the four stories)."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "item_id": "supermarket_story",
+                "n_choice_1": "53 (66%)",
+                "n_choice_2": "27 (34%)",
+                "mean_estimate_choice_1_by_choosers_1": 75.6,
+                "mean_estimate_choice_2_by_choosers_1": 24.4,
+                "mean_estimate_choice_1_by_choosers_2": 57.3,
+                "mean_estimate_choice_2_by_choosers_2": 42.7,
+                "consensus_f_value": 17.7,
+                "trait_rating_diff_choosers_1": -29.1,
+                "trait_rating_diff_choosers_2": 24.7,
+                "trait_rating_f_value": 17.27
+              },
+              {
+                "item_id": "term_paper_story",
+                "n_choice_1": "64 (80%)",
+                "n_choice_2": "16 (20%)",
+                "mean_estimate_choice_1_by_choosers_1": 67.4,
+                "mean_estimate_choice_2_by_choosers_1": 32.6,
+                "mean_estimate_choice_1_by_choosers_2": 45.9,
+                "mean_estimate_choice_2_by_choosers_2": 54.1,
+                "consensus_f_value": 16.5,
+                "trait_rating_diff_choosers_1": -0.2,
+                "trait_rating_diff_choosers_2": 54.1,
+                "trait_rating_f_value": 21.83
+              },
+              {
+                "item_id": "traffic_ticket_story",
+                "n_choice_1": "37 (46%)",
+                "n_choice_2": "43 (54%)",
+                "mean_estimate_choice_1_by_choosers_1": 71.8,
+                "mean_estimate_choice_2_by_choosers_1": 28.2,
+                "mean_estimate_choice_1_by_choosers_2": 51.7,
+                "mean_estimate_choice_2_by_choosers_2": 48.3,
+                "consensus_f_value": 12.8,
+                "trait_rating_diff_choosers_1": -41.6,
+                "trait_rating_diff_choosers_2": -19.2,
+                "trait_rating_f_value": 3.18
+              },
+              {
+                "item_id": "space_program_referendum_story",
+                "n_choice_1": "32 (40%)",
+                "n_choice_2": "48 (60%)",
+                "mean_estimate_choice_1_by_choosers_1": 47.9,
+                "mean_estimate_choice_2_by_choosers_1": 52.1,
+                "mean_estimate_choice_1_by_choosers_2": 39.0,
+                "mean_estimate_choice_2_by_choosers_2": 61.0,
+                "consensus_f_value": 4.9,
+                "trait_rating_diff_choosers_1": -11.1,
+                "trait_rating_diff_choosers_2": 0,
+                "trait_rating_f_value": 1.81
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Analysis of Variance (Fixed variable: Story)",
+                "statistic": "F(1, 312) = 49.1",
+                "p_value": "p < .001",
+                "claim": "Main effect of Rater's Choice on estimates of commonness was highly significant.",
+                "location": "Page 6, Results section"
+              },
+              {
+                "test_name": "Analysis of Variance (Trait Ratings)",
+                "statistic": "F(1, 312) = 37.40",
+                "p_value": "p < .001",
+                "claim": "Main effect of the subject's own behavioral choice upon the difference in trait ratings is highly significant.",
+                "location": "Page 7, Trait ratings section"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Study 2",
+      "study_name": "Questionnaire study on personal characteristics and habits",
+      "phenomenon": "False Consensus Effect",
+      "hypotheses": [
+        "Subjects who place themselves in a given personal description category would estimate the percentage of 'college students in general' in that category to be greater than would subjects who placed themselves in the alternative category."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "study_2_personal_description_items",
+          "type": "self_categorization_and_estimation",
+          "content": "Participants completed a questionnaire with 35 person description items (34 used in analysis). For each item, they categorized themselves and estimated the percentage of 'college students in general' in that category.",
+          "items": [
+            {
+              "category": "Personal traits and views",
+              "item": "Shy (not shy)"
+            },
+            {
+              "category": "Personal traits and views",
+              "item": "Optimistic (not)"
+            },
+            {
+              "category": "Personal traits and views",
+              "item": "Competitive (not)"
+            },
+            {
+              "category": "Personal traits and views",
+              "item": "Politically left of center (not)"
+            },
+            {
+              "category": "Personal traits and views",
+              "item": "Supporter of women's lib (not)"
+            },
+            {
+              "category": "Personal preferences",
+              "item": "Brown (white) bread"
+            },
+            {
+              "category": "Personal preferences",
+              "item": "To be alone (with others)"
+            },
+            {
+              "category": "Personal preferences",
+              "item": "Italian (French) movies"
+            },
+            {
+              "category": "Personal preferences",
+              "item": "City (country) life"
+            },
+            {
+              "category": "Personal preferences",
+              "item": "Basketball (football)"
+            },
+            {
+              "category": "Personal characteristics",
+              "item": "Male (female)"
+            },
+            {
+              "category": "Personal characteristics",
+              "item": "Brown (blue) eyes"
+            },
+            {
+              "category": "Personal characteristics",
+              "item": "Subscribe (don't) to magazines on list provided"
+            },
+            {
+              "category": "Personal characteristics",
+              "item": "First-born (laterborn) child"
+            },
+            {
+              "category": "Personal characteristics",
+              "item": "Hometown more (less) than 200,000"
+            },
+            {
+              "category": "Personal problems",
+              "item": "Think about dying? yes (no)"
+            },
+            {
+              "category": "Personal problems",
+              "item": "Hard to make friends? yes (no)"
+            },
+            {
+              "category": "Personal problems",
+              "item": "Difficulty controlling temper? yes (no)"
+            },
+            {
+              "category": "Personal problems",
+              "item": "Frequently depressed? yes (no)"
+            },
+            {
+              "category": "Personal problems",
+              "item": "Emotional needs satisfied? yes (no)"
+            },
+            {
+              "category": "Personal activities",
+              "item": "Watch TV 30 hours/month? yes (no)"
+            },
+            {
+              "category": "Personal activities",
+              "item": "Play tennis once a week? yes (no)"
+            },
+            {
+              "category": "Personal activities",
+              "item": "Attend religious service once a month? yes (no)"
+            },
+            {
+              "category": "Personal activities",
+              "item": "Donate blood once a year? yes (no)"
+            },
+            {
+              "category": "Personal activities",
+              "item": "Long distance phone call once a week? yes (no)"
+            },
+            {
+              "category": "Personal expectations",
+              "item": "Marriage by age 30? yes (no)"
+            },
+            {
+              "category": "Personal expectations",
+              "item": "Better financial status than parent? yes (no)"
+            },
+            {
+              "category": "Personal expectations",
+              "item": "Live outside U.S. for one year in next 20? yes (no)"
+            },
+            {
+              "category": "Personal expectations",
+              "item": "Great satisfaction from job or career? yes (no)"
+            },
+            {
+              "category": "Personal expectations",
+              "item": "Death before 70th birthday? yes (no)"
+            },
+            {
+              "category": "Political expectations",
+              "item": "Woman in Supreme Court within decade? yes (no)"
+            },
+            {
+              "category": "Political expectations",
+              "item": "Poverty problem reduced in next 20 years? yes (no)"
+            },
+            {
+              "category": "Political expectations",
+              "item": "Nuclear weapon used in warfare in next 20 years? yes (no)"
+            },
+            {
+              "category": "Political expectations",
+              "item": "Discovery of extraterrestrial life by year 2000? yes (no)"
+            }
+          ],
+          "participants": {
+            "n": 80,
+            "description": "Stanford undergraduates."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "item": "Shy",
+                "estimate_by_cat1": 45.9,
+                "estimate_by_cat2": 35.9,
+                "t": "2.66‡"
+              },
+              {
+                "item": "Optimistic",
+                "estimate_by_cat1": 61.9,
+                "estimate_by_cat2": 50.4,
+                "t": "2.58†"
+              },
+              {
+                "item": "Supporter of women's lib",
+                "estimate_by_cat1": 57.3,
+                "estimate_by_cat2": 33.4,
+                "t": "3.96§"
+              },
+              {
+                "item": "Brown bread",
+                "estimate_by_cat1": 52.5,
+                "estimate_by_cat2": 37.4,
+                "t": "3.26‡"
+              },
+              {
+                "item": "Italian movies",
+                "estimate_by_cat1": 51.6,
+                "estimate_by_cat2": 43.4,
+                "t": "2.00†"
+              },
+              {
+                "item": "Subscribe to magazines",
+                "estimate_by_cat1": 56.9,
+                "estimate_by_cat2": 42.7,
+                "t": "2.76‡"
+              },
+              {
+                "item": "Hometown > 200,000",
+                "estimate_by_cat1": 58.2,
+                "estimate_by_cat2": 51.9,
+                "t": "1.68*"
+              },
+              {
+                "item": "Think about dying?",
+                "estimate_by_cat1": 44.0,
+                "estimate_by_cat2": 25.6,
+                "t": "2.87§"
+              },
+              {
+                "item": "Difficulty controlling temper?",
+                "estimate_by_cat1": 42.1,
+                "estimate_by_cat2": 27.9,
+                "t": "3.26‡"
+              },
+              {
+                "item": "Frequently depressed?",
+                "estimate_by_cat1": 55.1,
+                "estimate_by_cat2": 39.2,
+                "t": "3.25‡"
+              },
+              {
+                "item": "Emotional needs satisfied?",
+                "estimate_by_cat1": 52.9,
+                "estimate_by_cat2": 42.2,
+                "t": "2.29†"
+              },
+              {
+                "item": "Better financial status",
+                "estimate_by_cat1": 68.3,
+                "estimate_by_cat2": 61.8,
+                "t": "1.86*"
+              },
+              {
+                "item": "Death before 70th",
+                "estimate_by_cat1": 57.6,
+                "estimate_by_cat2": 43.9,
+                "t": "2.81‡"
+              },
+              {
+                "item": "Woman in Supreme Court",
+                "estimate_by_cat1": 63.3,
+                "estimate_by_cat2": 34.6,
+                "t": "6.19§"
+              },
+              {
+                "item": "Poverty problem reduced",
+                "estimate_by_cat1": 61.8,
+                "estimate_by_cat2": 43.1,
+                "t": "3.81§"
+              },
+              {
+                "item": "Nuclear weapon used",
+                "estimate_by_cat1": 58.8,
+                "estimate_by_cat2": 31.2,
+                "t": "3.21‡"
+              },
+              {
+                "item": "Discovery extraterrestrial life",
+                "estimate_by_cat1": 56.6,
+                "estimate_by_cat2": 29.3,
+                "t": "5.48§"
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Student's t-test",
+                "statistic": "Multiple t-values ranging from < 1 to 6.19",
+                "p_value": "p < .10 to p < .001",
+                "claim": "Difference in percentage estimates was in the predicted direction for 32 of the 34 items. 17 items significant at .10 level, 11 at .01 level.",
+                "location": "Page 8, Results section"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Study 3",
+      "study_name": "Hypothetical sandwich board study",
+      "phenomenon": "False Consensus Effect",
+      "hypotheses": [
+        "Subjects would perceive a false consensus for their own behavioral choices regardless of whether these choices were 'hypothetical'.",
+        "Subjects' trait assessments would be distorted by their own behavioral choices in the manner previously described."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "study_3_sandwich_board_hypothetical",
+          "type": "hypothetical_choice_and_estimation",
+          "content": "Participants read a story about an experimenter requesting them to wear a sandwich board sign on campus for 30 minutes. They indicated if they would agree or refuse, estimated peer consensus, and rated traits of typical individuals.",
+          "items": [
+            {
+              "item_id": "sandwich_board_story",
+              "text": "It is an official course requirement... You decide to sign up for an experiment described as 'a study concerned with attitudes'... The experimenter then proceeds to describe his study... he explains that today he needs subjects to walk around campus for 30 minutes wearing a sandwich board sign which simply says: 'Eat at Joe's' [or 'Repent']. While they are wearing this sandwich board subjects are simply to keep a record of the number of people who say something to them... The experimenter makes it clear that you are not compelled to participate if you are unwilling, but that he would obviously prefer that you go along with his request...",
+              "options": [
+                "Agree to carry the sign",
+                "Refuse to carry the sign"
+              ],
+              "traits_rated": [
+                "cooperativeness",
+                "shyness",
+                "aggressiveness",
+                "submissiveness",
+                "attractiveness",
+                "inquisitiveness",
+                "uprightness",
+                "cynicism"
+              ]
+            }
+          ],
+          "participants": {
+            "n": 104,
+            "description": "Stanford undergraduates."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "sign": "Eat at Joe's",
+                "n_wear": "27 (53%)",
+                "n_not_wear": "24 (47%)",
+                "est_wear_by_wearers": 64.6,
+                "est_wear_by_refusers": 31.2,
+                "consensus_f": 33.3,
+                "trait_rating_diff_wearers": -1.3,
+                "trait_rating_diff_refusers": 66.5,
+                "trait_f": 8.53
+              },
+              {
+                "sign": "Repent",
+                "n_wear": "27 (51%)",
+                "n_not_wear": "26 (49%)",
+                "est_wear_by_wearers": 58.3,
+                "est_wear_by_refusers": 29.7,
+                "consensus_f": 23.5,
+                "trait_rating_diff_wearers": 2.7,
+                "trait_rating_diff_refusers": 54.2,
+                "trait_f": 9.74
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Analysis of Variance (Combined Signs)",
+                "statistic": "F = 56.2",
+                "p_value": "Not explicitly given for this F, but implied significant",
+                "claim": "Combined consensus estimate for Study 3.",
+                "location": "Page 14, Table 4"
+              },
+              {
+                "test_name": "Analysis of Variance (Combined Trait Ratings)",
+                "statistic": "F = 17.79",
+                "p_value": "Not explicitly given for this F",
+                "claim": "Combined trait rating difference for Study 3.",
+                "location": "Page 16, Table 5"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "paper_id": "4705_ross_et_al_false_consensus_effect",
+  "paper_title": "The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes",
+  "paper_authors": [
+    "Lee Ross",
+    "David Greene",
+    "Pamela House"
+  ],
+  "paper_abstract": "Evidence from four studies demonstrates that social observers tend to perceive a “false consensus” with respect to the relative commonness of their own responses. A related bias was shown to exist in the observers’ social inferences. Thus, raters estimated particular responses to be relatively common and relatively unrevealing concerning the actors’ distinguishing personal dispositions when the responses in question were similar to the raters’ own responses; responses differing from those of the rater, by contrast, were perceived to be relatively uncommon and revealing of the actor. These results were obtained both in questionnaire studies presenting subjects with hypothetical situations and choices and in authentic conflict situations. The implications of these findings for our understanding of social perception phenomena and for our analysis of the divergent perceptions of actors and observers are discussed. Finally, cognitive and perceptual mechanisms are proposed which might account for distortions in perceived consensus and for corresponding biases in social inference and attributional processes."
+}

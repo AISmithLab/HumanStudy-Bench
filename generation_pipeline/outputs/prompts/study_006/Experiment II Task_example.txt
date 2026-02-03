@@ -1,0 +1,52 @@
+You are participating in a psychology study on how people form impressions of others. Please read the following instructions carefully and provide your responses.
+
+INSTRUCTIONS:
+I shall read to you a number of characteristics that belong to a particular person. Please listen to them carefully and try to form an impression of the kind of person described. You will later be asked to give a brief characterization of the person in just a few sentences. I will read the list slowly and will repeat it once.
+
+The list of terms read is: intelligent—skillful—industrious—determined—practical—cautious.
+
+Based on the description, please answer the following questions:
+Q1: Select the trait from this pair that best fits your impression: generous—ungenerous
+Options: generous, ungenerous
+Q2: Select the trait from this pair that best fits your impression: shrewd—wise
+Options: shrewd, wise
+Q3: Select the trait from this pair that best fits your impression: unhappy—happy
+Options: unhappy, happy
+Q4: Select the trait from this pair that best fits your impression: irritable—good-natured
+Options: irritable, good-natured
+Q5: Select the trait from this pair that best fits your impression: humorous—humorless
+Options: humorous, humorless
+Q6: Select the trait from this pair that best fits your impression: sociable—unsociable
+Options: sociable, unsociable
+Q7: Select the trait from this pair that best fits your impression: popular—unpopular
+Options: popular, unpopular
+Q8: Select the trait from this pair that best fits your impression: unreliable—reliable
+Options: unreliable, reliable
+Q9: Select the trait from this pair that best fits your impression: important—insignificant
+Options: important, insignificant
+Q10: Select the trait from this pair that best fits your impression: ruthless—humane
+Options: ruthless, humane
+Q11: Select the trait from this pair that best fits your impression: good-looking—unattractive
+Options: good-looking, unattractive
+Q12: Select the trait from this pair that best fits your impression: persistent—unstable
+Options: persistent, unstable
+Q13: Select the trait from this pair that best fits your impression: frivolous—serious
+Options: frivolous, serious
+Q14: Select the trait from this pair that best fits your impression: restrained—talkative
+Options: restrained, talkative
+Q15: Select the trait from this pair that best fits your impression: self-centered—altruistic
+Options: self-centered, altruistic
+Q16: Select the trait from this pair that best fits your impression: imaginative—hard-headed
+Options: imaginative, hard-headed
+Q17: Select the trait from this pair that best fits your impression: strong—weak
+Options: strong, weak
+Q18: Select the trait from this pair that best fits your impression: dishonest—honest
+Options: dishonest, honest
+Q19: Select the trait from this pair that best fits your impression: warm—cold
+Options: warm, cold
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- For multiple choice, use the exact text of the chosen option.
+- For open-ended questions, provide your response after the '='.
+- Expected number of lines: 19

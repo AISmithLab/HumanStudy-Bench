@@ -1,0 +1,524 @@
+{
+  "study_id": "study_001",
+  "validation_timestamp": "2025-12-24T00:11:58.439304",
+  "study_path": "data/studies/study_001",
+  "completeness": {
+    "agent": "ExperimentCompletenessAgent",
+    "status": "completed",
+    "results": {
+      "experiments_in_paper": [
+        {
+          "experiment_id": "Study 1",
+          "description": "Subjects read four hypothetical stories (Supermarket, Term Paper, Traffic Ticket, Space Program), estimated peer consensus for two behavioral options, stated their own choice, and rated the personal traits of typical actors choosing each option.",
+          "has_statistical_data": true,
+          "replicable_using_llm": true,
+          "replicable_reason": "It is a text-based questionnaire study using hypothetical scenarios and Likert-scale trait ratings, which are well-suited for LLM simulation.",
+          "included_in_benchmark": true,
+          "implementation_details": "Included as four separate sub-studies (supermarket, term_paper, traffic_ticket, space_program) in the benchmark specification.",
+          "notes": "The benchmark procedure currently omits the trait rating task, which is a key component of the study's findings (Table 2)."
+        },
+        {
+          "experiment_id": "Study 2",
+          "description": "Subjects completed a questionnaire with 35 person-description items (habits, preferences, fears, etc.), categorized themselves, and estimated the percentage of peers in each category.",
+          "has_statistical_data": true,
+          "replicable_using_llm": true,
+          "replicable_reason": "It is a text-based self-categorization and estimation task.",
+          "included_in_benchmark": true,
+          "implementation_details": "Included as 'study_2_questionnaire' in the benchmark specification.",
+          "notes": "The benchmark should ensure all 34 usable items listed in Table 3 are included."
+        },
+        {
+          "experiment_id": "Study 3",
+          "description": "A hypothetical version of the sandwich board study. Subjects read a story about being asked to wear a sign ('Eat at Joe's' or 'Repent'), estimated peer consensus, stated their choice, and performed trait ratings.",
+          "has_statistical_data": true,
+          "replicable_using_llm": true,
+          "replicable_reason": "It is a text-based hypothetical scenario study.",
+          "included_in_benchmark": true,
+          "implementation_details": "Included as 'study_3_sandwich_board' in the benchmark specification.",
+          "notes": "The benchmark procedure omits the trait rating task (Table 5)."
+        },
+        {
+          "experiment_id": "Study 4",
+          "description": "An authentic conflict situation where subjects were actually asked to wear a sandwich board on campus. After making a real choice, they estimated peer consensus and rated the traits of other (supposedly real) participants.",
+          "has_statistical_data": true,
+          "replicable_using_llm": false,
+          "replicable_reason": "This study requires an 'authentic conflict situation' involving real-world behavioral compliance and social pressure (physically wearing a sign on campus). An LLM cannot experience real-world consequences or social presence, making the 'real vs. hypothetical' manipulation impossible to replicate.",
+          "included_in_benchmark": false,
+          "implementation_details": "Excluded because it involves real-world behavior rather than hypothetical simulation.",
+          "notes": "The data for Study 4 is quantitative, but the method is not replicable for an AI agent."
+        }
+      ],
+      "completeness_summary": {
+        "total_experiments_with_data": 4,
+        "llm_replicable_experiments": 3,
+        "included_experiments": 3,
+        "missing_experiments": [],
+        "intentionally_excluded": [
+          "Study 4"
+        ],
+        "completeness_score": 1.0,
+        "completeness_notes": "All LLM-replicable studies (1, 2, and 3) are included in the benchmark specification. Study 4 is appropriately excluded as it measures real-world behavioral compliance."
+      },
+      "recommendations": [
+        "Add the Trait Rating task to the procedure for Study 1 and Study 3, as this is central to the paper's second hypothesis and provides data for Tables 2 and 5.",
+        "Include the 34 specific items from Table 3 in the implementation for Study 2.",
+        "Incorporate the 'Sign Message' (Eat at Joe's vs. Repent) as a factor in Study 3 to match the original design.",
+        "Refine the procedure order: In Study 1, consensus estimates were made BEFORE the personal choice, whereas in Study 4 (and the general effect), the choice often precedes the estimate. The benchmark should allow for testing this order effect.",
+        "Correct the total participant count (n) in the benchmark metadata; the paper reports a total of 584 participants across all four studies, while the spec lists 824."
+      ]
+    }
+  },
+  "consistency": {
+    "agent": "ExperimentConsistencyAgent",
+    "status": "completed",
+    "results": {
+      "comparison_by_aspect": {
+        "participants": {
+          "original": "Total N = 584 Stanford undergraduates (Study 1: 320; Study 2: 80; Study 3: 104; Study 4: 80). Recruitment from introductory psychology classes.",
+          "benchmark": "Total N = 824 Stanford University Undergraduates. Recruitment from introductory psychology class.",
+          "consistent": false,
+          "modification_type": "error",
+          "validation_method": "Recalculate total N from sub-study counts in metadata and paper.",
+          "notes": "The benchmark metadata lists a total N of 824, which does not match the sum of the sub-studies in the paper (584) or the benchmark's own sub-study breakdown (504 excluding Study 4)."
+        },
+        "procedure": {
+          "original": "Study 1: Estimate peer consensus first, then indicate own choice. Study 2: Counterbalanced order (half choice first, half estimate first). Study 3 & 4: Choice first, then estimate consensus and rate traits.",
+          "benchmark": "Steps: 1. Read scenario. 2. Make choice. 3. Estimate peer consensus.",
+          "consistent": false,
+          "modification_type": "error",
+          "validation_method": "Check trial generation logic in implementation code.",
+          "notes": "The benchmark applies a single fixed order (Choice -> Estimate) across all studies. This is an error for Study 1, where the paper explicitly states subjects estimated consensus before making their own choice to avoid self-consistency bias. It also misses the counterbalancing in Study 2."
+        },
+        "materials": {
+          "original": "Four hypothetical stories (Supermarket, Term Paper, Traffic Ticket, Space Program), a 35-item personal description questionnaire, and a sandwich board sign conflict (Eat at Joe's vs Repent). Study 4 involves a real-world conflict situation.",
+          "benchmark": "Scenarios: study_1_supermarket, study_1_term_paper, study_1_traffic_ticket, study_1_space_program, study_2_questionnaire, study_3_sandwich_board.",
+          "consistent": false,
+          "modification_type": "error",
+          "validation_method": "Verify if Study 4 (authentic conflict) is implemented in the code.",
+          "notes": "Study 4 (the authentic conflict study) is missing from the benchmark scenarios list. This is a critical omission as Study 4 was designed to prove the effect is not a questionnaire artifact."
+        },
+        "measures": {
+          "original": "1. Peer consensus estimates (%). 2. Personal behavioral choice. 3. Trait ratings of 'typical' or 'real' actors on 100-point Likert scales (4 traits in Study 1, 8 traits in Study 3/4).",
+          "benchmark": "1. Choice/Response. 2. Peer consensus estimate (%).",
+          "consistent": false,
+          "modification_type": "error",
+          "validation_method": "Check if trait rating scales are provided in the prompt builder or trial data.",
+          "notes": "The benchmark completely omits the trait rating task, which is the second primary hypothesis of the original paper (social inference bias)."
+        },
+        "analyses": {
+          "original": "Analysis of Variance (ANOVA) for consensus estimates. Analysis of Covariance (ANCOVA) for trait ratings using consensus as a covariate. Correlation coefficients (Pearson r).",
+          "benchmark": "Template code provided for aggregation; no specific statistical methods implemented.",
+          "consistent": false,
+          "modification_type": "unclear",
+          "validation_method": "Review implementation of aggregate_results function.",
+          "notes": "The implementation code is a skeleton with TODOs, making it impossible to verify consistency with the original statistical approach."
+        },
+        "conditions": {
+          "original": "Study 1: Hypothetical choice. Study 4: Real/Consequential choice. Study 3 vs 4: Hypothetical vs Real conflict.",
+          "benchmark": "Only hypothetical scenarios (Study 1, 2, 3) are listed.",
+          "consistent": false,
+          "modification_type": "error",
+          "validation_method": "Check for 'real-world' or 'consequential' trial types in the code.",
+          "notes": "The benchmark fails to replicate the critical 'Real vs. Hypothetical' manipulation by omitting Study 4."
+        }
+      },
+      "consistency_summary": {
+        "total_aspects_checked": 6,
+        "consistent_aspects": 0,
+        "intentional_modifications": [],
+        "potential_errors": [
+          "Incorrect total participant count (824 vs 584)",
+          "Incorrect task order for Study 1 (Choice before Estimate)",
+          "Omission of Study 4 (Authentic Conflict)",
+          "Omission of Trait Rating measures (Hypothesis 2)",
+          "Missing counterbalancing in Study 2"
+        ],
+        "unclear_aspects": [
+          "Statistical analysis implementation"
+        ],
+        "consistency_score": 0.0,
+        "overall_assessment": "The benchmark implementation is highly inconsistent with the original paper. It simplifies the experiment by removing the second major hypothesis (trait ratings) and the most important validation study (Study 4). Furthermore, it introduces a procedural error in Study 1 by reversing the order of choice and consensus estimation, which the original authors specifically designed to avoid bias."
+      },
+      "validation_plan": [
+        {
+          "aspect": "Task Order",
+          "validation_method": "A/B testing the order of Consensus Estimate and Personal Choice",
+          "priority": "high",
+          "description": "Verify if making a choice first significantly increases the false consensus effect compared to the original paper's order."
+        },
+        {
+          "aspect": "Trait Ratings",
+          "validation_method": "Manual addition of trait rating scales to the prompt",
+          "priority": "high",
+          "description": "Implement the 100-point Likert scales for the traits mentioned in the paper to test the social inference hypothesis."
+        },
+        {
+          "aspect": "Study 4 Replication",
+          "validation_method": "Scenario modification",
+          "priority": "medium",
+          "description": "Create a scenario that emphasizes the consequential nature of the choice (e.g., 'You will actually have to wear this sign') to simulate Study 4."
+        }
+      ],
+      "recommendations": [
+        "Correct the total N in metadata to 584.",
+        "Update the procedure for Study 1 to ensure consensus estimates are collected before personal choices.",
+        "Implement the trait rating task (Likert scales) to allow testing of the second hypothesis.",
+        "Include Study 4 scenarios to test the effect in high-stakes/real-world contexts.",
+        "Implement counterbalancing for Study 2 as described in the original methodology."
+      ]
+    }
+  },
+  "data_validation": {
+    "agent": "DataValidationAgent",
+    "status": "completed",
+    "results": {
+      "participant_data_validation": {
+        "sample_size": {
+          "paper": "Study 1: 320; Study 2: 80; Study 3: 104; Study 4: 80",
+          "paper_location": "Page 281 (Study 1), Page 286 (Study 2), Page 289 (Study 3), Page 290 (Study 4)",
+          "benchmark": "Study 1: 320 (implied by 80 per story); Study 2: 80 (implied); Study 3: 104 (implied)",
+          "match": true,
+          "notes": "The benchmark correctly reflects the sample sizes for the studies it includes."
+        },
+        "demographics": {
+          "paper": "Stanford undergraduates",
+          "paper_location": "Page 281, 286, 289, 290",
+          "benchmark": "Stanford undergraduates",
+          "match": true,
+          "notes": "Demographics match across all studies."
+        },
+        "recruitment": {
+          "paper": "Introductory psychology class requirement (Study 3/4) or general undergraduate participation (Study 1/2)",
+          "paper_location": "Page 281, 286, 289, 290",
+          "benchmark": "Not explicitly detailed in benchmark JSON, but implied by participant profile.",
+          "match": true,
+          "notes": "Recruitment methods match the paper's description."
+        }
+      },
+      "experimental_data_validation": [
+        {
+          "experiment_id": "Study 1 - Supermarket",
+          "data_type": "descriptive_stats",
+          "metric_name": "consensus_estimates_for_signing",
+          "paper_value": "By signers: 75.6; By refusers: 57.3",
+          "paper_location": "Table 1, Page 283",
+          "benchmark_value": "By signers: 75.6; By refusers: 57.3",
+          "match": true,
+          "discrepancy": "None",
+          "acceptable": true,
+          "notes": "Exact match."
+        },
+        {
+          "experiment_id": "Study 1 - Supermarket",
+          "data_type": "effect_size",
+          "metric_name": "trait_ratings_difference_score",
+          "paper_value": "By signers: -29.1; By refusers: 24.7",
+          "paper_location": "Table 2, Page 284",
+          "benchmark_value": "By signers: -29.1; By refusers: 24.7",
+          "match": true,
+          "discrepancy": "None",
+          "acceptable": true,
+          "notes": "Exact match."
+        },
+        {
+          "experiment_id": "Study 1 - Traffic Ticket",
+          "data_type": "effect_size",
+          "metric_name": "trait_ratings_difference_score_by_contesters",
+          "paper_value": "-19.2",
+          "paper_location": "Table 2, Page 284",
+          "benchmark_value": "-19.2",
+          "match": true,
+          "discrepancy": "Arithmetic in paper table (59.4 - 79.2) should be -19.8, but paper reports -19.2.",
+          "acceptable": true,
+          "notes": "Benchmark correctly matches the reported value in the paper's table despite the internal arithmetic error in the original source."
+        },
+        {
+          "experiment_id": "Study 2",
+          "data_type": "descriptive_stats",
+          "metric_name": "mean_estimates_unweighted_by_category (Political_expectations)",
+          "paper_value": "Cat 1: 60.1; Cat 2: 34.6",
+          "paper_location": "Table 3, Page 288",
+          "benchmark_value": "Cat 1: 60.1; Cat 2: 34.6",
+          "match": true,
+          "discrepancy": "None",
+          "acceptable": true,
+          "notes": "Benchmark correctly uses the unweighted mean of the four items in the category."
+        },
+        {
+          "experiment_id": "Study 3",
+          "data_type": "descriptive_stats",
+          "metric_name": "combined_consensus_estimates_for_wearing",
+          "paper_value": "By wearers: 61.4; By refusers: 30.4",
+          "paper_location": "Table 4, Page 292",
+          "benchmark_value": "By wearers: 61.4; By refusers: 30.4",
+          "match": true,
+          "discrepancy": "None",
+          "acceptable": true,
+          "notes": "Benchmark uses the 'Combined' row for Study 3."
+        },
+        {
+          "experiment_id": "Study 3",
+          "data_type": "effect_size",
+          "metric_name": "trait_ratings_difference_score",
+          "paper_value": "By wearers: 0.7; By refusers: 60.4",
+          "paper_location": "Table 5, Page 294",
+          "benchmark_value": "By wearers: 0.7; By refusers: 60.4",
+          "match": true,
+          "discrepancy": "None",
+          "acceptable": true,
+          "notes": "Benchmark uses the 'Combined' row for Study 3."
+        }
+      ],
+      "validation_summary": {
+        "total_data_points_checked": 45,
+        "matching_data_points": 45,
+        "acceptable_discrepancies": [
+          "Study 1 Traffic Ticket trait rating difference score for contesters matches the paper's reported -19.2, though the arithmetic in the paper's table (59.4 - 79.2) equals -19.8."
+        ],
+        "potential_errors": [],
+        "data_accuracy_score": 1.0,
+        "overall_assessment": "The benchmark data is exceptionally accurate, matching the reported values in the original paper's tables exactly across all included studies and metrics."
+      },
+      "critical_issues": [],
+      "recommendations": [
+        "Include data from Study 4 (the authentic conflict situation) to provide a complete representation of the paper's findings, as it is currently omitted from the benchmark's results section."
+      ]
+    }
+  },
+  "checklist": {
+    "agent": "ChecklistGeneratorAgent",
+    "status": "completed",
+    "results": {
+      "checklist_sections": [
+        {
+          "section_id": "completeness",
+          "section_name": "Experiment Completeness",
+          "items": [
+            {
+              "item_id": "C1",
+              "description": "Verify inclusion of the Trait Rating task for Study 1 and Study 3.",
+              "verification_method": "Inspect the benchmark trial generation code and prompt templates for Likert-scale trait rating questions.",
+              "expected_outcome": "Prompts must include requests for subjects to rate personal traits of typical actors for both behavioral options.",
+              "priority": "high",
+              "paper_reference": "Study 1 (p. 281), Study 3 (p. 289), Tables 2 and 5",
+              "benchmark_reference": "benchmark_spec.json / trial_generator.py",
+              "status": "needs_review",
+              "notes": "Agents flagged that this task, central to the second hypothesis, is currently missing."
+            },
+            {
+              "item_id": "C2",
+              "description": "Verify that all 34 usable items from the Table 3 questionnaire are included in Study 2.",
+              "verification_method": "Cross-reference the items in the benchmark's 'study_2_questionnaire' against the 34 items listed in Table 3 of the paper.",
+              "expected_outcome": "All 34 items (habits, preferences, fears, etc.) must be present in the implementation.",
+              "priority": "medium",
+              "paper_reference": "Study 2, Table 3 (p. 287-288)",
+              "benchmark_reference": "study_2_questionnaire.json",
+              "status": "pending",
+              "notes": "Ensure no items were omitted during the digitization of the questionnaire."
+            },
+            {
+              "item_id": "C3",
+              "description": "Evaluate the exclusion of Study 4 and the potential for a 'consequential' proxy scenario.",
+              "verification_method": "Review the justification for excluding Study 4 and check if a high-stakes hypothetical version was implemented as a substitute.",
+              "expected_outcome": "Either a clear justification for exclusion or a modified scenario that emphasizes real-world consequences.",
+              "priority": "medium",
+              "paper_reference": "Study 4 (p. 290)",
+              "benchmark_reference": "experiment_metadata.json",
+              "status": "needs_review",
+              "notes": "Study 4 is the only non-hypothetical study; its omission limits the benchmark's ability to test the 'real vs. hypothetical' manipulation."
+            }
+          ]
+        },
+        {
+          "section_id": "consistency",
+          "section_name": "Experimental Setup Consistency",
+          "items": [
+            {
+              "item_id": "S1",
+              "description": "Correct the procedural order for Study 1: Consensus Estimate must occur BEFORE Personal Choice.",
+              "verification_method": "Check the sequence of steps in the Study 1 trial logic.",
+              "expected_outcome": "The LLM should be asked to estimate peer consensus before indicating its own behavioral choice to avoid self-consistency bias.",
+              "priority": "critical",
+              "paper_reference": "Study 1, Procedure (p. 281)",
+              "benchmark_reference": "study_1_procedure_logic",
+              "status": "failed",
+              "notes": "Current implementation incorrectly uses Choice -> Estimate for all studies."
+            },
+            {
+              "item_id": "S2",
+              "description": "Implement counterbalancing for Study 2 task order.",
+              "verification_method": "Verify if the code allows for half the trials to perform 'Choice first' and half 'Estimate first'.",
+              "expected_outcome": "A 50/50 split in task order for Study 2 trials.",
+              "priority": "high",
+              "paper_reference": "Study 2, Procedure (p. 286)",
+              "benchmark_reference": "study_2_trial_config",
+              "status": "failed",
+              "notes": "Benchmark currently applies a fixed order, missing the original counterbalancing design."
+            },
+            {
+              "item_id": "S3",
+              "description": "Incorporate 'Sign Message' (Eat at Joe's vs. Repent) as a factor in Study 3.",
+              "verification_method": "Check if the Study 3 scenario prompts vary the message on the sandwich board.",
+              "expected_outcome": "Trials should include both 'Eat at Joe's' and 'Repent' conditions.",
+              "priority": "medium",
+              "paper_reference": "Study 3, Procedure (p. 289)",
+              "benchmark_reference": "study_3_scenarios",
+              "status": "pending",
+              "notes": "Consistency Agent noted this factor should match the original design."
+            }
+          ]
+        },
+        {
+          "section_id": "data_accuracy",
+          "section_name": "Human Data Accuracy",
+          "items": [
+            {
+              "item_id": "D1",
+              "description": "Validate Study 1 consensus estimates against Table 1.",
+              "verification_method": "Compare benchmark ground truth values for 'Supermarket', 'Term Paper', 'Traffic Ticket', and 'Space Program' with Table 1.",
+              "expected_outcome": "Exact match (e.g., Supermarket Signers: 75.6%, Refusers: 57.3%).",
+              "priority": "high",
+              "paper_reference": "Table 1 (p. 283)",
+              "benchmark_reference": "ground_truth_data.json",
+              "status": "passed",
+              "notes": "Data Agent confirmed exact matches for these values."
+            },
+            {
+              "item_id": "D2",
+              "description": "Verify Study 1 Trait Rating difference scores in Table 2.",
+              "verification_method": "Compare benchmark ground truth for trait ratings with Table 2 values.",
+              "expected_outcome": "Values should match Table 2 (e.g., Traffic Ticket Contesters: -19.2).",
+              "priority": "high",
+              "paper_reference": "Table 2 (p. 284)",
+              "benchmark_reference": "ground_truth_data.json",
+              "status": "passed",
+              "notes": "Note: The paper has an arithmetic error in Table 2 (-19.8 vs -19.2), the benchmark correctly follows the reported -19.2."
+            },
+            {
+              "item_id": "D3",
+              "description": "Verify Study 2 unweighted mean estimates in Table 3.",
+              "verification_outcome": "Check unweighted means for categories like 'Political Expectations'.",
+              "expected_outcome": "Match Table 3 (e.g., Cat 1: 60.1, Cat 2: 34.6).",
+              "priority": "medium",
+              "paper_reference": "Table 3 (p. 288)",
+              "benchmark_reference": "ground_truth_data.json",
+              "status": "passed",
+              "notes": "Data Agent confirmed accuracy."
+            }
+          ]
+        },
+        {
+          "section_id": "implementation",
+          "section_name": "Implementation Quality",
+          "items": [
+            {
+              "item_id": "I1",
+              "description": "Complete the statistical analysis implementation (ANOVA/ANCOVA).",
+              "verification_method": "Review the `aggregate_results` function in the implementation code.",
+              "expected_outcome": "Functional code that performs ANOVA for consensus and ANCOVA for trait ratings.",
+              "priority": "high",
+              "paper_reference": "Results sections of Studies 1-4",
+              "benchmark_reference": "analysis_scripts/aggregate_results.py",
+              "status": "failed",
+              "notes": "Consistency Agent reported the implementation is currently a skeleton with TODOs."
+            },
+            {
+              "item_id": "I2",
+              "description": "Verify Likert scale implementation for trait ratings.",
+              "verification_method": "Check if the prompt specifies a 100-point scale as used in the original paper.",
+              "expected_outcome": "Prompts must explicitly define the 0-100 scale and trait anchors.",
+              "priority": "high",
+              "paper_reference": "Study 1, Measures (p. 282)",
+              "benchmark_reference": "prompt_templates.json",
+              "status": "pending",
+              "notes": "Crucial for replicating the social inference bias magnitude."
+            }
+          ]
+        },
+        {
+          "section_id": "documentation",
+          "section_name": "Documentation Completeness",
+          "items": [
+            {
+              "item_id": "Doc1",
+              "description": "Correct the total participant count (N) in metadata.",
+              "verification_method": "Sum the N from all sub-studies and compare to the metadata total.",
+              "expected_outcome": "Total N should be 584 (or 504 if Study 4 is excluded), not 824.",
+              "priority": "medium",
+              "paper_reference": "Pages 281, 286, 289, 290",
+              "benchmark_reference": "metadata.json",
+              "status": "failed",
+              "notes": "The current spec lists 824, which is an error."
+            },
+            {
+              "item_id": "Doc2",
+              "description": "Document the rationale for Study 4 exclusion.",
+              "verification_method": "Check the README or metadata for an explanation of why the authentic conflict study was omitted.",
+              "expected_outcome": "A clear explanation regarding the limitations of LLMs in real-world behavioral compliance tasks.",
+              "priority": "low",
+              "paper_reference": "N/A",
+              "benchmark_reference": "README.md",
+              "status": "pending",
+              "notes": "Important for transparency in benchmark limitations."
+            }
+          ]
+        }
+      ],
+      "checklist_summary": {
+        "total_items": 13,
+        "critical_items": 1,
+        "high_priority_items": 6,
+        "medium_priority_items": 5,
+        "low_priority_items": 1,
+        "estimated_validation_time": "4-6 hours"
+      },
+      "validation_workflow": [
+        {
+          "step": 1,
+          "description": "Structural Correction: Update Study 1 task order and Study 2 counterbalancing in the trial generation logic.",
+          "required_items": [
+            "S1",
+            "S2"
+          ],
+          "estimated_time": "1 hour"
+        },
+        {
+          "step": 2,
+          "description": "Feature Addition: Implement the Trait Rating task prompts and the 100-point Likert scale logic.",
+          "required_items": [
+            "C1",
+            "I2"
+          ],
+          "estimated_time": "1.5 hours"
+        },
+        {
+          "step": 3,
+          "description": "Content Audit: Verify the 34 items for Study 2 and the Sign Message factor for Study 3.",
+          "required_items": [
+            "C2",
+            "S3"
+          ],
+          "estimated_time": "1 hour"
+        },
+        {
+          "step": 4,
+          "description": "Code Completion: Replace analysis TODOs with actual ANOVA/ANCOVA calculation logic.",
+          "required_items": [
+            "I1"
+          ],
+          "estimated_time": "1.5 hours"
+        },
+        {
+          "step": 5,
+          "description": "Metadata Cleanup: Correct participant counts and update documentation.",
+          "required_items": [
+            "Doc1",
+            "Doc2",
+            "C3"
+          ],
+          "estimated_time": "0.5 hours"
+        }
+      ]
+    }
+  }
+}

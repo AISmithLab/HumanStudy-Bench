@@ -1,0 +1,112 @@
+{
+  "paper_title": "FORMING IMPRESSIONS OF PERSONALITY",
+  "paper_authors": [
+    "S. E. ASCH"
+  ],
+  "paper_abstract": "This classic study investigates the processes by which unified impressions of personality are formed. The author challenges the view that impressions are formed by the simple summation of independent traits. Through a series of experiments, Asch demonstrates that certain 'central' traits (such as 'warm' and 'cold') have a disproportionate effect on the final impression, while other 'peripheral' traits have less impact. The research also explores how the meaning of a trait changes depending on its context and the order in which information is received (the primacy effect). The findings suggest that impressions are structured wholes rather than mere collections of discrete characteristics.",
+  "experiments": [
+    {
+      "experiment_id": "Experiment I",
+      "experiment_name": "Variation of a Central Quality (Warm vs. Cold)",
+      "input": "A list of seven traits: intelligent, skillful, industrious, [warm/cold], determined, practical, cautious.",
+      "participants": "166 college students (90 in Group A, 76 in Group B).",
+      "output": "A brief written sketch of the person and a check-list selection from 18 pairs of opposite traits.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment II",
+      "experiment_name": "Omission of a Central Quality",
+      "input": "A list of six traits (intelligent, skillful, industrious, determined, practical, cautious). The terms 'warm' and 'cold' are omitted from the initial list but included in the final check-list.",
+      "participants": "56 college students.",
+      "output": "A brief written sketch and a check-list selection including 'warm' or 'cold'.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment III",
+      "experiment_name": "Variation of a Peripheral Quality (Polite vs. Blunt)",
+      "input": "A list of seven traits: intelligent, skillful, industrious, [polite/blunt], determined, practical, cautious.",
+      "participants": "46 college students (20 in Group A, 26 in Group B).",
+      "output": "A check-list selection and rankings of trait importance.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment IV",
+      "experiment_name": "Transformation from a Central to a Peripheral Quality",
+      "input": "Lists where 'warm' or 'cold' are embedded in highly negative or submissive contexts (e.g., obedient—weak—shallow—warm—unambitious—vain).",
+      "participants": "64 college students across three series (23, 21, and 20).",
+      "output": "Rankings of the importance of 'warm' or 'cold' within the list.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment V",
+      "experiment_name": "Contextual Change of Trait Content",
+      "input": "Two lists: (A) kind—wise—honest—calm—strong; (B) cruel—shrewd—unscrupulous—calm—strong.",
+      "participants": "79 college students (38 in Group A, 41 in Group B).",
+      "output": "Synonyms provided by participants for the terms 'calm' and 'strong'.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment VI",
+      "experiment_name": "The Factor of Direction (Primacy Effect - Intelligent to Envious)",
+      "input": "A list of traits presented in two different orders: (A) intelligent—industrious—impulsive—critical—stubborn—envious; (B) envious—stubborn—critical—impulsive—industrious—intelligent.",
+      "participants": "58 college students (34 in Group A, 24 in Group B).",
+      "output": "A brief written sketch and a check-list selection.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment VII",
+      "experiment_name": "The Factor of Direction (Primacy Effect - Intelligent to Evasive)",
+      "input": "A list of traits presented in two different orders: (A) intelligent—skillful—industrious—determined—practical—cautious—evasive; (B) evasive—cautious—practical—determined—industrious—skillful—intelligent.",
+      "participants": "99 college students (46 in Group A, 53 in Group B).",
+      "output": "A check-list selection.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment VIII",
+      "experiment_name": "Broken vs. Continuous Presentation",
+      "input": "The list from Exp VI presented either as two separate people (initially) or as one continuous person.",
+      "participants": "76 college students (52 in Group 1, 24 in Group 2).",
+      "output": "Check-list selection and reports of difficulty forming a unified impression.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment IX",
+      "experiment_name": "Strongly Simplified Impressions",
+      "input": "A highly abbreviated list of three positive traits: intelligent—skillful—warm.",
+      "participants": "34 college students.",
+      "output": "A check-list selection (Table 10).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment IXa",
+      "experiment_name": "Single Trait Impressions",
+      "input": "A single trait: either 'warm' or 'cold'.",
+      "participants": "55 college students (22 for 'warm', 33 for 'cold').",
+      "output": "A specialized check-list (Check List II) of 12 trait pairs.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment X",
+      "experiment_name": "Similarity and Difference of Impressions",
+      "input": "Four sets of trait triads (e.g., Set 1: quick, skillful, helpful; Set 2: quick, clumsy, helpful).",
+      "participants": "78 college students.",
+      "output": "Judgments of which sets resemble each other most and written explanations.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    }
+  ],
+  "overall_replicable": true,
+  "confidence": 1.0,
+  "notes": "Asch's experiments are quintessential examples of text-based social psychology. Because they rely entirely on the presentation of trait lists (stimuli) and the collection of written sketches or check-list responses (data), they are perfectly suited for replication using LLM agents. There are no visual stimuli, real-world interactions, or timing-based measurements involved.",
+  "paper_id": "asch_forming_impressions_of_personality"
+}

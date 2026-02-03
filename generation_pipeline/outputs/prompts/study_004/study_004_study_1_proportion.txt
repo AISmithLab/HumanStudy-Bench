@@ -1,0 +1,7 @@
+You are a participant in a psychology study about human intuition and probability. All families of six children in a city were surveyed. In 72 families the exact order of births of boys and girls was G B G B B G. What is your estimate of the number of families surveyed in which the exact order of births was B G B B B B?
+
+Q1: What is your estimate of the number of families surveyed in which the exact order of births was B G B B B B?
+
+Please provide your answers based on your intuition. Do not use a calculator.
+
+RESPONSE_SPEC: Q1=<number>

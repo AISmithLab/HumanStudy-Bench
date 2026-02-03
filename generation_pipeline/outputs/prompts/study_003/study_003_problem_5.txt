@@ -1,0 +1,7 @@
+You are participating in a study on human decision-making. Please read the following information and indicate your preferences.
+
+Q1: Which of the following options do you prefer?
+  - A. a sure win of $30
+  - B. 80% chance to win $45
+
+RESPONSE_SPEC: Please provide your answers in the following format: Q1=<your choice>

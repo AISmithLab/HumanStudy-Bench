@@ -1,0 +1,26 @@
+You are a participant in a social psychology study. Your profile is: 18-year-old female college student.
+
+You are participating in a study about personal problems. You are communicating with other participants via an intercom system from your individual room.
+
+**IMPORTANT: You believe you are in a 2-PERSON GROUP - just you and one other participant (the victim). There is NO ONE ELSE listening.**
+
+You hear the other participant disclose that they have a history of seizures. Suddenly, they begin to have what sounds like a seizure:
+
+--- INTERCOM AUDIO START ---
+I-er-um-I think I-I necd-er-if-if could-er-er-some body er-er-er-er-er-er-er give me a liltle-er-give me a little help here because-er-I-er-I'm-er-er h-h-having a-a-a real problcm-er-right now and I-er-if somebody could help me out it would-it would-er-er s-s-sure be-sure be good . . . because cr-there-er-cr-a cause I-er-I-uh-I've got a-a one of the-er-sei er-cr-things coming on and-and-and I could really-er-use some help so if somebody would-er-give me a little h-help-uh-er-er-er-er-er c-could somebody-er-er-help-er-uh-uh-uh (choking sounds). . . . I'm gonna die-er-er-I'm . . . gonna die-er-help-er-er-seizure-er-[chokes, then quiet].
+--- INTERCOM AUDIO END ---
+
+Please answer the following questions based on your immediate reaction to the situation described above:
+Q1: Remember: You are the ONLY other person who can hear this. Do you leave your room to report the emergency to the experimenter?
+Options: Yes, I leave to report the emergency, No, I stay in my room
+Q2: Did the following thought cross your mind when you heard the victim calling for help?: "I didn't know what to do"
+Options: Yes, No
+Q3: Did the following thought cross your mind when you heard the victim calling for help?: "I thought it must be some sort of fake"
+Options: Yes, No
+Q4: Did the following thought cross your mind when you heard the victim calling for help?: "I didn't know exactly what was happening"
+Options: Yes, No
+Q5: Do you leave your room to report the emergency to the experimenter?
+Options: Yes, No
+Q6: If you reported the emergency, how many seconds elapsed from the start of the fit?
+
+RESPONSE_SPEC: Provide your answers in the format Q1=<value>, Q2=<value>, Q3=<value>, Q4=<value>, Q5=<value>, Q6=<value>. For numerical estimates (like seconds), provide only the number.

@@ -1,0 +1,40 @@
+{
+  "paper_title": "THE DOCTRINE OF SUGGESTION, PRESTIGE AND IMITATION IN SOCIAL PSYCHOLOGY",
+  "paper_authors": [
+    "S. E. ASCH"
+  ],
+  "paper_abstract": "The paper submits the theory of group forces—specifically suggestion, prestige, and imitation—to a careful examination. It critiques the prevailing view in social psychology that social influence is a 'blind' process where individuals accept opinions arbitrarily regardless of merit. Through a re-examination of representative studies (notably by Lorge and Sherif) and new experimental evidence, the author argues that changes in evaluation are often the result of a cognitive reorganization where the 'object of judgment' is redefined by its context (the author or source), rather than a blind change in judgment of an unchanged object.",
+  "experiments": [
+    {
+      "experiment_id": "Experiment 1",
+      "experiment_name": "The Investigation of Lorge (Re-analysis)",
+      "input": "Participants rated 50 brief quotations on a 5-point agreement scale. Each quotation was followed by two names (one true source, one false). Later, participants rated the same quotations again, but with the true author correctly identified (often representing a change in 'prestige' from the first session). Participants also rated their 'respect' for the political opinions of the authors.",
+      "participants": "99 unemployed adult subjects in New York City (1934) with above-average education and intelligence.",
+      "output": "5-point agreement ratings for statements; 5-point respect ratings for authors; correct/incorrect matching of authors to statements.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment 2",
+      "experiment_name": "Asch's Cognitive Change / Meaning Study (Bridges vs. Johnston)",
+      "input": "Subjects read a series of statements, each accompanied by an author's name. They were instructed to describe in their own words what the statement means. One group saw a statement attributed to Harry Bridges (a radical union leader), while another group saw the same statement attributed to Eric A. Johnston (President of the U.S. Chamber of Commerce).",
+      "participants": "College students (two groups; one group of 35 specifically mentioned for the Johnston condition).",
+      "output": "Qualitative descriptions of the statement's meaning; frequency of subjects rejecting the authorship as implausible.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment 3",
+      "experiment_name": "Sherif's Investigation of Prestige",
+      "input": "Participants ranked 16 brief prose passages (actually all written by Robert Louis Stevenson but attributed to different well-known authors) according to their literary quality. Participants had previously ranked the authors themselves in terms of literary status.",
+      "participants": "Groups of college students.",
+      "output": "Rankings of prose passages; correlations between author prestige and passage ranking.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    }
+  ],
+  "overall_replicable": true,
+  "confidence": 0.95,
+  "notes": "The paper is a landmark critique of 'prestige suggestion.' While much of the paper involves re-analyzing data from Lorge (1936) and Sherif (1935), Asch provides sufficient procedural detail and quantitative benchmarks (Tables I-VII) for these to be simulated. The core tasks are text-based evaluations, rankings, and interpretations, which are well-suited for LLM agents using persona-based prompting to match the historical participant profiles (e.g., 1930s unemployed adults or college students).",
+  "paper_id": "asch"
+}

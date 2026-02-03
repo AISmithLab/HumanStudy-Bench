@@ -1,0 +1,95 @@
+{
+  "paper_title": "Subjective Probability: A Judgment of Representativeness",
+  "paper_authors": [
+    "Daniel Kahneman",
+    "Amos Tversky"
+  ],
+  "paper_abstract": "This paper explores a heuristic—representativeness—according to which the subjective probability of an event, or a sample, is determined by the degree to which it: (i) is similar in essential characteristics to its parent population; and (ii) reflects the salient features of the process by which it is generated. This heuristic is explicated in a series of empirical examples demonstrating predictable and systematic errors in the evaluation of uncertain events. In particular, since sample size does not represent any property of the population, it is expected to have little or no effect on judgment of likelihood. This prediction is confirmed in studies showing that subjective sampling distributions and posterior probability judgments are determined by the most salient characteristic of the sample (e.g., proportion, mean) without regard to the size of the sample. The present heuristic approach is contrasted with the normative (Bayesian) approach to the analysis of the judgment of uncertainty.",
+  "experiments": [
+    {
+      "experiment_id": "1",
+      "experiment_name": "Similarity of Sample to Population: Birth Sequences",
+      "input": "Participants were asked to estimate the number of families (out of 72) with birth orders BGBBBB compared to a standard sequence GBGBBG, and also to compare BBBGGG to GBBGBG.",
+      "participants": "92 high school students in Israel (ages 15-18).",
+      "output": "Estimates of frequency and judgments of relative likelihood.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "2",
+      "experiment_name": "Majority-Minority Relation: High School Programs",
+      "input": "A scenario describing two high school programs with different gender ratios (65% vs 45% boys). Participants guess which program a random class with 55% boys belongs to.",
+      "participants": "89 high school students in Israel.",
+      "output": "Categorical choice (Program A or Program B).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "3",
+      "experiment_name": "Binomial Outcomes Comparison",
+      "input": "Given a binomial process with p = 4/5, participants judge the likelihood of a sample of 10 successes and 0 failures versus 6 successes and 4 failures.",
+      "participants": "High school students (part of the general 1500 respondent pool).",
+      "output": "Relative likelihood judgments.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "4",
+      "experiment_name": "Replicability of Significance (Professional Intuitions)",
+      "input": "A statistical problem asking for the probability that a second small group (N=10) will yield a significant result given a first group (N=20) was significant (p < .05).",
+      "participants": "Participants of a meeting of the Mathematical Psychology Group and the American Psychological Association (sophisticated psychologists).",
+      "output": "Subjective probability estimates (0.0 to 1.0).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "5",
+      "experiment_name": "Reflection of Randomness: Marble Distribution",
+      "input": "Participants are shown two distributions of 20 marbles among 5 children: one nearly uniform (4,4,4,4,4) and one slightly non-uniform (4,4,5,4,3) and asked which is more probable.",
+      "participants": "52 high school students.",
+      "output": "Choice between Distribution I and Distribution II.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "6",
+      "experiment_name": "Subjective Sampling Distributions (N-Invariance)",
+      "input": "Participants produced subjective sampling distributions for three populations (sexes, heartbeat type, height) across three sample sizes (N = 10, 100, 1000).",
+      "participants": "Nine groups of high school students (total ~1500 respondents).",
+      "output": "Median probability estimates for various distribution categories.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "7",
+      "experiment_name": "Ordinal Judgments of Sample Size (Hospitals, Words, Heights)",
+      "input": "Three problems (Hospitals/Babies, Word Length, Median Heights) where participants judge if an extreme outcome is more likely in a large or small sample.",
+      "participants": "97 Stanford undergraduates with no background in statistics.",
+      "output": "Choice (Larger, Smaller, or About the same).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "8",
+      "experiment_name": "Posterior Probability: Symmetric Binomial Task (Decks of Cards)",
+      "input": "10 symmetric binomial problems varying population proportion, sample ratio, and sample difference. Participants estimate the probability a sample came from a specific deck.",
+      "participants": "10 groups of subjects (average 56 per group).",
+      "output": "Median subjective posterior probability estimates.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "9",
+      "experiment_name": "Posterior Probability: Height Odds",
+      "input": "Participants judge the odds that a sample came from a male population based on (i) a single 5'10\" individual or (ii) 6 people with an average height of 5'8\".",
+      "participants": "115 students from the University of Michigan with at least one statistics course.",
+      "output": "Subjective odds estimates.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    }
+  ],
+  "overall_replicable": true,
+  "confidence": 1.0,
+  "notes": "The paper is a classic example of cognitive psychology research using vignettes and word problems. Since all stimuli are textual and the required outputs are numerical estimates or categorical choices, it is perfectly suited for replication using LLM agents. The demographic profiles provided are sufficient to construct appropriate system prompts (e.g., high schoolers vs. professional psychologists).",
+  "paper_id": "subjective_probability_a_judgment_of_rep"
+}

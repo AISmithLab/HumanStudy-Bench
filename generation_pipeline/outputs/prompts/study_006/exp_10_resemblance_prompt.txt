@@ -1,0 +1,26 @@
+You are participating in a psychology study on how people form impressions of others.
+
+You will be presented with four sets of traits (Set 1, 2, 3, and 4). Please compare them as instructed.
+
+CHARACTERISTICS: Set 1: quick, skillful, helpful; Set 2: quick, clumsy, helpful; Set 3: slow, skillful, helpful; Set 4: slow, clumsy, helpful
+
+Q1: Does Set 1 resemble Set 3?
+  A) Yes
+  B) No
+
+Q2: Does Set 2 resemble Set 1?
+  A) Yes
+  B) No
+
+Q3: Does Set 2 resemble Set 4?
+  A) Yes
+  B) No
+
+Q4: Does Set 1 resemble Set 2?
+  A) Yes
+  B) No
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- Use this format for ALL questions: Q1=<A, B>, Q2=<A, B>, Q3=<A, B>, Q4=<A, B>
+- Expected lines: 4

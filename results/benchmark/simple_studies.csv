@@ -1,0 +1,735 @@
+config,study_id,title,pas_raw,ecs,total_tokens,total_cost
+anthropic_claude_haiku_4.5_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0022,-0.0434,433076,0.5955
+anthropic_claude_haiku_4.5_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.9395,0.1581,724265,1.1292
+anthropic_claude_haiku_4.5_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.0649,0.6750,443677,1.4588
+anthropic_claude_haiku_4.5_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.3939,0.0564,1022476,1.5251
+anthropic_claude_haiku_4.5_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0152,81291,0.2186
+anthropic_claude_haiku_4.5_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0735,0.2136,342350,0.4397
+anthropic_claude_haiku_4.5_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.1848,-0.6979,101075,0.1252
+anthropic_claude_haiku_4.5_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0021,,171657,0.4876
+anthropic_claude_haiku_4.5_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.9522,0.3550,1021518,2.1051
+anthropic_claude_haiku_4.5_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0011,-0.3098,139764,0.4189
+anthropic_claude_haiku_4.5_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.0034,0.0173,132465,0.3775
+anthropic_claude_haiku_4.5_v1-empty,study_012,Trust; Reciprocity; and Social History,0.0318,-0.3676,124203,0.4065
+anthropic_claude_haiku_4.5_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0020,0.4976,439236,0.6020
+anthropic_claude_haiku_4.5_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.7928,0.1343,727305,1.1320
+anthropic_claude_haiku_4.5_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.0649,0.6047,549659,1.9192
+anthropic_claude_haiku_4.5_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.4730,0.0561,1059606,1.6050
+anthropic_claude_haiku_4.5_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0570,93857,0.2713
+anthropic_claude_haiku_4.5_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0834,0.1632,351989,0.4489
+anthropic_claude_haiku_4.5_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.0634,-0.3527,113156,0.1814
+anthropic_claude_haiku_4.5_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0086,-0.0221,201824,0.6147
+anthropic_claude_haiku_4.5_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9599,0.3368,1040563,2.1371
+anthropic_claude_haiku_4.5_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0005,-0.5468,143032,0.4256
+anthropic_claude_haiku_4.5_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.0162,-0.0694,138063,0.3942
+anthropic_claude_haiku_4.5_v2-human,study_012,Trust; Reciprocity; and Social History,0.0565,-0.1556,130083,0.4311
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0099,-0.2102,466844,0.6289
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.8829,0.2141,742487,1.1470
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.0273,0.5064,290698,0.3327
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.6187,0.0564,1180867,1.6682
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0093,62100,0.0690
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0740,0.1945,395868,0.4892
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.1759,-0.4297,103260,0.1149
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0039,0.1282,144603,0.2295
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9647,0.1805,799548,1.4514
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.2550,85448,0.0970
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.2349,0.1623,98704,0.1475
+anthropic_claude_haiku_4.5_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.0917,-0.3015,79595,0.0945
+anthropic_claude_haiku_4.5_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0229,-0.0320,1101234,1.4237
+anthropic_claude_haiku_4.5_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.9192,0.2386,782730,1.1870
+anthropic_claude_haiku_4.5_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.0070,0.7270,507638,0.5806
+anthropic_claude_haiku_4.5_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.3224,0.0556,1512544,1.9935
+anthropic_claude_haiku_4.5_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0086,94143,0.1028
+anthropic_claude_haiku_4.5_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0934,0.1951,527465,0.6188
+anthropic_claude_haiku_4.5_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0046,-0.3865,125233,0.1753
+anthropic_claude_haiku_4.5_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.9536,0.3772,236216,0.3748
+anthropic_claude_haiku_4.5_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9621,0.1985,829149,1.5096
+anthropic_claude_haiku_4.5_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.3033,119663,0.1355
+anthropic_claude_haiku_4.5_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0019,-0.0556,134078,0.1801
+anthropic_claude_haiku_4.5_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+deepseek_deepseek_chat_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,,,0,0.0000
+deepseek_deepseek_v3.2_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0545,0.1733,413399,0.1021
+deepseek_deepseek_v3.2_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.3458,-0.1180,663096,0.1678
+deepseek_deepseek_v3.2_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.9909,0.2188,184111,0.0482
+deepseek_deepseek_v3.2_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.0035,0.1305,902790,0.2039
+deepseek_deepseek_v3.2_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0244,44884,0.0120
+deepseek_deepseek_v3.2_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0914,0.0896,315983,0.0774
+deepseek_deepseek_v3.2_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.0033,0.0840,91192,0.0243
+deepseek_deepseek_v3.2_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0048,0.3559,98929,0.0275
+deepseek_deepseek_v3.2_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.9493,0.4333,328309,0.0803
+deepseek_deepseek_v3.2_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0009,-0.5750,85881,0.0227
+deepseek_deepseek_v3.2_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.0018,-0.2513,69872,0.0187
+deepseek_deepseek_v3.2_v1-empty,study_012,Trust; Reciprocity; and Social History,0.0731,-0.0110,55478,0.0153
+deepseek_deepseek_v3.2_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0818,-0.1305,406021,0.0949
+deepseek_deepseek_v3.2_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.8675,-0.0482,666127,0.1694
+deepseek_deepseek_v3.2_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.9913,0.2738,194747,0.0501
+deepseek_deepseek_v3.2_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.0062,0.1308,922193,0.2079
+deepseek_deepseek_v3.2_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0170,47033,0.0124
+deepseek_deepseek_v3.2_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0632,0.0647,318218,0.0774
+deepseek_deepseek_v3.2_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.0091,-0.2968,92097,0.0244
+deepseek_deepseek_v3.2_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0075,0.0111,97659,0.0253
+deepseek_deepseek_v3.2_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9409,0.4828,363930,0.0909
+deepseek_deepseek_v3.2_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0023,-0.4926,70306,0.0163
+deepseek_deepseek_v3.2_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.0312,-0.2496,70643,0.0185
+deepseek_deepseek_v3.2_v2-human,study_012,Trust; Reciprocity; and Social History,0.0393,0.3864,53753,0.0141
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.1761,0.1579,545746,0.1736
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.0332,0.2043,673295,0.1909
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.9885,0.1368,264123,0.0702
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.0189,0.0841,1048751,0.2943
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0249,57434,0.0155
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0674,0.0727,358175,0.0964
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.0136,-0.2130,96124,0.0257
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.2550,0.1905,120564,0.0327
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9558,0.3276,357891,0.0912
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0023,-0.4105,78183,0.0207
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.0010,-0.2581,82596,0.0220
+deepseek_deepseek_v3.2_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.0539,0.3015,70578,0.0189
+deepseek_deepseek_v3.2_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.1406,0.1250,1251824,0.3941
+deepseek_deepseek_v3.2_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.3042,0.0227,1719160,0.5570
+deepseek_deepseek_v3.2_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.9420,0.1557,521391,0.1505
+deepseek_deepseek_v3.2_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.0365,0.0802,4012366,1.3355
+deepseek_deepseek_v3.2_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0283,99616,0.0288
+deepseek_deepseek_v3.2_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0447,0.0849,600383,0.1847
+deepseek_deepseek_v3.2_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0037,-0.3466,123714,0.0371
+deepseek_deepseek_v3.2_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.6624,0.5898,244388,0.0752
+deepseek_deepseek_v3.2_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9706,0.3516,856274,0.2203
+deepseek_deepseek_v3.2_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.3965,108372,0.0291
+deepseek_deepseek_v3.2_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0009,-0.2218,116106,0.0312
+deepseek_deepseek_v3.2_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+google_gemini_3_flash_preview_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0015,,431945,0.3426
+google_gemini_3_flash_preview_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.3280,-0.0265,739795,0.5944
+google_gemini_3_flash_preview_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.9998,0.1281,186995,0.1192
+google_gemini_3_flash_preview_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.1247,0.0407,969830,0.8094
+google_gemini_3_flash_preview_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0037,44939,0.0255
+google_gemini_3_flash_preview_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0733,0.0317,316956,0.2146
+google_gemini_3_flash_preview_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.1243,,97625,0.0513
+google_gemini_3_flash_preview_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0340,0.9224,111034,0.1196
+google_gemini_3_flash_preview_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.9705,0.4231,585241,0.5442
+google_gemini_3_flash_preview_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.4086,0.0868,70941,0.0469
+google_gemini_3_flash_preview_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.2837,0.0000,67419,0.0374
+google_gemini_3_flash_preview_v1-empty,study_012,Trust; Reciprocity; and Social History,0.0720,0.0474,55570,0.0305
+google_gemini_3_flash_preview_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0032,,438054,0.3452
+google_gemini_3_flash_preview_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.0563,0.0102,742903,0.5892
+google_gemini_3_flash_preview_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.9998,0.0749,199514,0.1153
+google_gemini_3_flash_preview_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.2205,0.0448,996661,0.8214
+google_gemini_3_flash_preview_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0052,47458,0.0267
+google_gemini_3_flash_preview_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0667,0.0251,326830,0.2191
+google_gemini_3_flash_preview_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.3635,,98565,0.0518
+google_gemini_3_flash_preview_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0378,,98236,0.0672
+google_gemini_3_flash_preview_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9637,0.5223,503483,0.4176
+google_gemini_3_flash_preview_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.4086,0.0868,70688,0.0399
+google_gemini_3_flash_preview_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.2837,0.0000,70266,0.0388
+google_gemini_3_flash_preview_v2-human,study_012,Trust; Reciprocity; and Social History,0.0424,,58552,0.0319
+google_gemini_3_flash_preview_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0492,0.4403,465026,0.3591
+google_gemini_3_flash_preview_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.0962,0.0271,756985,0.6653
+google_gemini_3_flash_preview_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.9998,0.0105,272381,0.1512
+google_gemini_3_flash_preview_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.7974,-0.0267,1127679,0.8803
+google_gemini_3_flash_preview_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,,58434,0.0321
+google_gemini_3_flash_preview_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0377,0.0428,369502,0.2393
+google_gemini_3_flash_preview_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.3690,,102837,0.0539
+google_gemini_3_flash_preview_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.9894,0.6456,123070,0.0796
+google_gemini_3_flash_preview_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9058,0.2072,376107,0.1973
+google_gemini_3_flash_preview_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.4086,0.0868,81348,0.0452
+google_gemini_3_flash_preview_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.2837,0.0000,82978,0.0451
+google_gemini_3_flash_preview_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.0294,,75159,0.0399
+google_gemini_3_flash_preview_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.5985,0.3726,1085214,0.7951
+google_gemini_3_flash_preview_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.0974,0.0675,794683,0.6957
+google_gemini_3_flash_preview_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.9998,0.1617,936248,0.4963
+google_gemini_3_flash_preview_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.3343,0.0330,2886928,2.0944
+google_gemini_3_flash_preview_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,,176242,0.0937
+google_gemini_3_flash_preview_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0636,0.0742,982374,0.6001
+google_gemini_3_flash_preview_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0053,-0.7707,114075,0.0592
+google_gemini_3_flash_preview_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.9132,0.5577,194655,0.1145
+google_gemini_3_flash_preview_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9077,0.0240,387802,0.2033
+google_gemini_3_flash_preview_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.2613,111810,0.0603
+google_gemini_3_flash_preview_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.2837,0.0000,116408,0.0616
+google_gemini_3_flash_preview_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+mistralai_mistral_nemo_example-v4,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.6772,-0.0415,536219,0.0354
+mistralai_mistral_nemo_example-v4,study_002,Measures of Anchoring in Estimation Tasks,0.4245,-0.0448,771260,0.0568
+mistralai_mistral_nemo_example-v4,study_003,The Framing of Decisions and the Psychology of Choice,0.2977,0.7861,468475,0.0265
+mistralai_mistral_nemo_example-v4,study_004,Subjective Probability: A Judgment of Representativeness,0.4392,0.2144,1441804,0.0965
+mistralai_mistral_nemo_example-v4,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0376,86575,0.0048
+mistralai_mistral_nemo_example-v4,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0691,0.0424,487645,0.0288
+mistralai_mistral_nemo_example-v4,study_007,Social categorization and similarity in intergroup behaviour,0.0129,0.0782,112484,0.0060
+mistralai_mistral_nemo_example-v4,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.2360,0.0388,193007,0.0118
+mistralai_mistral_nemo_example-v4,study_009,Unraveling in Guessing Games: An Experimental Study,0.9351,0.1807,482627,0.0271
+mistralai_mistral_nemo_example-v4,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0001,-0.4846,110372,0.0068
+mistralai_mistral_nemo_example-v4,study_011,Fairness in Simple Bargaining Experiments,0.1655,-0.4609,116621,0.0068
+mistralai_mistral_nemo_example-v4,study_012,Trust; Reciprocity; and Social History,0.3326,-0.3435,106766,0.0057
+mistralai_mistral_nemo_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.9803,0.2568,1297919,0.1248
+mistralai_mistral_nemo_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.0242,0.0488,724762,0.0649
+mistralai_mistral_nemo_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.4559,0.7695,186290,0.0182
+mistralai_mistral_nemo_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.6160,0.2167,974477,0.1031
+mistralai_mistral_nemo_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9970,-0.3334,49751,0.0051
+mistralai_mistral_nemo_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0549,0.0137,321210,0.0276
+mistralai_mistral_nemo_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.0294,0.1727,96932,0.0075
+mistralai_mistral_nemo_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.6917,0.1475,97936,0.0065
+mistralai_mistral_nemo_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.9624,0.2125,336644,0.0201
+mistralai_mistral_nemo_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0000,-0.4893,68850,0.0047
+mistralai_mistral_nemo_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.0009,-0.0957,68770,0.0055
+mistralai_mistral_nemo_v1-empty,study_012,Trust; Reciprocity; and Social History,0.3120,-0.0793,53668,0.0035
+mistralai_mistral_nemo_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.9544,0.1355,1317857,0.1184
+mistralai_mistral_nemo_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.3752,-0.1064,723478,0.0577
+mistralai_mistral_nemo_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.8845,0.9225,202417,0.0200
+mistralai_mistral_nemo_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.4593,0.2521,1000266,0.1075
+mistralai_mistral_nemo_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9286,0.0056,53042,0.0048
+mistralai_mistral_nemo_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0302,0.0328,331341,0.0244
+mistralai_mistral_nemo_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.0133,-0.0937,97660,0.0072
+mistralai_mistral_nemo_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0647,-0.0099,101491,0.0066
+mistralai_mistral_nemo_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9528,0.1482,344228,0.0273
+mistralai_mistral_nemo_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0000,-0.4812,71054,0.0052
+mistralai_mistral_nemo_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.0094,-0.1303,71567,0.0045
+mistralai_mistral_nemo_v2-human,study_012,Trust; Reciprocity; and Social History,0.2619,-0.2688,56063,0.0036
+mistralai_mistral_nemo_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.9865,0.0733,1389594,0.1261
+mistralai_mistral_nemo_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.0565,-0.0972,734338,0.0639
+mistralai_mistral_nemo_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.7246,0.6437,272015,0.0375
+mistralai_mistral_nemo_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.6006,0.2076,1124457,0.1237
+mistralai_mistral_nemo_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9925,0.0392,57074,0.0049
+mistralai_mistral_nemo_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0936,0.0262,372059,0.0356
+mistralai_mistral_nemo_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.0167,-0.0762,101823,0.0064
+mistralai_mistral_nemo_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.4911,0.4442,123973,0.0078
+mistralai_mistral_nemo_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9436,0.0669,377837,0.0234
+mistralai_mistral_nemo_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0003,-0.5314,81088,0.0047
+mistralai_mistral_nemo_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.0999,0.0015,83690,0.0063
+mistralai_mistral_nemo_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.2719,0.7756,71777,0.0047
+mistralai_mistral_nemo_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.9077,0.2118,545517,0.0157
+mistralai_mistral_nemo_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.3203,-0.0397,1545848,0.0466
+mistralai_mistral_nemo_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.8945,0.1945,472172,0.0124
+mistralai_mistral_nemo_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.3264,0.2045,2887808,0.0850
+mistralai_mistral_nemo_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0871,87222,0.0021
+mistralai_mistral_nemo_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0328,0.0978,498738,0.0134
+mistralai_mistral_nemo_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0070,-0.2427,113399,0.0028
+mistralai_mistral_nemo_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.3279,0.4369,197628,0.0057
+mistralai_mistral_nemo_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9309,0.0898,394775,0.0105
+mistralai_mistral_nemo_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0006,-0.3082,112757,0.0028
+mistralai_mistral_nemo_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0636,-0.0902,117972,0.0033
+mistralai_mistral_nemo_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0043,0.1642,435172,0.0540
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.1205,0.0515,716612,0.0950
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.7738,0.3092,203867,0.0255
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.0227,0.1520,969066,0.1222
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.0012,0.0842,44418,0.0048
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0597,0.0693,323943,0.0371
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,96668,0.0098
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0003,0.3484,341683,0.0848
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.9485,0.4267,1062659,0.1617
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0007,-0.6236,143875,0.0296
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.8723,-0.0239,88186,0.0130
+mistralai_mistral_small_creative_temp0.1_v1-empty,study_012,Trust; Reciprocity; and Social History,0.3034,-0.3258,52912,0.0055
+mistralai_mistral_small_creative_temp0.1_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0020,0.0487,463761,0.0611
+mistralai_mistral_small_creative_temp0.1_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.0791,0.0764,719056,0.0950
+mistralai_mistral_small_creative_temp0.1_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.0003,-0.3137,256320,0.0373
+mistralai_mistral_small_creative_temp0.1_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.0093,0.1363,1002716,0.1261
+mistralai_mistral_small_creative_temp0.1_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.0015,0.1066,47865,0.0052
+mistralai_mistral_small_creative_temp0.1_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0843,0.0408,335237,0.0382
+mistralai_mistral_small_creative_temp0.1_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,97694,0.0099
+mistralai_mistral_small_creative_temp0.1_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0022,-0.2215,316173,0.0759
+mistralai_mistral_small_creative_temp0.1_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9394,0.3625,945334,0.1436
+mistralai_mistral_small_creative_temp0.1_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0005,-0.6197,145963,0.0297
+mistralai_mistral_small_creative_temp0.1_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.1413,0.0756,105516,0.0175
+mistralai_mistral_small_creative_temp0.1_v2-human,study_012,Trust; Reciprocity; and Social History,0.2187,,56256,0.0058
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0019,0.0188,463591,0.0559
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.1192,0.0610,733154,0.0964
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.7499,0.0341,275292,0.0288
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.0726,0.1444,1125163,0.1374
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9973,0.0235,57444,0.0060
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0481,0.0955,375222,0.0419
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,101819,0.0103
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.7106,0.5035,122717,0.0137
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9361,0.0731,375538,0.0380
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.3530,81196,0.0084
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.6302,-0.1052,83950,0.0087
+mistralai_mistral_small_creative_temp0.1_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.3189,-0.2484,72345,0.0074
+mistralai_mistral_small_creative_temp0.1_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.1274,-0.0822,542623,0.0637
+mistralai_mistral_small_creative_temp0.1_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.1064,0.0865,770594,0.1000
+mistralai_mistral_small_creative_temp0.1_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.6744,0.4202,471148,0.0482
+mistralai_mistral_small_creative_temp0.1_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.0632,0.1446,1437825,0.1683
+mistralai_mistral_small_creative_temp0.1_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9937,0.0805,87199,0.0089
+mistralai_mistral_small_creative_temp0.1_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0913,0.2196,499513,0.0543
+mistralai_mistral_small_creative_temp0.1_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0137,,113302,0.0114
+mistralai_mistral_small_creative_temp0.1_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.8666,0.4736,196081,0.0210
+mistralai_mistral_small_creative_temp0.1_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9454,0.1453,388180,0.0392
+mistralai_mistral_small_creative_temp0.1_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.3284,112467,0.0116
+mistralai_mistral_small_creative_temp0.1_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0268,-0.0169,117732,0.0120
+mistralai_mistral_small_creative_temp0.1_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0047,0.1666,433995,0.0536
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.1436,0.0790,716657,0.0950
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.7738,0.2491,205078,0.0259
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.0229,0.1351,1938826,0.2445
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.0279,0.1277,44342,0.0048
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0666,0.0671,323878,0.0371
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.0036,,96692,0.0098
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0002,0.2257,347345,0.0864
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.9464,0.3916,1085993,0.1668
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0004,-0.6603,149967,0.0314
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.8774,-0.1275,95884,0.0153
+mistralai_mistral_small_creative_temp0.3_v1-empty,study_012,Trust; Reciprocity; and Social History,0.3034,-0.3258,52912,0.0055
+mistralai_mistral_small_creative_temp0.3_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0029,0.0762,454319,0.0583
+mistralai_mistral_small_creative_temp0.3_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.0613,0.1042,718044,0.0948
+mistralai_mistral_small_creative_temp0.3_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.0065,-0.2576,254497,0.0368
+mistralai_mistral_small_creative_temp0.3_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.0093,0.1664,1001411,0.1257
+mistralai_mistral_small_creative_temp0.3_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.0019,0.0893,96312,0.0107
+mistralai_mistral_small_creative_temp0.3_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0908,0.0403,335241,0.0383
+mistralai_mistral_small_creative_temp0.3_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,97694,0.0099
+mistralai_mistral_small_creative_temp0.3_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0358,0.1599,310694,0.0743
+mistralai_mistral_small_creative_temp0.3_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9431,0.3085,922100,0.1394
+mistralai_mistral_small_creative_temp0.3_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0005,-0.6284,141406,0.0284
+mistralai_mistral_small_creative_temp0.3_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.2240,-0.0551,105883,0.0176
+mistralai_mistral_small_creative_temp0.3_v2-human,study_012,Trust; Reciprocity; and Social History,0.2174,,56254,0.0058
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0019,0.0001,463605,0.0560
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.1186,0.0600,731761,0.0961
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.3105,0.0287,275220,0.0288
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.0767,0.1446,1125154,0.1374
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9982,0.0227,57454,0.0060
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0527,0.0788,375087,0.0419
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,101819,0.0103
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0355,0.5090,122714,0.0137
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9373,-0.0378,375575,0.0380
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.2550,81197,0.0084
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.7716,-0.0969,83950,0.0087
+mistralai_mistral_small_creative_temp0.3_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.2780,-0.0608,72346,0.0074
+mistralai_mistral_small_creative_temp0.3_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0112,-0.0325,542627,0.0637
+mistralai_mistral_small_creative_temp0.3_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.1163,0.0770,770696,0.1000
+mistralai_mistral_small_creative_temp0.3_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.5481,0.4156,471148,0.0482
+mistralai_mistral_small_creative_temp0.3_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.0573,0.1576,1437939,0.1683
+mistralai_mistral_small_creative_temp0.3_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9937,0.0677,87185,0.0089
+mistralai_mistral_small_creative_temp0.3_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0992,0.2342,499520,0.0543
+mistralai_mistral_small_creative_temp0.3_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0046,,113302,0.0114
+mistralai_mistral_small_creative_temp0.3_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.8699,0.4720,196036,0.0210
+mistralai_mistral_small_creative_temp0.3_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9538,0.0740,388158,0.0392
+mistralai_mistral_small_creative_temp0.3_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.3530,112472,0.0116
+mistralai_mistral_small_creative_temp0.3_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0477,-0.0521,117732,0.0120
+mistralai_mistral_small_creative_temp0.3_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0032,0.0765,434448,0.0538
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.1266,0.1192,716931,0.0951
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.7738,0.2600,204221,0.0256
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.0195,0.1572,969126,0.1222
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.0011,0.0541,44490,0.0048
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0724,0.0608,323889,0.0371
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.0061,,96656,0.0098
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0001,0.2342,338839,0.0839
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.9509,0.4046,1146290,0.1763
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0005,-0.6441,145492,0.0301
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.8832,-0.0326,93677,0.0146
+mistralai_mistral_small_creative_temp0.5_v1-empty,study_012,Trust; Reciprocity; and Social History,0.3034,-0.3258,52910,0.0055
+mistralai_mistral_small_creative_temp0.5_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0019,0.0462,458607,0.0596
+mistralai_mistral_small_creative_temp0.5_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.0685,0.1534,719447,0.0951
+mistralai_mistral_small_creative_temp0.5_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.0042,-0.1580,255275,0.0370
+mistralai_mistral_small_creative_temp0.5_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.0111,0.1574,1002600,0.1261
+mistralai_mistral_small_creative_temp0.5_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.0019,0.0926,47898,0.0053
+mistralai_mistral_small_creative_temp0.5_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0766,0.0399,335046,0.0382
+mistralai_mistral_small_creative_temp0.5_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,97694,0.0099
+mistralai_mistral_small_creative_temp0.5_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0048,0.1167,312922,0.0749
+mistralai_mistral_small_creative_temp0.5_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9369,0.5224,944399,0.1437
+mistralai_mistral_small_creative_temp0.5_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0007,-0.5769,141493,0.0284
+mistralai_mistral_small_creative_temp0.5_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.0385,-0.0631,104978,0.0173
+mistralai_mistral_small_creative_temp0.5_v2-human,study_012,Trust; Reciprocity; and Social History,0.2189,,56258,0.0058
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0020,0.0063,463605,0.0560
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.1176,0.0555,733194,0.0964
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.7024,0.0288,275212,0.0288
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.0868,0.1445,1125094,0.1373
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9979,0.0207,57464,0.0060
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0589,0.0916,375274,0.0419
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,101819,0.0103
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.7605,0.4875,122717,0.0137
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9497,-0.0301,375761,0.0380
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.3530,81196,0.0084
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.7502,-0.0980,83950,0.0087
+mistralai_mistral_small_creative_temp0.5_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.3034,-0.3258,72340,0.0074
+mistralai_mistral_small_creative_temp0.5_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0716,-0.0502,542625,0.0637
+mistralai_mistral_small_creative_temp0.5_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.1106,0.0868,770510,0.1000
+mistralai_mistral_small_creative_temp0.5_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.6744,0.4091,471148,0.0482
+mistralai_mistral_small_creative_temp0.5_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.0767,0.1445,1437776,0.1683
+mistralai_mistral_small_creative_temp0.5_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9937,0.0610,87195,0.0089
+mistralai_mistral_small_creative_temp0.5_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0781,0.2332,499717,0.0544
+mistralai_mistral_small_creative_temp0.5_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0061,,113302,0.0114
+mistralai_mistral_small_creative_temp0.5_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.8422,0.4858,195978,0.0210
+mistralai_mistral_small_creative_temp0.5_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9489,0.1437,388032,0.0392
+mistralai_mistral_small_creative_temp0.5_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.2900,112471,0.0116
+mistralai_mistral_small_creative_temp0.5_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0191,-0.0145,117732,0.0120
+mistralai_mistral_small_creative_temp0.5_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0041,0.0005,437425,0.0547
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.1488,0.1330,1433796,0.1901
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.7738,0.2794,205217,0.0259
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.0228,0.1525,968973,0.1221
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.0009,0.1046,44410,0.0048
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0640,0.0715,323909,0.0371
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.0053,,96668,0.0098
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0002,0.2970,345448,0.0859
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.9539,0.4760,1085464,0.1667
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0008,-0.6043,145020,0.0300
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.8333,0.0047,92578,0.0143
+mistralai_mistral_small_creative_temp0.7_v1-empty,study_012,Trust; Reciprocity; and Social History,0.3034,-0.3258,52912,0.0055
+mistralai_mistral_small_creative_temp0.7_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0020,0.0548,458333,0.0595
+mistralai_mistral_small_creative_temp0.7_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.0565,0.0485,1438206,0.1901
+mistralai_mistral_small_creative_temp0.7_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.0027,-0.1661,255293,0.0370
+mistralai_mistral_small_creative_temp0.7_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.0079,0.1503,1002211,0.1260
+mistralai_mistral_small_creative_temp0.7_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.0332,0.0548,47944,0.0053
+mistralai_mistral_small_creative_temp0.7_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1055,0.0437,335160,0.0382
+mistralai_mistral_small_creative_temp0.7_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,97694,0.0099
+mistralai_mistral_small_creative_temp0.7_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0109,-0.0198,313538,0.0751
+mistralai_mistral_small_creative_temp0.7_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9504,0.3305,969159,0.1488
+mistralai_mistral_small_creative_temp0.7_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0009,-0.5941,144744,0.0293
+mistralai_mistral_small_creative_temp0.7_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.0418,0.1514,103482,0.0169
+mistralai_mistral_small_creative_temp0.7_v2-human,study_012,Trust; Reciprocity; and Social History,0.2806,-0.0577,56253,0.0058
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0020,-0.0156,463607,0.0560
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.1157,0.0243,732186,0.0962
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.2768,0.0232,275249,0.0288
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.1499,0.1440,1125124,0.1373
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9993,0.0216,57437,0.0060
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0576,0.0987,375229,0.0419
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,101819,0.0103
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0345,0.3199,122726,0.0137
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9419,0.0413,375605,0.0380
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0026,-0.2365,162410,0.0169
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.7728,-0.0765,83950,0.0087
+mistralai_mistral_small_creative_temp0.7_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.3034,-0.3258,72350,0.0074
+mistralai_mistral_small_creative_temp0.7_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0818,-0.0919,542602,0.0637
+mistralai_mistral_small_creative_temp0.7_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.1090,0.0991,770750,0.1000
+mistralai_mistral_small_creative_temp0.7_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.4712,0.4329,471151,0.0482
+mistralai_mistral_small_creative_temp0.7_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.0690,0.1527,1437970,0.1683
+mistralai_mistral_small_creative_temp0.7_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9971,0.0537,87186,0.0089
+mistralai_mistral_small_creative_temp0.7_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0828,0.2159,499691,0.0544
+mistralai_mistral_small_creative_temp0.7_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0083,,113302,0.0114
+mistralai_mistral_small_creative_temp0.7_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.8971,0.4816,196128,0.0210
+mistralai_mistral_small_creative_temp0.7_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9575,0.1265,387913,0.0392
+mistralai_mistral_small_creative_temp0.7_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.3530,112451,0.0116
+mistralai_mistral_small_creative_temp0.7_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0239,-0.0354,117732,0.0120
+mistralai_mistral_small_creative_temp0.7_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+mistralai_mistral_small_creative_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0044,0.0607,432272,0.0530
+mistralai_mistral_small_creative_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.1170,0.1957,717131,0.0951
+mistralai_mistral_small_creative_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.7616,0.2271,612265,0.0767
+mistralai_mistral_small_creative_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.0229,0.1605,969092,0.1222
+mistralai_mistral_small_creative_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.0009,0.0883,44440,0.0048
+mistralai_mistral_small_creative_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0644,0.0705,323949,0.0371
+mistralai_mistral_small_creative_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.0041,,96656,0.0098
+mistralai_mistral_small_creative_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0004,0.2281,338134,0.0837
+mistralai_mistral_small_creative_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.9421,0.5392,1085323,0.1666
+mistralai_mistral_small_creative_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0009,-0.5914,146322,0.0304
+mistralai_mistral_small_creative_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.8892,-0.1629,87053,0.0126
+mistralai_mistral_small_creative_v1-empty,study_012,Trust; Reciprocity; and Social History,0.3034,-0.3258,52912,0.0055
+mistralai_mistral_small_creative_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0032,0.1763,458030,0.0593
+mistralai_mistral_small_creative_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.0942,0.0501,719323,0.0951
+mistralai_mistral_small_creative_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.0005,-0.2620,255476,0.0371
+mistralai_mistral_small_creative_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.0009,0.1364,1001160,0.1257
+mistralai_mistral_small_creative_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.0869,0.0655,48143,0.0053
+mistralai_mistral_small_creative_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0646,0.0362,335253,0.0382
+mistralai_mistral_small_creative_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,97694,0.0099
+mistralai_mistral_small_creative_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0003,,313005,0.0749
+mistralai_mistral_small_creative_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9438,0.3271,950523,0.1447
+mistralai_mistral_small_creative_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0009,-0.5979,144718,0.0293
+mistralai_mistral_small_creative_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.0851,0.0553,103222,0.0168
+mistralai_mistral_small_creative_v2-human,study_012,Trust; Reciprocity; and Social History,0.2367,-0.0182,56253,0.0058
+mistralai_mistral_small_creative_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0019,0.0046,464153,0.0560
+mistralai_mistral_small_creative_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.1195,0.0281,732927,0.0963
+mistralai_mistral_small_creative_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.7171,0.0245,275231,0.0288
+mistralai_mistral_small_creative_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.0767,0.1486,1125118,0.1373
+mistralai_mistral_small_creative_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9984,0.0217,57437,0.0060
+mistralai_mistral_small_creative_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0402,0.1106,375169,0.0419
+mistralai_mistral_small_creative_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,101819,0.0103
+mistralai_mistral_small_creative_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.7534,0.5447,122648,0.0137
+mistralai_mistral_small_creative_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9110,-0.0582,375560,0.0380
+mistralai_mistral_small_creative_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.3284,81198,0.0085
+mistralai_mistral_small_creative_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.7928,-0.0334,83950,0.0087
+mistralai_mistral_small_creative_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.3034,-0.3258,72346,0.0074
+mistralai_mistral_small_creative_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0885,-0.0399,542608,0.0637
+mistralai_mistral_small_creative_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.1038,0.0224,769879,0.0999
+mistralai_mistral_small_creative_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.7818,0.4137,1413415,0.1445
+mistralai_mistral_small_creative_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.0659,0.1527,1437664,0.1682
+mistralai_mistral_small_creative_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9937,0.0494,87198,0.0089
+mistralai_mistral_small_creative_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0841,0.2353,499795,0.0544
+mistralai_mistral_small_creative_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0036,,113302,0.0114
+mistralai_mistral_small_creative_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.8154,0.4771,195979,0.0210
+mistralai_mistral_small_creative_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9563,0.1223,388104,0.0392
+mistralai_mistral_small_creative_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.3284,112431,0.0116
+mistralai_mistral_small_creative_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0420,-0.0141,117732,0.0120
+mistralai_mistral_small_creative_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+mixed_models_v1,study_001,Mixed Models Benchmark - study_001,0.1205,0.1584,518434,0.1863
+mixed_models_v1,study_002,Mixed Models Benchmark - study_002,0.0216,,859821,0.3752
+mixed_models_v1,study_003,Mixed Models Benchmark - study_003,0.0001,,425531,0.2792
+mixed_models_v1,study_004,Mixed Models Benchmark - study_004,0.0030,,2296125,0.9051
+mixed_models_v1,study_005,Mixed Models Benchmark - study_005,0.9984,0.1076,82190,0.0457
+mixed_models_v1,study_006,Mixed Models Benchmark - study_006,0.1555,,477384,0.1591
+mixed_models_v1,study_007,Mixed Models Benchmark - study_007,0.1346,,125600,0.0360
+mixed_models_v1,study_008,Mixed Models Benchmark - study_008,0.0343,,231864,0.1118
+mixed_models_v1,study_009,Mixed Models Benchmark - study_009,0.7217,0.4905,937304,0.5293
+mixed_models_v1,study_010,Mixed Models Benchmark - study_010,0.2500,,107798,0.0648
+mixed_models_v1,study_011,Mixed Models Benchmark - study_011,0.3349,,116290,0.0689
+mixed_models_v1,study_012,Mixed Models Benchmark - study_012,0.3581,-0.0579,63670,0.0362
+mixed_models_v2,study_001,Mixed Models Benchmark - study_001,0.0265,,594523,0.2246
+mixed_models_v2,study_002,Mixed Models Benchmark - study_002,0.0216,,961811,0.4026
+mixed_models_v2,study_003,Mixed Models Benchmark - study_003,0.0001,,445520,0.3114
+mixed_models_v2,study_004,Mixed Models Benchmark - study_004,0.0030,,1331991,0.5053
+mixed_models_v2,study_005,Mixed Models Benchmark - study_005,0.9984,0.0823,93603,0.0649
+mixed_models_v2,study_006,Mixed Models Benchmark - study_006,0.1555,,401287,0.1443
+mixed_models_v2,study_007,Mixed Models Benchmark - study_007,0.1346,,118923,0.0548
+mixed_models_v2,study_008,Mixed Models Benchmark - study_008,0.0343,,207847,0.1114
+mixed_models_v2,study_009,Mixed Models Benchmark - study_009,0.7376,0.5525,841936,0.4005
+mixed_models_v2,study_010,Mixed Models Benchmark - study_010,0.2500,,131876,0.0667
+mixed_models_v2,study_011,Mixed Models Benchmark - study_011,0.3349,,126040,0.0690
+mixed_models_v2,study_012,Mixed Models Benchmark - study_012,0.3589,0.5547,64473,0.0481
+mixed_models_v3,study_001,Mixed Models Benchmark - study_001,0.0265,,624911,0.2374
+mixed_models_v3,study_002,Mixed Models Benchmark - study_002,0.0216,,948211,0.3949
+mixed_models_v3,study_003,Mixed Models Benchmark - study_003,0.0001,,447986,0.1475
+mixed_models_v3,study_004,Mixed Models Benchmark - study_004,0.0030,,1373980,0.5057
+mixed_models_v3,study_005,Mixed Models Benchmark - study_005,0.9984,0.0894,82684,0.0237
+mixed_models_v3,study_006,Mixed Models Benchmark - study_006,0.1555,,524189,0.1770
+mixed_models_v3,study_007,Mixed Models Benchmark - study_007,0.1346,,122852,0.0314
+mixed_models_v3,study_008,Mixed Models Benchmark - study_008,0.0343,,184286,0.0682
+mixed_models_v3,study_009,Mixed Models Benchmark - study_009,0.7046,0.4928,716597,0.3039
+mixed_models_v3,study_010,Mixed Models Benchmark - study_010,0.2500,,94750,0.0247
+mixed_models_v3,study_011,Mixed Models Benchmark - study_011,0.3349,,113466,0.0389
+mixed_models_v3,study_012,Mixed Models Benchmark - study_012,0.4386,0.5233,57744,0.0200
+mixed_models_v4,study_001,Mixed Models Benchmark - study_001,0.0265,,605519,0.1687
+mixed_models_v4,study_002,Mixed Models Benchmark - study_002,0.0216,,844575,0.2988
+mixed_models_v4,study_003,Mixed Models Benchmark - study_003,0.0001,,541019,0.1398
+mixed_models_v4,study_004,Mixed Models Benchmark - study_004,0.0030,,1841984,0.5700
+mixed_models_v4,study_005,Mixed Models Benchmark - study_005,0.9984,0.0653,99931,0.0229
+mixed_models_v4,study_006,Mixed Models Benchmark - study_006,0.1555,,570023,0.1628
+mixed_models_v4,study_007,Mixed Models Benchmark - study_007,0.1346,,123335,0.0337
+mixed_models_v4,study_008,Mixed Models Benchmark - study_008,0.0343,,231102,0.0772
+mixed_models_v4,study_009,Mixed Models Benchmark - study_009,0.7383,0.4443,496786,0.2223
+mixed_models_v4,study_010,Mixed Models Benchmark - study_010,0.2500,,124053,0.0356
+mixed_models_v4,study_011,Mixed Models Benchmark - study_011,0.3349,,125600,0.0332
+mixed_models_v4,study_012,Mixed Models Benchmark - study_012,0.4509,-0.1747,0,0.0000
+openai_gpt_5_nano_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.1229,-0.0184,1431175,0.4412
+openai_gpt_5_nano_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.7973,0.1220,1838897,0.5145
+openai_gpt_5_nano_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.3997,0.3121,1446132,0.5117
+openai_gpt_5_nano_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.0090,0.2034,9633390,3.5479
+openai_gpt_5_nano_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0940,282106,0.0967
+openai_gpt_5_nano_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1892,0.0690,1133668,0.3487
+openai_gpt_5_nano_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.0484,-0.7028,240840,0.0635
+openai_gpt_5_nano_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0032,-0.1084,718564,0.2546
+openai_gpt_5_nano_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.8364,0.6949,2111888,0.5141
+openai_gpt_5_nano_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.1986,0.0691,67626,0.0043
+openai_gpt_5_nano_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.3180,-0.2232,330295,0.1076
+openai_gpt_5_nano_v1-empty,study_012,Trust; Reciprocity; and Social History,0.3494,0.2678,283770,0.0997
+openai_gpt_5_nano_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.2298,-0.2818,1448154,0.4459
+openai_gpt_5_nano_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.6986,0.1578,1836135,0.5124
+openai_gpt_5_nano_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.1119,0.3105,1429228,0.4994
+openai_gpt_5_nano_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.8619,0.1565,1861768,0.1845
+openai_gpt_5_nano_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.1266,275783,0.0933
+openai_gpt_5_nano_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0186,0.1068,643902,0.0478
+openai_gpt_5_nano_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.3992,-0.6795,230657,0.0587
+openai_gpt_5_nano_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0640,0.0435,541621,0.1829
+openai_gpt_5_nano_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.8021,0.7566,2140213,0.5241
+openai_gpt_5_nano_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0234,-0.1564,352210,0.1162
+openai_gpt_5_nano_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.0250,-0.0873,293952,0.0922
+openai_gpt_5_nano_v2-human,study_012,Trust; Reciprocity; and Social History,0.2910,-0.3602,346492,0.1223
+openai_gpt_5_nano_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.5829,-0.2820,1343240,0.3984
+openai_gpt_5_nano_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.5449,0.0682,1821671,0.5191
+openai_gpt_5_nano_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.3997,0.3427,1228311,0.3969
+openai_gpt_5_nano_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.2812,0.0100,1049766,0.0977
+openai_gpt_5_nano_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.1074,216408,0.0664
+openai_gpt_5_nano_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1922,0.0732,1102430,0.3194
+openai_gpt_5_nano_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.3497,-0.6447,225649,0.0567
+openai_gpt_5_nano_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0582,0.1662,469872,0.1467
+openai_gpt_5_nano_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.8251,0.7185,1859678,0.4197
+openai_gpt_5_nano_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.2435,0.0953,79600,0.0049
+openai_gpt_5_nano_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.0315,-0.0596,292383,0.0876
+openai_gpt_5_nano_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.3019,-0.2543,299184,0.1000
+openai_gpt_5_nano_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.1426,-0.5097,1002350,0.0786
+openai_gpt_5_nano_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.9856,0.2463,712712,0.0694
+openai_gpt_5_nano_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.6036,0.2215,464017,0.0278
+openai_gpt_5_nano_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.8108,0.1085,1355108,0.1132
+openai_gpt_5_nano_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.1298,87308,0.0052
+openai_gpt_5_nano_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0334,0.1205,480365,0.0317
+openai_gpt_5_nano_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0034,,107001,0.0058
+openai_gpt_5_nano_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.1806,-0.1960,388458,0.0262
+openai_gpt_5_nano_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9470,0.6423,373712,0.0208
+openai_gpt_5_nano_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.3531,-0.0408,109603,0.0064
+openai_gpt_5_nano_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0697,0.0006,116629,0.0067
+openai_gpt_5_nano_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+openai_gpt_oss_120b_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.5469,0.2098,598599,0.1284
+openai_gpt_oss_120b_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.2546,-0.1948,1039424,0.3002
+openai_gpt_oss_120b_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.2186,0.0395,421805,0.1175
+openai_gpt_oss_120b_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.0199,0.1011,2053196,0.7244
+openai_gpt_oss_120b_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0418,88109,0.0195
+openai_gpt_oss_120b_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1673,0.0646,573282,0.1671
+openai_gpt_oss_120b_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.1667,-0.7426,127515,0.0296
+openai_gpt_oss_120b_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0293,0.2674,202859,0.0290
+openai_gpt_oss_120b_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.8635,0.6251,625593,0.0985
+openai_gpt_oss_120b_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0072,-0.4255,105972,0.0232
+openai_gpt_oss_120b_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.0292,-0.1593,108260,0.0228
+openai_gpt_oss_120b_v1-empty,study_012,Trust; Reciprocity; and Social History,0.1210,0.0095,105114,0.0337
+openai_gpt_oss_120b_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.6808,0.2998,595737,0.1314
+openai_gpt_oss_120b_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.3329,-0.0599,1014445,0.3066
+openai_gpt_oss_120b_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.5212,0.2448,422463,0.1051
+openai_gpt_oss_120b_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.0262,0.0577,2068336,0.7108
+openai_gpt_oss_120b_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0384,91007,0.0201
+openai_gpt_oss_120b_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1548,0.0572,579772,0.1645
+openai_gpt_oss_120b_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.1607,-0.7469,132188,0.0323
+openai_gpt_oss_120b_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.1170,0.2685,206686,0.0283
+openai_gpt_oss_120b_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.8516,0.5211,690084,0.1075
+openai_gpt_oss_120b_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0011,-0.3922,103875,0.0208
+openai_gpt_oss_120b_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.0072,-0.0500,112423,0.0241
+openai_gpt_oss_120b_v2-human,study_012,Trust; Reciprocity; and Social History,0.1376,-0.0179,113759,0.0347
+openai_gpt_oss_120b_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.4613,0.1784,646979,0.1614
+openai_gpt_oss_120b_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.2414,-0.1543,1028708,0.3325
+openai_gpt_oss_120b_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.8520,0.2489,487795,0.1171
+openai_gpt_oss_120b_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.0193,0.0734,2060836,0.7159
+openai_gpt_oss_120b_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0364,95734,0.0243
+openai_gpt_oss_120b_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1211,0.0639,594024,0.1636
+openai_gpt_oss_120b_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.4938,-0.5735,133873,0.0349
+openai_gpt_oss_120b_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0533,0.4457,211961,0.0253
+openai_gpt_oss_120b_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9022,0.6081,612532,0.0894
+openai_gpt_oss_120b_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0016,-0.4677,112834,0.0230
+openai_gpt_oss_120b_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.1302,0.3222,117742,0.0239
+openai_gpt_oss_120b_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.1914,-0.1132,118277,0.0295
+openai_gpt_oss_120b_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.3437,-0.1325,781492,0.0982
+openai_gpt_oss_120b_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.2820,-0.0114,1085048,0.1451
+openai_gpt_oss_120b_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.9438,0.3014,1418118,0.1481
+openai_gpt_oss_120b_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.0242,0.0622,2548756,0.3679
+openai_gpt_oss_120b_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0398,124626,0.0121
+openai_gpt_oss_120b_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1347,0.1018,731283,0.0827
+openai_gpt_oss_120b_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0079,-0.5441,158467,0.0176
+openai_gpt_oss_120b_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0383,0.3866,307242,0.0350
+openai_gpt_oss_120b_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.8447,0.4454,692640,0.0577
+openai_gpt_oss_120b_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.3631,150613,0.0141
+openai_gpt_oss_120b_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0496,-0.0228,151624,0.0126
+openai_gpt_oss_120b_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+openai_gpt_oss_20b_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.5413,0.1784,657363,0.0851
+openai_gpt_oss_20b_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.7439,0.2658,1094321,0.1531
+openai_gpt_oss_20b_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.8865,0.6292,544068,0.0971
+openai_gpt_oss_20b_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.1963,0.1705,3106432,0.6964
+openai_gpt_oss_20b_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0693,94154,0.0129
+openai_gpt_oss_20b_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1372,0.1065,632110,0.0910
+openai_gpt_oss_20b_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.1307,-0.8176,143177,0.0203
+openai_gpt_oss_20b_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.2759,0.0288,282066,0.0315
+openai_gpt_oss_20b_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.8324,0.3872,1404556,0.1498
+openai_gpt_oss_20b_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0012,-0.1780,182616,0.0312
+openai_gpt_oss_20b_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.0694,-0.3107,132327,0.0170
+openai_gpt_oss_20b_v1-empty,study_012,Trust; Reciprocity; and Social History,0.2176,-0.1880,177540,0.0304
+openai_gpt_oss_20b_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.2786,0.1273,679684,0.0977
+openai_gpt_oss_20b_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.2796,0.0336,1094263,0.1649
+openai_gpt_oss_20b_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.6765,0.4405,579888,0.1052
+openai_gpt_oss_20b_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.3208,0.1722,2841381,0.6035
+openai_gpt_oss_20b_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0699,96429,0.0120
+openai_gpt_oss_20b_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1456,0.1138,644859,0.0975
+openai_gpt_oss_20b_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.0586,-0.7472,145346,0.0210
+openai_gpt_oss_20b_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.1077,0.0247,270533,0.0512
+openai_gpt_oss_20b_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9266,0.5558,1287097,0.1406
+openai_gpt_oss_20b_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0011,-0.3098,170812,0.0270
+openai_gpt_oss_20b_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.0136,-0.2019,136860,0.0175
+openai_gpt_oss_20b_v2-human,study_012,Trust; Reciprocity; and Social History,0.1468,-0.2361,170109,0.0317
+openai_gpt_oss_20b_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.2077,-0.1745,713880,0.1043
+openai_gpt_oss_20b_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.4344,0.0057,1067902,0.1676
+openai_gpt_oss_20b_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.8717,0.5822,577308,0.0895
+openai_gpt_oss_20b_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.3831,0.1766,2642160,0.4713
+openai_gpt_oss_20b_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0714,99013,0.0131
+openai_gpt_oss_20b_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1588,0.1147,636633,0.0954
+openai_gpt_oss_20b_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.6610,-0.8301,153265,0.0186
+openai_gpt_oss_20b_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0138,0.1459,273141,0.0457
+openai_gpt_oss_20b_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9400,0.5921,956489,0.1019
+openai_gpt_oss_20b_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0368,-0.1773,163828,0.0233
+openai_gpt_oss_20b_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.0607,-0.1593,133864,0.0147
+openai_gpt_oss_20b_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.2527,-0.0797,143995,0.0224
+openai_gpt_oss_20b_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.4766,0.1233,838712,0.0776
+openai_gpt_oss_20b_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.4805,0.2408,1093714,0.1063
+openai_gpt_oss_20b_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.5846,0.5282,759747,0.0605
+openai_gpt_oss_20b_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.4589,0.1941,6273768,0.7250
+openai_gpt_oss_20b_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0916,127414,0.0096
+openai_gpt_oss_20b_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1372,0.1148,762053,0.0679
+openai_gpt_oss_20b_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0348,-0.7167,172015,0.0170
+openai_gpt_oss_20b_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0923,0.3573,350555,0.0328
+openai_gpt_oss_20b_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9509,0.4005,881331,0.0869
+openai_gpt_oss_20b_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0013,-0.2240,206988,0.0303
+openai_gpt_oss_20b_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0601,-0.1265,162647,0.0182
+openai_gpt_oss_20b_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.5453,0.0384,425602,0.1085
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.0562,-0.1413,711679,0.2179
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.6047,0.3924,195347,0.0325
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.0188,0.0824,967163,0.2700
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,,45723,0.0076
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1810,0.1385,316331,0.0627
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,96116,0.0130
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0774,-0.3513,95788,0.0209
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.8839,0.0502,338251,0.0467
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.4086,0.0652,69038,0.0104
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.2837,0.0000,69782,0.0104
+qwen_qwen3_next_80b_a3b_instruct_v1-empty,study_012,Trust; Reciprocity; and Social History,0.1253,0.8635,55601,0.0084
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.4539,0.0324,431610,0.1093
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.0625,-0.0580,715337,0.2273
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.1975,0.4951,210776,0.0338
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.2659,0.0790,991898,0.2721
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,,47834,0.0076
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.2100,0.1573,324257,0.0625
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,97018,0.0129
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0026,-0.1452,101518,0.0214
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9583,0.2076,351823,0.0495
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.4086,0.0652,71418,0.0108
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.2837,0.0000,72917,0.0114
+qwen_qwen3_next_80b_a3b_instruct_v2-human,study_012,Trust; Reciprocity; and Social History,0.1262,0.9648,58427,0.0086
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0378,0.0034,457364,0.1104
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.5115,0.0779,729322,0.2215
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.2693,0.4383,281167,0.0425
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.2095,0.0750,1114841,0.2861
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,,58434,0.0090
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.1040,0.0885,365735,0.0672
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,101146,0.0138
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.1909,0.5637,125140,0.0241
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9583,0.1776,383564,0.0514
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.4086,0.0377,81625,0.0119
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.2837,0.0000,84723,0.0127
+qwen_qwen3_next_80b_a3b_instruct_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.2383,-0.0169,60805,0.0085
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.1346,0.0864,533831,0.1175
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.4875,0.0896,765569,0.2191
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.6080,0.0952,472458,0.0654
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.2095,0.0749,1418912,0.3236
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,,87583,0.0124
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0730,0.1785,485068,0.0835
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0007,,112270,0.0141
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.8479,0.5304,195682,0.0328
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9654,0.3761,395183,0.0519
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.2205,-0.1140,111610,0.0159
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.2837,0.0000,117429,0.0166
+qwen_qwen3_next_80b_a3b_instruct_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+x_ai_grok_4.1_fast_none_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.4586,0.0345,942504,0.0868
+x_ai_grok_4.1_fast_none_v1-empty,study_002,Measures of Anchoring in Estimation Tasks,0.2079,0.0567,742818,0.1086
+x_ai_grok_4.1_fast_none_v1-empty,study_003,The Framing of Decisions and the Psychology of Choice,0.0677,-0.1683,400360,0.0262
+x_ai_grok_4.1_fast_none_v1-empty,study_004,Subjective Probability: A Judgment of Representativeness,0.0060,-0.0127,1247039,0.1251
+x_ai_grok_4.1_fast_none_v1-empty,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,,166960,0.0175
+x_ai_grok_4.1_fast_none_v1-empty,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0693,0.0501,434366,0.0331
+x_ai_grok_4.1_fast_none_v1-empty,study_007,Social categorization and similarity in intergroup behaviour,0.7869,,102462,0.0105
+x_ai_grok_4.1_fast_none_v1-empty,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0299,0.1298,166662,0.0126
+x_ai_grok_4.1_fast_none_v1-empty,study_009,Unraveling in Guessing Games: An Experimental Study,0.9653,0.5119,803261,0.1401
+x_ai_grok_4.1_fast_none_v1-empty,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.2472,97600,0.0061
+x_ai_grok_4.1_fast_none_v1-empty,study_011,Fairness in Simple Bargaining Experiments,0.0035,0.4454,104694,0.0066
+x_ai_grok_4.1_fast_none_v1-empty,study_012,Trust; Reciprocity; and Social History,0.2263,-0.0826,82545,0.0051
+x_ai_grok_4.1_fast_none_v2-human,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.0675,0.1270,475721,0.0453
+x_ai_grok_4.1_fast_none_v2-human,study_002,Measures of Anchoring in Estimation Tasks,0.2323,0.0431,738041,0.1038
+x_ai_grok_4.1_fast_none_v2-human,study_003,The Framing of Decisions and the Psychology of Choice,0.0877,-0.2158,824388,0.0499
+x_ai_grok_4.1_fast_none_v2-human,study_004,Subjective Probability: A Judgment of Representativeness,0.0848,-0.0252,1261878,0.1211
+x_ai_grok_4.1_fast_none_v2-human,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,-0.0093,84431,0.0080
+x_ai_grok_4.1_fast_none_v2-human,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0416,0.0492,444765,0.0336
+x_ai_grok_4.1_fast_none_v2-human,study_007,Social categorization and similarity in intergroup behaviour,0.8239,-0.0904,103362,0.0104
+x_ai_grok_4.1_fast_none_v2-human,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0040,0.1807,172272,0.0122
+x_ai_grok_4.1_fast_none_v2-human,study_009,Unraveling in Guessing Games: An Experimental Study,0.9567,0.5264,627947,0.0909
+x_ai_grok_4.1_fast_none_v2-human,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.2472,100000,0.0068
+x_ai_grok_4.1_fast_none_v2-human,study_011,Fairness in Simple Bargaining Experiments,0.0912,0.0553,214912,0.0135
+x_ai_grok_4.1_fast_none_v2-human,study_012,Trust; Reciprocity; and Social History,0.2021,-0.3258,92528,0.0055
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.1158,0.0750,996188,0.1332
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_002,Measures of Anchoring in Estimation Tasks,0.2176,0.0466,723444,0.1523
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_003,The Framing of Decisions and the Psychology of Choice,0.9440,-0.1706,475862,0.0331
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_004,Subjective Probability: A Judgment of Representativeness,0.0291,-0.0195,2758480,0.3186
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,,87920,0.0111
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0809,0.0565,479862,0.0498
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_007,Social categorization and similarity in intergroup behaviour,0.6298,-0.5371,214374,0.0381
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.7180,0.3181,388536,0.0349
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_009,Unraveling in Guessing Games: An Experimental Study,0.9420,0.4200,462012,0.0346
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.2550,109402,0.0100
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_011,Fairness in Simple Bargaining Experiments,0.0035,0.0415,237452,0.0247
+x_ai_grok_4.1_fast_none_v3-human-plus-demo,study_012,Trust; Reciprocity; and Social History,0.2381,0.0575,103680,0.0094
+x_ai_grok_4.1_fast_none_v4-background,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,0.2470,0.2059,574473,0.1121
+x_ai_grok_4.1_fast_none_v4-background,study_002,Measures of Anchoring in Estimation Tasks,0.2244,0.0465,763734,0.1771
+x_ai_grok_4.1_fast_none_v4-background,study_003,The Framing of Decisions and the Psychology of Choice,0.9635,-0.2196,666759,0.0980
+x_ai_grok_4.1_fast_none_v4-background,study_004,Subjective Probability: A Judgment of Representativeness,0.0847,-0.0257,3363308,0.6208
+x_ai_grok_4.1_fast_none_v4-background,study_005,Intentional Action and Side-Effects in Ordinary Language,0.9995,0.0242,116550,0.0181
+x_ai_grok_4.1_fast_none_v4-background,study_006,FORMING IMPRESSIONS OF PERSONALITY,0.0597,0.0565,599767,0.1028
+x_ai_grok_4.1_fast_none_v4-background,study_007,Social categorization and similarity in intergroup behaviour,0.0493,-0.6165,118272,0.0218
+x_ai_grok_4.1_fast_none_v4-background,study_008,Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm,0.0514,0.8955,264656,0.0421
+x_ai_grok_4.1_fast_none_v4-background,study_009,Unraveling in Guessing Games: An Experimental Study,0.9501,0.2737,474780,0.0336
+x_ai_grok_4.1_fast_none_v4-background,study_010,Thinking through Uncertainty: Nonconsequential Reasoning and Choice,0.0024,-0.2550,139302,0.0228
+x_ai_grok_4.1_fast_none_v4-background,study_011,Fairness in Simple Bargaining Experiments,0.0032,-0.5451,151282,0.0243
+x_ai_grok_4.1_fast_none_v4-background,study_012,Trust; Reciprocity; and Social History,0.3746,-0.1752,0,0.0000
+x_ai_grok_4.1_fast_v1-empty,study_001,The “False Consensus Effect”: An Egocentric Bias in Social Perception and Attribution Processes,,,0,0.0000

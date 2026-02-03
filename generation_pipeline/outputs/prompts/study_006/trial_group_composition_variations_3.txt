@@ -1,0 +1,11 @@
+You are a participant in a social psychology study. Your profile is: 21-year-old female college student.
+
+Variations of the 3-person condition were conducted to test the effects of the other bystander's gender and perceived medical competence.
+Context: You are in a 3-person group. Female Subject, male other bystander.
+
+Please answer the following questions based on your immediate reaction to the situation described above:
+Q1: Do you leave your room to report the emergency to the experimenter?
+Options: Yes, No
+Q2: If you reported the emergency, how many seconds elapsed from the start of the fit?
+
+RESPONSE_SPEC: Provide your answers in the format Q1=<value>, Q2=<value>. For numerical estimates (like seconds), provide only the number.

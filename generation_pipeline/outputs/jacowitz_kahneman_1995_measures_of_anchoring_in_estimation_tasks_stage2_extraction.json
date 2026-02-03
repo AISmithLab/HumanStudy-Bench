@@ -1,0 +1,360 @@
+{
+  "studies": [
+    {
+      "study_id": "Experiment 1",
+      "study_name": "Main Study: Anchoring in Quantitative Estimation",
+      "phenomenon": "Anchoring Effect",
+      "hypotheses": [
+        "The initial judgment of the anchor is susceptible to an anchoring-like bias.",
+        "The anchoring effect is larger for high anchors than for low anchors (asymmetry).",
+        "The anchoring effect varies inversely with subjects' confidence.",
+        "Susceptibility to anchoring is associated with low confidence.",
+        "Highly confident subjects are not immune to anchoring, though the effect is smaller."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "exp_1_calibration",
+          "type": "calibration_group",
+          "content": "A calibration group provided estimates and confidence ratings for 15 uncertain quantities to establish baseline distributions and anchors (15th and 85th percentiles).",
+          "participants": {
+            "n": 53,
+            "description": "Students at the University of California, Berkeley."
+          },
+          "items": [
+            {
+              "question_id": 1,
+              "text": "Length of Mississippi River (in miles)",
+              "calibration_median": 800,
+              "low_anchor": 70,
+              "high_anchor": 2000
+            },
+            {
+              "question_id": 2,
+              "text": "Height of Mount Everest (in feet)",
+              "calibration_median": 12000,
+              "low_anchor": 2000,
+              "high_anchor": 45500
+            },
+            {
+              "question_id": 3,
+              "text": "Amount of meat eaten per year by average American (in pounds)",
+              "calibration_median": 180,
+              "low_anchor": 50,
+              "high_anchor": 1000
+            },
+            {
+              "question_id": 4,
+              "text": "Distance from San Francisco to New York City (in miles)",
+              "calibration_median": 3200,
+              "low_anchor": 1500,
+              "high_anchor": 6000
+            },
+            {
+              "question_id": 5,
+              "text": "Height of tallest redwood (in feet)",
+              "calibration_median": 200,
+              "low_anchor": 65,
+              "high_anchor": 550
+            },
+            {
+              "question_id": 6,
+              "text": "Number of United Nations members",
+              "calibration_median": 50,
+              "low_anchor": 14,
+              "high_anchor": 127
+            },
+            {
+              "question_id": 7,
+              "text": "Number of female professors at the University of California, Berkeley",
+              "calibration_median": 50,
+              "low_anchor": 25,
+              "high_anchor": 130
+            },
+            {
+              "question_id": 8,
+              "text": "Population of Chicago (in millions)",
+              "calibration_median": 1.0,
+              "low_anchor": 0.2,
+              "high_anchor": 5.0
+            },
+            {
+              "question_id": 9,
+              "text": "Year telephone was invented",
+              "calibration_median": 1889,
+              "low_anchor": 1850,
+              "high_anchor": 1920
+            },
+            {
+              "question_id": 10,
+              "text": "Average number of babies born per day in the United States",
+              "calibration_median": 2000,
+              "low_anchor": 100,
+              "high_anchor": 50000
+            },
+            {
+              "question_id": 11,
+              "text": "Maximum speed of house cat (in miles per hour)",
+              "calibration_median": 18,
+              "low_anchor": 7,
+              "high_anchor": 30
+            },
+            {
+              "question_id": 12,
+              "text": "Amount of gas used per month by average American (in gallons)",
+              "calibration_median": 50,
+              "low_anchor": 20,
+              "high_anchor": 80
+            },
+            {
+              "question_id": 13,
+              "text": "Number of bars in Berkeley, CA",
+              "calibration_median": 20,
+              "low_anchor": 10,
+              "high_anchor": 85
+            },
+            {
+              "question_id": 14,
+              "text": "Number of state colleges and universities in California",
+              "calibration_median": 30,
+              "low_anchor": 20,
+              "high_anchor": 100
+            },
+            {
+              "question_id": 15,
+              "text": "Number of Lincoln's presidency",
+              "calibration_median": 16,
+              "low_anchor": 7,
+              "high_anchor": 17
+            }
+          ]
+        },
+        {
+          "sub_study_id": "exp_1_anchored_estimation",
+          "type": "experimental_group",
+          "content": "Participants performed two tasks for each of 15 quantities: 1) Judged if the quantity was higher or lower than a specified anchor. 2) Estimated the quantity and rated their confidence on a 10-point scale.",
+          "participants": {
+            "n": 103,
+            "description": "Students at the University of California, Berkeley."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "question_id": 1,
+                "low_anchor_median": 300,
+                "high_anchor_median": 1500,
+                "anchoring_index": 0.62
+              },
+              {
+                "question_id": 2,
+                "low_anchor_median": 8000,
+                "high_anchor_median": 42550,
+                "anchoring_index": 0.79
+              },
+              {
+                "question_id": 3,
+                "low_anchor_median": 100,
+                "high_anchor_median": 500,
+                "anchoring_index": 0.42
+              },
+              {
+                "question_id": 4,
+                "low_anchor_median": 2600,
+                "high_anchor_median": 4000,
+                "anchoring_index": 0.31
+              },
+              {
+                "question_id": 5,
+                "low_anchor_median": 100,
+                "high_anchor_median": 400,
+                "anchoring_index": 0.62
+              },
+              {
+                "question_id": 6,
+                "low_anchor_median": 26,
+                "high_anchor_median": 100,
+                "anchoring_index": 0.65
+              },
+              {
+                "question_id": 7,
+                "low_anchor_median": 50,
+                "high_anchor_median": 95,
+                "anchoring_index": 0.43
+              },
+              {
+                "question_id": 8,
+                "low_anchor_median": 0.6,
+                "high_anchor_median": 5.05,
+                "anchoring_index": 0.93
+              },
+              {
+                "question_id": 9,
+                "low_anchor_median": 1870,
+                "high_anchor_median": 1900,
+                "anchoring_index": 0.43
+              },
+              {
+                "question_id": 10,
+                "low_anchor_median": 1000,
+                "high_anchor_median": 40000,
+                "anchoring_index": 0.78
+              },
+              {
+                "question_id": 11,
+                "low_anchor_median": 10,
+                "high_anchor_median": 20,
+                "anchoring_index": 0.43
+              },
+              {
+                "question_id": 12,
+                "low_anchor_median": 40,
+                "high_anchor_median": 60,
+                "anchoring_index": 0.33
+              },
+              {
+                "question_id": 13,
+                "low_anchor_median": 20,
+                "high_anchor_median": 40,
+                "anchoring_index": 0.27
+              },
+              {
+                "question_id": 14,
+                "low_anchor_median": 30,
+                "high_anchor_median": 50,
+                "anchoring_index": 0.25
+              },
+              {
+                "question_id": 15,
+                "low_anchor_median": 16,
+                "high_anchor_median": 16,
+                "anchoring_index": 0.0
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Mean Anchoring Index (AI)",
+                "statistic": "mean AI = .49",
+                "p_value": null,
+                "claim": "The subject moved almost halfway toward the anchor from the estimate they would have made without it.",
+                "location": "Page 1163, Results and Discussion"
+              },
+              {
+                "test_name": "Point-Biserial Correlation",
+                "statistic": "mean r = .42",
+                "p_value": null,
+                "claim": "Measure of the size of the effect: correlation between subjects' estimates and the anchor seen.",
+                "location": "Page 1163, Results and Discussion"
+              },
+              {
+                "test_name": "Student's t-test (Asymmetry of Anchoring)",
+                "statistic": "t(102) = 7.99",
+                "p_value": "p < .01",
+                "claim": "The effect of high anchors (median transformed score = 76) was significantly larger than for low anchors (median = 36).",
+                "location": "Page 1163, Effects of High and Low Anchors"
+              },
+              {
+                "test_name": "Student's t-test (Extreme Estimates)",
+                "statistic": "t(102) = 6.12",
+                "p_value": "p < .001",
+                "claim": "High anchors yielded 27% extreme estimates (beyond anchor) compared to 14% for low anchors.",
+                "location": "Page 1164, Results and Discussion"
+              },
+              {
+                "test_name": "Pearson Correlation (AI vs. Confidence)",
+                "statistic": "r = -.68",
+                "p_value": "p < .05",
+                "claim": "Correlation between the AI and the mean confidence in the calibration group across 15 problems.",
+                "location": "Page 1165, Anchoring and Confidence"
+              },
+              {
+                "test_name": "Student's t-test (High Anchor vs. Confidence)",
+                "statistic": "t(14) = 2.37",
+                "p_value": "p < .05",
+                "claim": "Negative correlation (mean r = -.14) between transformed estimates and confidence when anchor is high.",
+                "location": "Page 1165, Anchoring and Confidence"
+              },
+              {
+                "test_name": "Student's t-test (Low Anchor vs. Confidence)",
+                "statistic": "t(14) = 4.80",
+                "p_value": "p < .001",
+                "claim": "Positive correlation (mean r = .27) between transformed estimates and confidence when anchor is low.",
+                "location": "Page 1165, Anchoring and Confidence"
+              },
+              {
+                "test_name": "Student's t-test (Confidence Ratings Comparison)",
+                "statistic": "t(154) = 3.53",
+                "p_value": "p < .001",
+                "claim": "Estimates were made with greater confidence in anchored groups (3.85) than in calibration group (2.99).",
+                "location": "Page 1165, Anchoring and Confidence"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment 2",
+      "study_name": "Replication with Discredited Anchor",
+      "phenomenon": "Anchoring Effect Persistence",
+      "hypotheses": [
+        "Discrediting the informational value of the anchor will not reduce the anchoring effect."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "exp_2_discredited_anchor",
+          "type": "experimental",
+          "content": "A close replication of Exp 1 using the same problems but with an added manipulation intended to discredit the informational value of the anchor.",
+          "participants": {
+            "description": "Not specified, implied similar to Exp 1 population."
+          },
+          "human_data": {
+            "statistical_results": [
+              {
+                "test_name": "Percentage of judgments",
+                "statistic": "High judged low: 28%; Low judged high: 15%",
+                "p_value": null,
+                "claim": "The manipulation of credibility did not reduce the anchoring effect.",
+                "location": "Page 1164, Results and Discussion"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment 3",
+      "study_name": "Anchoring in Estimation vs. Willingness to Pay (WTP)",
+      "phenomenon": "Anchoring in Referendum/WTP",
+      "hypotheses": [
+        "Anchoring effects occur in Willingness to Pay (WTP) tasks as they do in estimation tasks."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "exp_3_wtp_estimation",
+          "type": "experimental",
+          "content": "Compared anchoring in 3 estimation problems and 2 WTP questions for public goods. Subjects made dichotomous judgments (referendum for WTP) before numerical estimates.",
+          "participants": {
+            "description": "Referenced from Green, Jacowitz, Kahneman, & McFadden (1995)."
+          },
+          "human_data": {
+            "statistical_results": [
+              {
+                "test_name": "Percentage of anchored estimates",
+                "statistic": "High anchors: 24% equaled or exceeded highest anchor (vs 4.2% calibration); Low anchor: 15% judged high (vs 4.6% calibration).",
+                "p_value": null,
+                "claim": "High anchors yielded a large proportion of answers even higher than the anchor.",
+                "location": "Page 1164, Results and Discussion"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "paper_id": "jacowitz_kahneman_1995_measures_of_anchoring_in_estimation_tasks",
+  "paper_title": "Measures of Anchoring in Estimation Tasks",
+  "paper_authors": [
+    "Karen E. Jacowitz",
+    "Daniel Kahneman"
+  ],
+  "paper_abstract": "The authors describe a method for the quantitative study of anchoring effects in estimation tasks. A calibration group provides estimates of a set of uncertain quantities. Subjects in the anchored condition first judge whether a specified number (the anchor) is higher or lower than the true value before estimating each quantity. The anchors are set at predetermined percentiles of the distribution of estimates in the calibration group (15th and 85th percentiles in this study). This procedure permits the transformation of anchored estimates into percentiles in the calibration group, allows pooling of results across problems, and provides a natural measure of the size of the effect. The authors illustrate the method by a demonstration that the initial judgment of the anchor is susceptible to an anchoring-like bias and by an analysis of the relation between anchoring and subjective confidence."
+}

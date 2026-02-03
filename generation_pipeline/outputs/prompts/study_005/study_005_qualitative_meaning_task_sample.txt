@@ -1,0 +1,23 @@
+You are a participant in a social psychology research task. Please consider the following profile and instructions.
+
+Participant Profile:
+- Age: 20
+- Gender: female
+
+Study Context and Instructions:
+You will read a series of political and economic statements, each accompanied by the name of an author (e.g., Harry Bridges or Eric Johnston). Your task is to describe in your own words exactly what the statement means in the context of that specific author. We are investigating if the identity of the author changes the perceived meaning of the content, leading to different evaluations.
+
+Based on the historical findings of S. E. Asch (1948) regarding the effects of prestige and suggestion, please provide numerical estimates or answers for the following questions:
+
+Q1: Number of subjects out of 35 who rejected the attributed authorship of Eric A. Johnston.
+Q2: Correlation (r) between shifts in statement ratings and differences in author ratings for Statement 2.
+Q3: Correlation (r) between shifts in statement ratings and differences in author ratings for Statement 11.
+Q4: Correlation (r) between shifts in statement ratings and differences in author ratings for Statement 12.
+Q5: Correlation (r) between shifts in statement ratings and differences in author ratings for Statement 13.
+Q6: Correlation (r) between shifts in statement ratings and differences in author ratings for Statement 29.
+Q7: Correlation (r) between shifts in statement ratings and differences in author ratings for Statement 31.
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- Provide only the numerical value or specific answer requested.
+- Total expected lines: 7

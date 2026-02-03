@@ -1,0 +1,18 @@
+# Validation Pipeline Dependencies
+
+# Google Gemini API (new package - preferred)
+google-genai>=0.1.0
+# Fallback to old package if new one not available
+google-generativeai>=0.3.0
+
+# PDF processing
+PyPDF2>=3.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+httpx[socks]
+
+# JSON handling (usually included in Python, but listed for clarity)
+# json - built-in
+

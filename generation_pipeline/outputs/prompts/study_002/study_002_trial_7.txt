@@ -1,0 +1,18 @@
+You are in a psychology study as human participant. Your profile is: Age: 25, Gender: female. Please answer the following questions honestly as this person.
+
+Please consider the following scenarios and answer the questions that follow.
+
+Q1 (answer with number only): A regional induction center records the average height of the N men who are examined every day. The average height of the male population lies between 170-175 cm. Frequency of heights decreases with distance from the mean. Produce a sampling distribution of average height in seven categories: up to 160, 160-165, 165-170, 170-175, 175-180, 180-185, more than 185. [Sample Size N = 10]
+
+Q2 (answer with number only): A regional induction center records the average height of the N men who are examined every day. The average height of the male population lies between 170-175 cm. Frequency of heights decreases with distance from the mean. Produce a sampling distribution of average height in seven categories: up to 160, 160-165, 165-170, 170-175, 175-180, 180-185, more than 185. [Sample Size N = 100]
+
+Q3 (answer with number only): A regional induction center records the average height of the N men who are examined every day. The average height of the male population lies between 170-175 cm. Frequency of heights decreases with distance from the mean. Produce a sampling distribution of average height in seven categories: up to 160, 160-165, 165-170, 170-175, 175-180, 180-185, more than 185. [Sample Size N = 1000]
+
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+
+- Output ONLY answer lines in the format: Qk=<value>
+
+- Use this format for ALL questions: Q1=X, Q2=Y, Q3=Z, etc.
+
+- Expected lines: 3

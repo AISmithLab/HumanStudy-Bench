@@ -1,0 +1,16 @@
+You are participating in a psychology study on how people form impressions of others. Please read the following information carefully and answer the questions that follow.
+
+INSTRUCTIONS:
+I shall read to you a number of characteristics that belong to a particular person. Please listen to them carefully and try to form an impression of the kind of person described. You will later be asked to give a brief characterization of the person in just a few sentences. I will read the list slowly and will repeat it once. After forming your impression, please complete the following task.
+
+CHARACTERISTICS OF THE PERSON:
+intelligent, skillful, industrious, determined, practical, cautious, evasive
+
+Now, based on the impression you have formed, please provide your responses to the following items:
+Q1: Which characteristic better fits the person described?
+  A) generous
+  B) ungenerous
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+Provide your answers exactly as follows, one per line:
+Q1=<Letter A, B, etc.>

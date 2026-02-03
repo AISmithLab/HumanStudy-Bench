@@ -1,0 +1,33 @@
+{
+  "paper_title": "Trust, Reciprocity, and Social History",
+  "paper_authors": [
+    "Joyce Berg",
+    "John Dickhaut",
+    "Kevin McCabe"
+  ],
+  "paper_abstract": "We designed an experiment to study trust and reciprocity in an investment setting. This design controls for alternative explanations of behavior including repeat game reputation effects, contractual precommitments, and punishment threats. Observed decisions suggest that reciprocity exists as a basic element of human behavior and that this is accounted for in the trust extended to an anonymous counterpart. A second treatment, social history, identifies conditions which strengthen the relationship between trust and reciprocity.",
+  "experiments": [
+    {
+      "experiment_id": "Experiment 1",
+      "experiment_name": "No History Treatment",
+      "input": "Participants are given $10 and told they are paired with an anonymous counterpart. They are instructed on the rules of the investment game: Room A subject sends $Ma to Room B, the amount is tripled to $3Ma, and Room B subject decides how much ($kb) to return. Instructions include a double-blind procedure to ensure anonymity.",
+      "participants": "Undergraduate students at the University of Minnesota (32 pairs).",
+      "output": "The amount sent by subjects in Room A ($Ma) and the amount returned by subjects in Room B ($kb).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment 2",
+      "experiment_name": "Social History Treatment",
+      "input": "Participants receive the same instructions as the No History treatment, but are also provided with a 'social history' report summarizing the decisions (amounts sent, amounts returned, and average profits) of the 32 pairs from the previous No History session.",
+      "participants": "Undergraduate students at the University of Minnesota (28 pairs).",
+      "output": "The amount sent by subjects in Room A ($Ma) and the amount returned by subjects in Room B ($kb).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    }
+  ],
+  "overall_replicable": true,
+  "confidence": 1.0,
+  "notes": "The experiments are classic economic games (Investment/Trust Game) with clearly defined numerical inputs and outputs. The 'social history' component is provided as a text-based summary table (found in Appendix A), which is highly suitable for LLM prompting. While the original study used a physical implementation (envelopes and mailboxes) to ensure double-blind anonymity, the logical structure of the game is purely text-based and decision-driven.",
+  "paper_id": "berg_geb95"
+}

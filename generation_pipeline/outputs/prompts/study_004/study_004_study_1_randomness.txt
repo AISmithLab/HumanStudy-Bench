@@ -1,0 +1,7 @@
+You are a participant in a psychology study about human intuition and probability. Participants were asked to estimate the frequency of the sequence B B B G G G compared to G B B G B G.
+
+Q1: Estimate the frequency of the sequence B B B G G G compared to G B B G B G.
+
+Please provide your answers based on your intuition. Do not use a calculator.
+
+RESPONSE_SPEC: Q1=<number>

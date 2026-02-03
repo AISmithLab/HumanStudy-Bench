@@ -1,0 +1,199 @@
+{
+  "studies": [
+    {
+      "study_id": "Experiment 1",
+      "study_name": "Effect of Group Size and Composition on Bystander Intervention",
+      "phenomenon": "Diffusion of Responsibility",
+      "hypotheses": [
+        "The more bystanders to an emergency, the less likely, or the more slowly, any one bystander will intervene to provide aid.",
+        "The presence of other onlookers leads bystanders to resolve the conflict between humanitarian norms and fears of intervention in the direction of nonintervention due to diffusion of responsibility.",
+        "Responsibility for helping is diffused among the observers, and potential blame for not taking action is also diffused.",
+        "If others are known to be present but their behavior cannot be observed, a bystander can assume that someone else has already initiated helping action."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "group_size_intervention",
+          "type": "experimental_manipulation",
+          "content": "Participants were placed in individual rooms and communicated via an intercom system to discuss personal problems. They heard a fellow participant (a recording) disclose a history of seizures and subsequently undergo a simulated epileptic seizure. Participants were led to believe they were in a group of 2 (just them and the victim), 3 (them, the victim, and one other), or 6 (them, the victim, and four others).",
+          "items": [
+            {
+              "item_id": "seizure_script",
+              "item_text": "I-er-um-I think I-I necd-er-if-if could-er-er-some body er-er-er-er-er-er-er give me a liltle-er-give me a little help here because-er-I-er-I'm-er-er h-h-having a-a-a real problcm-er-right now and I-er-if somebody could help me out it would-it would-er-er s-s-sure be-sure be good . . . because cr-there-er-cr-a cause I-er-I-uh-I've got a-a one of the-er-sei er-cr-things coming on and-and-and I could really-er-use some help so if somebody would-er-give me a little h-help-uh-er-er-er-er-er c-could somebody-er-er-help-er-uh-uh-uh (choking sounds). . . . I'm gonna die-er-er-I'm . . . gonna die-er-help-er-er-seizure-er-[chokes, then quiet]."
+            },
+            {
+              "item_id": "post_experimental_thought_checklist_1",
+              "item_text": "I didn't know what to do"
+            },
+            {
+              "item_id": "post_experimental_thought_checklist_2",
+              "item_text": "I thought it must be some sort of fake"
+            },
+            {
+              "item_id": "post_experimental_thought_checklist_3",
+              "item_text": "I didn't know exactly what was happening"
+            }
+          ],
+          "participants": {
+            "n": 52,
+            "age": null,
+            "gender": "39 female, 13 male",
+            "demographics": "Introductory psychology students at New York University"
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "2-person group (Subject & Victim)",
+                "n": 13,
+                "percent_responding_by_end_of_fit": 85,
+                "mean_time_in_seconds": 52,
+                "mean_speed_score": 0.87
+              },
+              {
+                "condition": "3-person group (Subject, Victim, & 1 other)",
+                "n": 26,
+                "percent_responding_by_end_of_fit": 62,
+                "mean_time_in_seconds": 93,
+                "mean_speed_score": 0.72
+              },
+              {
+                "condition": "6-person group (Subject, Victim, & 4 others)",
+                "n": 13,
+                "percent_responding_by_end_of_fit": 31,
+                "mean_time_in_seconds": 166,
+                "mean_speed_score": 0.51
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Chi-square",
+                "statistic": "x² = 7.91",
+                "p_value": "p < .02",
+                "claim": "The number of bystanders that the subject perceived to be present had a major effect on the likelihood with which she would report the emergency.",
+                "location": "Page 380, Table 1"
+              },
+              {
+                "test_name": "Analysis of variance",
+                "statistic": "F = 8.09",
+                "p_value": "p < .01",
+                "claim": "The effect of group size on speed scores is highly significant.",
+                "location": "Page 380, Speed of Response section"
+              }
+            ]
+          }
+        },
+        {
+          "sub_study_id": "group_composition_variations",
+          "type": "experimental_manipulation",
+          "content": "Variations of the 3-person condition were conducted to test the effects of the other bystander's gender and perceived medical competence.",
+          "items": [],
+          "participants": {
+            "n": 44,
+            "age": null,
+            "gender": "26 female, 13 male (plus 5 females in medic condition)",
+            "demographics": "Introductory psychology students at New York University"
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "Female Subject, male other",
+                "n": 13,
+                "percent_responding": 62,
+                "mean_time_seconds": 94,
+                "mean_speed_score": 74
+              },
+              {
+                "condition": "Female Subject, female other",
+                "n": 13,
+                "percent_responding": 62,
+                "mean_time_seconds": 92,
+                "mean_speed_score": 71
+              },
+              {
+                "condition": "Female Subject, male medic other",
+                "n": 5,
+                "percent_responding": 100,
+                "mean_time_seconds": 60,
+                "mean_speed_score": 77
+              },
+              {
+                "condition": "Male Subject, female other",
+                "n": 13,
+                "percent_responding": 69,
+                "mean_time_seconds": 110,
+                "mean_speed_score": 68
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Not specified",
+                "statistic": null,
+                "p_value": null,
+                "claim": "Variations in sex and medical competence of the other bystander had no important or detectable affect on speed of response.",
+                "location": "Page 381, Table 2 and Results section"
+              }
+            ]
+          }
+        },
+        {
+          "sub_study_id": "personality_and_demographic_correlates",
+          "type": "survey",
+          "content": "Participants completed several personality scales to see if individual differences predicted helping behavior.",
+          "items": [
+            {
+              "item_id": "machiavellianism_scale",
+              "item_text": "Machiavellianism (Christie, 1964)"
+            },
+            {
+              "item_id": "anomie_scale",
+              "item_text": "Anomie (Christie, 1964)"
+            },
+            {
+              "item_id": "authoritarianism_scale",
+              "item_text": "Authoritarianism (Christie, 1964)"
+            },
+            {
+              "item_id": "social_desirability_scale",
+              "item_text": "Social Desirability Scale (Crowne & Marlowe, 1964)"
+            },
+            {
+              "item_id": "social_responsibility_scale",
+              "item_text": "Social Responsibility Scale (Daniels & Berkowitz, 1964)"
+            }
+          ],
+          "participants": {
+            "n": 65,
+            "age": null,
+            "gender": "Mixed",
+            "demographics": "Introductory psychology students at New York University"
+          },
+          "human_data": {
+            "item_level_results": [],
+            "statistical_results": [
+              {
+                "test_name": "Pearson correlation",
+                "statistic": "r = -.26",
+                "p_value": "p < .05",
+                "claim": "The size of the community in which the subject grew up correlated with the speed of helping.",
+                "location": "Page 381, Individual Difference Correlates section"
+              },
+              {
+                "test_name": "Pearson correlation",
+                "statistic": null,
+                "p_value": "Not significant",
+                "claim": "Personality measures showed no important or significant correlations with speed of reporting the emergency.",
+                "location": "Page 381, Individual Difference Correlates section"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "paper_id": "bystander_effect_&_altruism",
+  "paper_title": "BYSTANDER INTERVENTION IN EMERGENCIES: DIFFUSION OF RESPONSIBILITY",
+  "paper_authors": [
+    "John M. Darley",
+    "Bibb Latané"
+  ],
+  "paper_abstract": "Ss overheard an epileptic seizure. They believed either that they alone heard the emergency, or that 1 or 4 unseen others were also present. As predicted the presence of other bystanders reduced the individual's feelings of personal responsibility and lowered his speed of reporting (p < .01). In groups of size 3, males reported no faster than females, and females reported no slower when the 1 other bystander was a male rather than a female. In general, personality and background measures were not predictive of helping. Bystander inaction in real-life emergencies is often explained by \"apathy,\" \"alienation,\" and \"anomie.\" This experiment suggests that the explanation may lie more in the bystander's response to other observers than in his indifference to the victim."
+}

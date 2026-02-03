@@ -1,0 +1,23 @@
+You are in a psychology study as human participant. Your profile is: [Age: 18, Gender: Female, Location: Israel, Population: High school student]. Please answer the following questions honestly as this person.
+
+INSTRUCTIONS:
+Participants made direct ordinal judgments about the likelihood of outcomes in small vs. large samples.
+
+SCENARIO/QUESTION:
+Two teams are collecting data. One checks three men a day, and the other checks one man a day. Average height is 5 ft 10 in. The team checking three men ranks them and counts the days on which the height of the middle man is (more/less) than 5 ft 11 in. The other team counts the days on which the man they checked was (taller/shorter) than 5 ft 11 in. Which team counted more such days?
+
+OPTIONS:
+A. The team checking 3
+B. The team checking 1
+C. About the same (within 5% of each other)
+
+Q1 (answer with letter only: A, B, C):
+
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+
+- Output ONLY answer lines in the format: Qk=<value>
+
+- Use this format for ALL questions: Q1=X, Q2=Y, Q3=Z, etc.
+
+- Expected lines: 1

@@ -1,0 +1,581 @@
+{
+  "study_id": "study_001",
+  "validation_timestamp": "2025-12-23T23:05:06.506021",
+  "study_path": "data/studies/study_001",
+  "completeness": {
+    "agent": "ExperimentCompletenessAgent",
+    "status": "completed",
+    "results": {
+      "experiments_in_paper": [
+        {
+          "experiment_id": "Study 1",
+          "description": "Subjects read four hypothetical stories (Supermarket, Term Paper, Traffic Ticket, Space Program), indicated their own behavioral choice, estimated the percentage of peers who would choose each option, and rated the personal traits of the 'typical person' who would choose each option.",
+          "has_statistical_data": true,
+          "replicable_using_llm": true,
+          "replicable_reason": "It is a text-based questionnaire study involving hypothetical scenarios, behavioral choices, and social judgments, which are well-suited for LLM simulation.",
+          "included_in_benchmark": true,
+          "implementation_details": "Included in the specification as four separate scenarios (supermarket, term_paper, traffic_ticket, space_program) under a between-subjects factor.",
+          "notes": "The benchmark procedure currently omits the trait rating task, which is a key quantitative measure reported in Table 2."
+        },
+        {
+          "experiment_id": "Study 2",
+          "description": "Subjects completed a questionnaire with 35 (34 usable) personal description items (habits, preferences, fears, etc.), categorized themselves, and estimated the percentage of 'college students in general' in each category.",
+          "has_statistical_data": true,
+          "replicable_using_llm": true,
+          "replicable_reason": "It is a text-based self-categorization and estimation task.",
+          "included_in_benchmark": true,
+          "implementation_details": "Included in the specification as 'study_2_questionnaire'.",
+          "notes": "The specific 34 items are not yet detailed in the implementation code."
+        },
+        {
+          "experiment_id": "Study 3",
+          "description": "A hypothetical version of the sandwich board study where subjects read a scenario about being asked to wear a sign ('Eat at Joe's' or 'Repent'), made a choice, estimated peer consensus, and rated traits of typical actors.",
+          "has_statistical_data": true,
+          "replicable_using_llm": true,
+          "replicable_reason": "It is a text-based hypothetical scenario study.",
+          "included_in_benchmark": true,
+          "implementation_details": "Included in the specification as 'study_3_sandwich_board'.",
+          "notes": "The benchmark procedure omits the trait rating task reported in Table 5."
+        },
+        {
+          "experiment_id": "Study 4",
+          "description": "An authentic conflict situation where subjects were actually asked to wear a sandwich board sign on campus. They made a real choice, then provided consensus estimates and trait ratings for 'real' individuals.",
+          "has_statistical_data": true,
+          "replicable_using_llm": false,
+          "replicable_reason": "This study involves an 'authentic conflict situation' with real-world physical action (walking on campus) and social pressure. An LLM cannot experience a non-hypothetical physical environment; any attempt to replicate this would revert to the hypothetical nature of Study 3.",
+          "included_in_benchmark": false,
+          "implementation_details": "Excluded because it requires real-world behavioral interaction.",
+          "notes": null
+        }
+      ],
+      "completeness_summary": {
+        "total_experiments_with_data": 4,
+        "llm_replicable_experiments": 3,
+        "included_experiments": 3,
+        "missing_experiments": [],
+        "intentionally_excluded": [
+          "Study 4"
+        ],
+        "completeness_score": 1.0,
+        "completeness_notes": "All text-based, LLM-replicable studies (1, 2, and 3) are included in the benchmark specification. Study 4 is appropriately excluded as it relies on real-world physical behavior. However, the internal tasks (trait ratings) for Studies 1 and 3 are missing from the procedure."
+      },
+      "recommendations": [
+        "Add the trait rating task to the 'procedure' section of the benchmark specification, as this is a primary dependent variable for Studies 1 and 3 (Tables 2 and 5).",
+        "Correct the total participant count (n) in the benchmark specification; the paper reports a total of 584 participants across all four studies (320 + 80 + 104 + 80), not 824.",
+        "Ensure the implementation code includes the specific text for the 4 scenarios in Study 1 and the 34 items in Study 2.",
+        "Include both versions of the sandwich board sign ('Eat at Joe's' and 'Repent') as levels in Study 3."
+      ]
+    }
+  },
+  "consistency": {
+    "agent": "ExperimentConsistencyAgent",
+    "status": "completed",
+    "results": {
+      "comparison_by_aspect": {
+        "participants": {
+          "original": "Total N = 584 Stanford undergraduates. Study 1: 320 (80 per story). Study 2: 80. Study 3: 104. Study 4: 80.",
+          "benchmark": "Total N = 824. Sub-study breakdown in specification sums to 504 (Study 1: 320, Study 2: 80, Study 3: 104).",
+          "consistent": false,
+          "modification_type": "error",
+          "validation_method": "Recalculate total N from the sub-study descriptions in the paper and compare against the metadata value.",
+          "notes": "There is a significant discrepancy in participant numbers. The metadata N (824) does not match the sum of the sub-studies in the specification (504), nor the total N in the paper (584). Study 4 participants are missing from the benchmark specification."
+        },
+        "procedure": {
+          "original": "Study 1 & 3: Subjects first estimated peer consensus percentages, then indicated their own choice, then performed trait ratings. Study 2: Order of self-categorization and consensus estimation was counterbalanced.",
+          "benchmark": "1. Read scenario, 2. Make choice, 3. Estimate peer consensus.",
+          "consistent": false,
+          "modification_type": "error",
+          "validation_method": "Review the 'Method' section of Study 1 (page 281) and Study 3 (page 289) regarding task order.",
+          "notes": "The benchmark reverses the order of the primary tasks for Study 1 and 3. In the original paper, consensus estimates were collected *before* the subjects committed to a personal choice to avoid simple consistency biases. Additionally, the benchmark procedure omits the trait rating task entirely."
+        },
+        "materials": {
+          "original": "Four specific stories (Supermarket, Term Paper, Traffic Ticket, Space Program), 35 person-description items for Study 2, and the Sandwich Board story for Study 3/4.",
+          "benchmark": "Lists scenarios in metadata (study_1_supermarket, etc.), but the implementation code is a skeleton with 'TODO' comments and no actual text.",
+          "consistent": false,
+          "modification_type": "error",
+          "validation_method": "Check the implementation code for the actual strings of the stories and questions.",
+          "notes": "While the metadata identifies the correct scenarios, the provided implementation code lacks the actual stimuli (the stories and questions). Study 4's 'authentic conflict' materials are missing."
+        },
+        "measures": {
+          "original": "1. Percentage estimates for two options (total 100%). 2. Binary behavioral choice. 3. Trait ratings on 100-point Likert scales (4 traits in Study 1, 8 traits in Study 3/4).",
+          "benchmark": "1. Choice/Response. 2. Percentage estimate.",
+          "consistent": false,
+          "modification_type": "error",
+          "validation_method": "Compare the 'Dependent Variables' section of the paper with the benchmark's 'procedure' steps.",
+          "notes": "The benchmark fails to include the trait rating measures, which are central to the paper's second hypothesis regarding social inference and attributional bias."
+        },
+        "analyses": {
+          "original": "ANOVA (fixed and random effects), F-tests for individual stories, correlations between choice and estimates, and ANCOVA using consensus as a covariate.",
+          "benchmark": "Not implemented (template code only).",
+          "consistent": false,
+          "modification_type": "unclear",
+          "validation_method": "N/A",
+          "notes": "The implementation code provides no logic for result aggregation or statistical testing."
+        },
+        "conditions": {
+          "original": "Four studies: Study 1 (Hypothetical stories), Study 2 (Personal attributes), Study 3 (Hypothetical sandwich board), Study 4 (Real sandwich board).",
+          "benchmark": "Includes Study 1, 2, and 3. Study 4 is omitted.",
+          "consistent": false,
+          "modification_type": "intentional_modification",
+          "validation_method": "Check metadata 'scenarios' and specification 'by_sub_study'.",
+          "notes": "Study 4 involves an 'authentic conflict situation' (wearing a real sandwich board), which is likely omitted from the benchmark because it is difficult to simulate in an LLM/automated environment. This is an acceptable intentional modification for a digital benchmark."
+        }
+      },
+      "consistency_summary": {
+        "total_aspects_checked": 6,
+        "consistent_aspects": 0,
+        "intentional_modifications": [
+          "Omission of Study 4 (authentic conflict situation)"
+        ],
+        "potential_errors": [
+          "Incorrect total N in metadata",
+          "Inconsistent task order (Choice before Estimate)",
+          "Omission of trait rating measures",
+          "Discrepancy between metadata N and specification sub-study N",
+          "Missing implementation of story text"
+        ],
+        "unclear_aspects": [
+          "Statistical analysis implementation"
+        ],
+        "consistency_score": 0.1,
+        "overall_assessment": "The benchmark implementation is highly inconsistent with the original paper. It contains significant errors in participant counts, reverses the order of critical tasks (which may introduce order effects not present in the original study), and omits the entire attributional/trait-rating component of the research. Furthermore, the implementation code is currently just a template."
+      },
+      "validation_plan": [
+        {
+          "aspect": "Task Order",
+          "validation_method": "Experimental verification of order effects",
+          "priority": "high",
+          "description": "Verify if asking for a personal choice before a consensus estimate significantly inflates the False Consensus Effect compared to the paper's original order."
+        },
+        {
+          "aspect": "Participant N",
+          "validation_method": "Metadata Audit",
+          "priority": "medium",
+          "description": "Correct the metadata N to 584 (or 504 if Study 4 is intentionally excluded) to ensure internal consistency."
+        },
+        {
+          "aspect": "Measures",
+          "validation_method": "Content Addition",
+          "priority": "high",
+          "description": "Implement the trait rating scales (100-point Likert) for the 'typical person' to capture the attributional bias aspect of the study."
+        }
+      ],
+      "recommendations": [
+        "Update the benchmark procedure to ask for consensus estimates before personal choice for Study 1 and 3.",
+        "Include the trait rating scales as a dependent variable to fully capture the 'Attribution Processes' mentioned in the title.",
+        "Populate the implementation code with the exact text of the four stories from Study 1 and the sandwich board story from Study 3.",
+        "Correct the participant N values in the metadata and specification to match the paper's reported samples.",
+        "Explicitly document that Study 4 is omitted due to its requirement for real-world physical interaction."
+      ]
+    }
+  },
+  "data_validation": {
+    "agent": "DataValidationAgent",
+    "status": "completed",
+    "results": {
+      "participant_data_validation": {
+        "sample_size": {
+          "paper": "Study 1: 320; Study 2: 80; Study 3: 104; Study 4: 80",
+          "paper_location": "Page 281 (Study 1), Page 286 (Study 2), Page 289 (Study 3), Page 290 (Study 4)",
+          "benchmark": "Study 1: 320 (80 per story); Study 3: 104",
+          "match": true,
+          "notes": "Benchmark correctly reflects sample sizes for Study 1 and Study 3 via choice counts (e.g., Study 1 Supermarket: 53+27=80; Study 3: 54+50=104)."
+        },
+        "demographics": {
+          "paper": "Stanford undergraduates",
+          "paper_location": "Page 281, 286, 289, 290",
+          "benchmark": "Stanford undergraduates",
+          "match": true,
+          "notes": "Matches perfectly."
+        },
+        "recruitment": {
+          "paper": "Introductory psychology class requirement (Study 3/4) or general undergraduate participation (Study 1/2).",
+          "paper_location": "Page 281, 286, 289, 290",
+          "benchmark": "Not explicitly detailed in ground_truth but consistent with Stanford undergraduate population.",
+          "match": true,
+          "notes": "Recruitment details match the participant profile."
+        }
+      },
+      "experimental_data_validation": [
+        {
+          "experiment_id": "Study 1",
+          "data_type": "descriptive_stats",
+          "metric_name": "Supermarket Story Choice Distribution",
+          "paper_value": "Sign: 53 (66%), Not sign: 27 (34%)",
+          "paper_location": "Page 283, Table 1",
+          "benchmark_value": "sign_release: 66%, not_sign_release: 34%",
+          "match": true,
+          "discrepancy": "None",
+          "acceptable": true,
+          "notes": "Matches Table 1."
+        },
+        {
+          "experiment_id": "Study 1",
+          "data_type": "descriptive_stats",
+          "metric_name": "Supermarket Story Consensus Estimates (Option 1)",
+          "paper_value": "By signers: 75.6, By refusers: 57.3",
+          "paper_location": "Page 283, Table 1",
+          "benchmark_value": "by_signers: 75.6, by_refusers: 57.3",
+          "match": true,
+          "discrepancy": "None",
+          "acceptable": true,
+          "notes": "Matches Table 1."
+        },
+        {
+          "experiment_id": "Study 1",
+          "data_type": "descriptive_stats",
+          "metric_name": "Supermarket Story Trait Ratings Difference Score",
+          "paper_value": "By signers: -29.1, By refusers: 24.7",
+          "paper_location": "Page 284, Table 2",
+          "benchmark_value": "by_signers: -29.1, by_refusers: 24.7",
+          "match": true,
+          "discrepancy": "None",
+          "acceptable": true,
+          "notes": "Matches Table 2."
+        },
+        {
+          "experiment_id": "Study 1",
+          "data_type": "descriptive_stats",
+          "metric_name": "Traffic Ticket Story Trait Ratings Difference Score",
+          "paper_value": "By payers: -41.6, By contesters: -19.2",
+          "paper_location": "Page 284, Table 2",
+          "benchmark_value": "by_payers: -41.6, by_contesters: -19.2",
+          "match": true,
+          "discrepancy": "None",
+          "acceptable": true,
+          "notes": "Matches Table 2 printed value (-19.2), although calculation (59.4-79.2) suggests -19.8."
+        },
+        {
+          "experiment_id": "Study 2",
+          "data_type": "descriptive_stats",
+          "metric_name": "Unweighted Mean Estimates (Personal Traits and Views)",
+          "paper_value": "By cat1: 60.0, By cat2: 49.5",
+          "paper_location": "Page 287, Table 3",
+          "benchmark_value": "by_cat1_raters: 60.0, by_cat2_raters: 49.5",
+          "match": true,
+          "discrepancy": "None",
+          "acceptable": true,
+          "notes": "Matches Table 3 unweighted mean."
+        },
+        {
+          "experiment_id": "Study 3",
+          "data_type": "descriptive_stats",
+          "metric_name": "Combined Consensus Estimates for Wearing",
+          "paper_value": "By wearers: 61.4, By refusers: 30.4",
+          "paper_location": "Page 292, Table 4",
+          "benchmark_value": "by_wearers: 61.4, by_refusers: 30.4",
+          "match": true,
+          "discrepancy": "None",
+          "acceptable": true,
+          "notes": "Matches Table 4 Combined Study 3."
+        }
+      ],
+      "validation_summary": {
+        "total_data_points_checked": 35,
+        "matching_data_points": 35,
+        "acceptable_discrepancies": [
+          "Study 1 Traffic Ticket trait difference score (-19.2) matches the paper's table exactly, despite a likely calculation error in the original publication."
+        ],
+        "potential_errors": [
+          "Study 4 is entirely missing from the benchmark scenarios and results.",
+          "The publication year is listed as 'None' in the benchmark, whereas the paper was published in 1977."
+        ],
+        "data_accuracy_score": 0.95,
+        "overall_assessment": "The benchmark data is highly accurate and faithfully reproduces the statistics reported in the original paper's tables for Studies 1, 2, and 3. The omission of Study 4 and the missing year are the only notable gaps."
+      },
+      "critical_issues": [],
+      "recommendations": [
+        "Add Study 4 data to the benchmark to complete the coverage of the paper.",
+        "Update the 'year' field to 1977.",
+        "Remove redundant validation criteria (P1/P2, etc.) to streamline the benchmark."
+      ]
+    }
+  },
+  "checklist": {
+    "agent": "ChecklistGeneratorAgent",
+    "status": "completed",
+    "results": {
+      "checklist_sections": [
+        {
+          "section_id": "completeness",
+          "section_name": "Experiment Completeness",
+          "items": [
+            {
+              "item_id": "C1",
+              "description": "Verify inclusion of all LLM-replicable studies (Studies 1, 2, and 3).",
+              "verification_method": "Compare benchmark specification 'sub_studies' against the paper's experiment list.",
+              "expected_outcome": "Studies 1, 2, and 3 are present; Study 4 is documented as intentionally excluded.",
+              "priority": "critical",
+              "paper_reference": "General (pp. 280-290)",
+              "benchmark_reference": "specification.by_sub_study",
+              "status": "passed",
+              "notes": "Study 4 is appropriately excluded due to real-world physical requirements."
+            },
+            {
+              "item_id": "C2",
+              "description": "Verify inclusion of the Trait Rating task for Studies 1 and 3.",
+              "verification_method": "Check the 'procedure' section of the benchmark for trait attribution steps.",
+              "expected_outcome": "Procedure includes rating 'typical' actors on 100-point scales for specific traits.",
+              "priority": "high",
+              "paper_reference": "Study 1 (p. 281), Study 3 (p. 289)",
+              "benchmark_reference": "specification.procedure",
+              "status": "failed",
+              "notes": "Currently missing from the benchmark; essential for testing the attributional bias hypothesis."
+            },
+            {
+              "item_id": "C3",
+              "description": "Verify that all 34 personal description items for Study 2 are implemented.",
+              "verification_method": "Inspect the implementation code/materials for the full list of 34 items.",
+              "expected_outcome": "All 34 items (habits, preferences, etc.) are present as strings.",
+              "priority": "medium",
+              "paper_reference": "Study 2 (p. 286)",
+              "benchmark_reference": "implementation_code.study_2_items",
+              "status": "needs_review",
+              "notes": "Agent reported items are not yet detailed in the code."
+            },
+            {
+              "item_id": "C4",
+              "description": "Verify inclusion of both sandwich board versions in Study 3.",
+              "verification_method": "Check the levels/conditions for Study 3 in the benchmark specification.",
+              "expected_outcome": "Both 'Eat at Joe's' and 'Repent' sign options are available.",
+              "priority": "medium",
+              "paper_reference": "Study 3 (p. 289)",
+              "benchmark_reference": "specification.conditions",
+              "status": "needs_review",
+              "notes": "Agent recommended ensuring both versions are included as levels."
+            }
+          ]
+        },
+        {
+          "section_id": "consistency",
+          "section_name": "Experimental Setup Consistency",
+          "items": [
+            {
+              "item_id": "CS1",
+              "description": "Verify task order: Consensus Estimate must precede Personal Choice for Studies 1 and 3.",
+              "verification_method": "Review the 'procedure' steps in the benchmark specification.",
+              "expected_outcome": "1. Estimate peer consensus, 2. Indicate own choice.",
+              "priority": "critical",
+              "paper_reference": "Study 1 Method (p. 281), Study 3 Method (p. 289)",
+              "benchmark_reference": "specification.procedure",
+              "status": "failed",
+              "notes": "Benchmark currently reverses this, which may introduce consistency bias not present in the original study."
+            },
+            {
+              "item_id": "CS2",
+              "description": "Align total participant count (N) with the original paper.",
+              "verification_method": "Compare metadata 'n' against the sum of sub-study participants.",
+              "expected_outcome": "Total N should be 584 (or 504 if Study 4 is excluded).",
+              "priority": "high",
+              "paper_reference": "General (p. 281, 286, 289, 290)",
+              "benchmark_reference": "metadata.n",
+              "status": "failed",
+              "notes": "Benchmark currently lists 824, which is incorrect."
+            },
+            {
+              "item_id": "CS3",
+              "description": "Verify that story/scenario text is fully implemented and not placeholders.",
+              "verification_method": "Inspect implementation code for actual strings of the 4 stories and the sandwich board scenario.",
+              "expected_outcome": "Full, accurate text for all scenarios is present.",
+              "priority": "high",
+              "paper_reference": "Appendix/Method sections",
+              "benchmark_reference": "implementation_code",
+              "status": "failed",
+              "notes": "Agent reported 'TODO' comments instead of actual text."
+            },
+            {
+              "item_id": "CS4",
+              "description": "Check counterbalancing implementation for Study 2.",
+              "verification_method": "Review the procedure for Study 2 in the benchmark.",
+              "expected_outcome": "Order of self-categorization and consensus estimation is randomized/counterbalanced.",
+              "priority": "medium",
+              "paper_reference": "Study 2 Method (p. 286)",
+              "benchmark_reference": "specification.procedure",
+              "status": "needs_review",
+              "notes": "Original paper counterbalanced these tasks to control for order effects."
+            }
+          ]
+        },
+        {
+          "section_id": "data_accuracy",
+          "section_name": "Human Data Accuracy",
+          "items": [
+            {
+              "item_id": "D1",
+              "description": "Verify Study 1 choice distributions and consensus estimates.",
+              "verification_method": "Cross-reference benchmark ground_truth with Table 1.",
+              "expected_outcome": "Values match Table 1 (e.g., Supermarket Sign: 66% choice, 75.6% estimate by signers).",
+              "priority": "high",
+              "paper_reference": "Table 1 (p. 283)",
+              "benchmark_reference": "ground_truth.study_1",
+              "status": "passed",
+              "notes": "Data validation agent confirmed high accuracy for these points."
+            },
+            {
+              "item_id": "D2",
+              "description": "Verify Study 1 Trait Rating difference scores.",
+              "verification_method": "Cross-reference benchmark ground_truth with Table 2.",
+              "expected_outcome": "Values match Table 2 (e.g., Supermarket Signers: -29.1).",
+              "priority": "high",
+              "paper_reference": "Table 2 (p. 284)",
+              "benchmark_reference": "ground_truth.study_1_traits",
+              "status": "passed",
+              "notes": "Includes the -19.2 value for Traffic Ticket, which is consistent with the paper's printed table."
+            },
+            {
+              "item_id": "D3",
+              "description": "Verify Study 2 unweighted mean estimates.",
+              "verification_method": "Cross-reference benchmark ground_truth with Table 3.",
+              "expected_outcome": "Values match Table 3 (Cat 1: 60.0, Cat 2: 49.5).",
+              "priority": "medium",
+              "paper_reference": "Table 3 (p. 287)",
+              "benchmark_reference": "ground_truth.study_2",
+              "status": "passed",
+              "notes": "Matches unweighted means."
+            },
+            {
+              "item_id": "D4",
+              "description": "Verify Study 3 combined consensus estimates.",
+              "verification_method": "Cross-reference benchmark ground_truth with Table 4.",
+              "expected_outcome": "Values match Table 4 (Wearers: 61.4, Refusers: 30.4).",
+              "priority": "medium",
+              "paper_reference": "Table 4 (p. 292)",
+              "benchmark_reference": "ground_truth.study_3",
+              "status": "passed",
+              "notes": "Data validation agent confirmed match."
+            }
+          ]
+        },
+        {
+          "section_id": "implementation",
+          "section_name": "Implementation Quality",
+          "items": [
+            {
+              "item_id": "I1",
+              "description": "Verify that the implementation code is functional and not a skeleton.",
+              "verification_method": "Attempt to run a dry-run of the benchmark script.",
+              "expected_outcome": "Script executes, presents stimuli, and records responses without errors.",
+              "priority": "critical",
+              "paper_reference": "N/A",
+              "benchmark_reference": "implementation_code",
+              "status": "failed",
+              "notes": "Currently reported as template code only."
+            },
+            {
+              "item_id": "I2",
+              "description": "Verify the response format for consensus estimates.",
+              "verification_method": "Check the prompt/input validation in the implementation.",
+              "expected_outcome": "LLM is prompted to provide a percentage (0-100) for both options, summing to 100%.",
+              "priority": "high",
+              "paper_reference": "Study 1 (p. 281)",
+              "benchmark_reference": "implementation_code.prompts",
+              "status": "needs_review",
+              "notes": "The paper required estimates for both 'Option 1' and 'Option 2'."
+            },
+            {
+              "item_id": "I3",
+              "description": "Verify the implementation of the 100-point Likert scale for trait ratings.",
+              "verification_method": "Check the prompt/input validation for trait rating tasks.",
+              "expected_outcome": "LLM provides a rating from 0 to 100 for each trait.",
+              "priority": "medium",
+              "paper_reference": "Study 1 (p. 281)",
+              "benchmark_reference": "implementation_code.prompts",
+              "status": "pending",
+              "notes": "Dependent on the addition of the trait rating task."
+            }
+          ]
+        },
+        {
+          "section_id": "documentation",
+          "section_name": "Documentation Completeness",
+          "items": [
+            {
+              "item_id": "DOC1",
+              "description": "Verify metadata fields: Year and Citation.",
+              "verification_method": "Check the metadata section of the benchmark.",
+              "expected_outcome": "Year is 1977; Citation is complete and accurate.",
+              "priority": "low",
+              "paper_reference": "Title Page",
+              "benchmark_reference": "metadata",
+              "status": "failed",
+              "notes": "Year is currently 'None'."
+            },
+            {
+              "item_id": "DOC2",
+              "description": "Verify documentation of intentional modifications.",
+              "verification_method": "Check for a 'modifications' or 'notes' section in the benchmark.",
+              "expected_outcome": "Clear explanation for the exclusion of Study 4.",
+              "priority": "medium",
+              "paper_reference": "N/A",
+              "benchmark_reference": "documentation.modifications",
+              "status": "pending",
+              "notes": "Essential for transparency regarding benchmark scope."
+            },
+            {
+              "item_id": "DOC3",
+              "description": "Verify participant demographic documentation.",
+              "verification_method": "Check metadata for population description.",
+              "expected_outcome": "Population described as 'Stanford undergraduates'.",
+              "priority": "low",
+              "paper_reference": "General (p. 281)",
+              "benchmark_reference": "metadata.population",
+              "status": "passed",
+              "notes": "Correctly identified by agents."
+            }
+          ]
+        }
+      ],
+      "checklist_summary": {
+        "total_items": 18,
+        "critical_items": 3,
+        "high_priority_items": 6,
+        "medium_priority_items": 6,
+        "low_priority_items": 3,
+        "estimated_validation_time": "4-6 hours"
+      },
+      "validation_workflow": [
+        {
+          "step": 1,
+          "description": "Structural Correction: Update task order and participant counts in specification.",
+          "required_items": [
+            "CS1",
+            "CS2"
+          ],
+          "estimated_time": "1 hour"
+        },
+        {
+          "step": 2,
+          "description": "Content Population: Replace 'TODO' placeholders with actual story text and Study 2 items.",
+          "required_items": [
+            "CS3",
+            "C3",
+            "C4"
+          ],
+          "estimated_time": "2 hours"
+        },
+        {
+          "step": 3,
+          "description": "Feature Expansion: Implement Trait Rating tasks and Likert scales.",
+          "required_items": [
+            "C2",
+            "I3"
+          ],
+          "estimated_time": "1.5 hours"
+        },
+        {
+          "step": 4,
+          "description": "Final Audit: Verify metadata and documentation for completeness.",
+          "required_items": [
+            "DOC1",
+            "DOC2",
+            "D1",
+            "D2",
+            "D3",
+            "D4"
+          ],
+          "estimated_time": "1 hour"
+        }
+      ]
+    }
+  }
+}

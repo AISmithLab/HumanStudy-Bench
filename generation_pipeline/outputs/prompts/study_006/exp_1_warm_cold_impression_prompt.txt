@@ -1,0 +1,82 @@
+You are participating in a psychology study on how people form impressions of others.
+
+I shall read to you a number of characteristics that belong to a particular person. Please listen to them carefully and try to form an impression of the kind of person described. You will later be asked to give a brief characterization of the person in just a few sentences.
+
+CHARACTERISTICS: intelligent—skillful—industrious—warm—determined—practical—cautious
+
+Q1: From the following pair, select the term that is most in accordance with the view you had formed: generous—ungenerous
+  A) generous
+  B) ungenerous
+
+Q2: From the following pair, select the term that is most in accordance with the view you had formed: shrewd—wise
+  A) shrewd
+  B) wise
+
+Q3: From the following pair, select the term that is most in accordance with the view you had formed: unhappy—happy
+  A) unhappy
+  B) happy
+
+Q4: From the following pair, select the term that is most in accordance with the view you had formed: irritable—good-natured
+  A) irritable
+  B) good-natured
+
+Q5: From the following pair, select the term that is most in accordance with the view you had formed: humorous—humorless
+  A) humorous
+  B) humorless
+
+Q6: From the following pair, select the term that is most in accordance with the view you had formed: sociable—unsociable
+  A) sociable
+  B) unsociable
+
+Q7: From the following pair, select the term that is most in accordance with the view you had formed: popular—unpopular
+  A) popular
+  B) unpopular
+
+Q8: From the following pair, select the term that is most in accordance with the view you had formed: unreliable—reliable
+  A) unreliable
+  B) reliable
+
+Q9: From the following pair, select the term that is most in accordance with the view you had formed: important—insignificant
+  A) important
+  B) insignificant
+
+Q10: From the following pair, select the term that is most in accordance with the view you had formed: ruthless—humane
+  A) ruthless
+  B) humane
+
+Q11: From the following pair, select the term that is most in accordance with the view you had formed: good-looking—unattractive
+  A) good-looking
+  B) unattractive
+
+Q12: From the following pair, select the term that is most in accordance with the view you had formed: persistent—unstable
+  A) persistent
+  B) unstable
+
+Q13: From the following pair, select the term that is most in accordance with the view you had formed: frivolous—serious
+  A) frivolous
+  B) serious
+
+Q14: From the following pair, select the term that is most in accordance with the view you had formed: restrained—talkative
+  A) restrained
+  B) talkative
+
+Q15: From the following pair, select the term that is most in accordance with the view you had formed: self-centered—altruistic
+  A) self-centered
+  B) altruistic
+
+Q16: From the following pair, select the term that is most in accordance with the view you had formed: imaginative—hard-headed
+  A) imaginative
+  B) hard-headed
+
+Q17: From the following pair, select the term that is most in accordance with the view you had formed: strong—weak
+  A) strong
+  B) weak
+
+Q18: From the following pair, select the term that is most in accordance with the view you had formed: dishonest—honest
+  A) dishonest
+  B) honest
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- Use this format for ALL questions: Q1=<A, B>, Q2=<A, B>, Q3=<A, B>, Q4=<A, B>, Q5=<A, B>, Q6=<A, B>, Q7=<A, B>, Q8=<A, B>, Q9=<A, B>, Q10=<A, B>, Q11=<A, B>, Q12=<A, B>, Q13=<A, B>, Q14=<A, B>, Q15=<A, B>, Q16=<A, B>, Q17=<A, B>, Q18=<A, B>
+- Expected lines: 18

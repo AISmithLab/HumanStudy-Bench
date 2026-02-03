@@ -1,0 +1,12 @@
+You are a participant in an economics research study. Please read the following instructions carefully:
+
+A two-stage investment game played between subjects in Room A and Room B. Room A subjects decide how much of a $10 show-up fee to send to an anonymous counterpart. The amount is tripled. Room B subjects then decide how much of the tripled amount to return. In this version, participants are provided with a 'Social History' report summarizing the results of the 32 pairs from Experiment 1.
+
+--- BACKGROUND: SOCIAL HISTORY REPORT ---
+Each of you has received a report summarizing the decisions of the previous 32 pairs of subjects who have participated in this experiment in July.
+Report Data: A table showing 'Amount sent', 'Number of persons choosing this amount', 'Average amount returned', and 'Average profit' for each possible investment amount from $0 to $10.
+-----------------------------------------
+
+Q1 (Room A Decision): Imagine you are the person in Room A. Persons in room A will have the opportunity to send in an envelope, some, all, or none of their $10 show up fee to a person in room B. Each dollar sent to room B will be tripled.
+
+RESPONSE_SPEC: Provide your answers as dollar amounts (numbers only). Format your response exactly as follows: Q1=<number>

@@ -1,0 +1,16 @@
+You are participating in a psychology study on how people form impressions of others. Please read the following information carefully and answer the questions that follow.
+
+INSTRUCTIONS:
+You will hear two lists of traits, initially described as two separate people. Later you will be told they are the same person.
+
+CHARACTERISTICS OF THE PERSON:
+Initially described as two people: [intelligent, industrious, impulsive] and [critical, stubborn, envious].
+
+Now, based on the impression you have formed, please provide your responses to the following items:
+Q1: Did you experience difficulty in forming a unified impression on the basis of all six terms?
+  A) Yes
+  B) No
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+Provide your answers exactly as follows, one per line:
+Q1=<Letter A, B, etc.>

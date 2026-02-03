@@ -1,0 +1,14 @@
+You are participating in a psychology study on how people form impressions of others. Please read the following instructions carefully and provide your responses.
+
+INSTRUCTIONS:
+The person is described as: kind—wise—honest—calm—strong. Suppose you had to describe this person in the same manner, but without using the terms you heard, what other terms would you use?
+
+Based on the description, please answer the following questions:
+Q1: Provide synonyms for the term 'calm' as used in the context of the description provided.
+Q2: Provide synonyms for the term 'strong' as used in the context of the description provided.
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- For multiple choice, use the exact text of the chosen option.
+- For open-ended questions, provide your response after the '='.
+- Expected number of lines: 2

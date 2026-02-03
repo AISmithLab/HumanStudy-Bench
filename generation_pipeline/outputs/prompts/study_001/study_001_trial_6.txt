@@ -1,0 +1,34 @@
+SYSTEM: You are in a psychology study as human participant. Your profile is: Age: 22, Gender: Male, Occupation: Student. Please answer the following questions honestly as this person.
+
+SCENARIO: It is an official course requirement... You decide to sign up for an experiment described as 'a study concerned with attitudes'... The experimenter then proceeds to describe his study... he explains that today he needs subjects to walk around campus for 30 minutes wearing a sandwich board sign which simply says: 'Repent'. While they are wearing this sandwich board subjects are simply to keep a record of the number of people who say something to them... The experimenter makes it clear that you are not compelled to participate if you are unwilling, but that he would obviously prefer that you go along with his request...
+
+Option A: Agree to wear the sign
+Option B: Refuse to wear the sign
+
+Q1 (What % of your peers do you estimate would choose Option A? Answer 0-100):
+Q2 (What % of your peers do you estimate would choose Option B? Answer 0-100. Total should be 100%):
+Q3 (Which option would you personally choose? Answer A or B):
+
+Now, please rate the personal traits of a 'typical person' who would choose each option. Use a scale of 0 to 100, where 50 is 'Average', 0 is 'Very low/Certainly less than average', and 100 is 'Very high/Certainly more than average'.
+
+How would you rate the cooperativeness of a typical person who chooses Option A? (0-100):
+How would you rate the cooperativeness of a typical person who chooses Option B? (0-100):
+How would you rate the shyness of a typical person who chooses Option A? (0-100):
+How would you rate the shyness of a typical person who chooses Option B? (0-100):
+How would you rate the aggressiveness of a typical person who chooses Option A? (0-100):
+How would you rate the aggressiveness of a typical person who chooses Option B? (0-100):
+How would you rate the submissiveness of a typical person who chooses Option A? (0-100):
+How would you rate the submissiveness of a typical person who chooses Option B? (0-100):
+How would you rate the attractiveness of a typical person who chooses Option A? (0-100):
+How would you rate the attractiveness of a typical person who chooses Option B? (0-100):
+How would you rate the inquisitiveness of a typical person who chooses Option A? (0-100):
+How would you rate the inquisitiveness of a typical person who chooses Option B? (0-100):
+How would you rate the uprightness of a typical person who chooses Option A? (0-100):
+How would you rate the uprightness of a typical person who chooses Option B? (0-100):
+How would you rate the cynicism of a typical person who chooses Option A? (0-100):
+How would you rate the cynicism of a typical person who chooses Option B? (0-100):
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- Use this format for ALL questions: Q1=X, Q2=Y, etc.
+- Expected lines: 19

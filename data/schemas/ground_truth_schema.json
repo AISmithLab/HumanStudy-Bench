@@ -1,0 +1,191 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ground Truth Schema",
+  "description": "Schema for original results and validation criteria",
+  "type": "object",
+  "required": ["study_id", "original_results", "validation_criteria"],
+  "properties": {
+    "study_id": {
+      "type": "string",
+      "pattern": "^study_[0-9]{3,}$"
+    },
+    "original_results": {
+      "type": "object",
+      "required": ["descriptive_statistics"],
+      "properties": {
+        "descriptive_statistics": {
+          "type": "object",
+          "description": "Descriptive statistics for each DV and condition",
+          "patternProperties": {
+            ".*": {
+              "type": "object",
+              "patternProperties": {
+                ".*": {
+                  "type": "object",
+                  "required": ["mean", "sd", "n"],
+                  "properties": {
+                    "n": {"type": "integer", "minimum": 1},
+                    "mean": {"type": "number"},
+                    "sd": {"type": "number", "minimum": 0},
+                    "median": {"type": "number"},
+                    "min": {"type": "number"},
+                    "max": {"type": "number"},
+                    "ci_95": {
+                      "type": "array",
+                      "items": {"type": "number"},
+                      "minItems": 2,
+                      "maxItems": 2
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "inferential_statistics": {
+          "type": "object",
+          "description": "Inferential statistics (ANOVA, t-tests, etc.)",
+          "patternProperties": {
+            ".*": {
+              "type": "object",
+              "required": ["test"],
+              "properties": {
+                "test": {
+                  "type": "string",
+                  "enum": [
+                    "t_test",
+                    "paired_t_test",
+                    "ANOVA",
+                    "repeated_measures_ANOVA",
+                    "mixed_ANOVA",
+                    "chi_square",
+                    "correlation",
+                    "regression"
+                  ]
+                },
+                "statistic": {"type": "number"},
+                "t": {"type": "number"},
+                "F": {"type": "number"},
+                "chi2": {"type": "number"},
+                "r": {"type": "number"},
+                "df": {
+                  "oneOf": [
+                    {"type": "integer"},
+                    {
+                      "type": "array",
+                      "items": {"type": "integer"}
+                    }
+                  ]
+                },
+                "p": {"type": "number", "minimum": 0, "maximum": 1},
+                "p_value": {"type": "number", "minimum": 0, "maximum": 1},
+                "effect_size": {
+                  "type": "string",
+                  "enum": ["cohens_d", "eta_squared", "partial_eta_squared", "r", "r_squared"]
+                },
+                "effect_size_value": {"type": "number"},
+                "cohens_d": {"type": "number"},
+                "eta_squared": {"type": "number"},
+                "ci_95": {
+                  "type": "array",
+                  "items": {"type": "number"},
+                  "minItems": 2,
+                  "maxItems": 2
+                }
+              }
+            }
+          }
+        },
+        "key_findings": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Summary of main findings"
+        }
+      }
+    },
+    "validation_criteria": {
+      "type": "object",
+      "required": ["required_tests", "scoring"],
+      "properties": {
+        "required_tests": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["test_id", "test_name", "type"],
+            "properties": {
+              "test_id": {"type": "string"},
+              "test_name": {"type": "string"},
+              "description": {"type": "string"},
+              "type": {
+                "type": "string",
+                "enum": [
+                  "statistical_significance",
+                  "direction_test",
+                  "range_test",
+                  "similarity_test",
+                  "custom"
+                ]
+              },
+              "statistic": {"type": "string"},
+              "threshold": {"type": "number"},
+              "min": {"type": "number"},
+              "max": {"type": "number"},
+              "tolerance": {"type": "number"},
+              "comparison": {
+                "type": "string",
+                "enum": ["less_than", "greater_than", "equal_to", "within_range"]
+              },
+              "expected": {"type": "string"}
+            }
+          }
+        },
+        "scoring": {
+          "type": "object",
+          "required": ["total_points"],
+          "properties": {
+            "total_points": {"type": "number", "minimum": 0},
+            "test_weights": {
+              "type": "object",
+              "patternProperties": {
+                ".*": {"type": "number", "minimum": 0}
+              }
+            },
+            "passing_threshold": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1,
+              "description": "Minimum score to pass (0-1)"
+            },
+            "partial_credit_rules": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "condition": {"type": "string"},
+                  "points": {"type": "number"}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "replication_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "citation": {"type": "string"},
+          "year": {"type": "integer"},
+          "result": {
+            "type": "string",
+            "enum": ["successful", "failed", "partial", "not_applicable"]
+          },
+          "notes": {"type": "string"}
+        }
+      },
+      "description": "History of replication attempts"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+SYSTEM: You are in a psychology study as human participant. Your profile is: Age: 20, Gender: Female, Occupation: Stanford Undergraduate. Please answer the following questions honestly as this person.
+
+INSTRUCTIONS: Participants read a story about an experimenter requesting them to wear a sandwich board sign on campus for 30 minutes. They indicated if they would agree or refuse, estimated peer consensus, and rated traits of typical individuals.
+
+For trait ratings, use a 100-point scale anchored as follows:
++50: Certainly more [trait] than the average person of my age and sex, probably very much more.
+0: Probably average with respect to [trait]. I have no reason to assume that the actor differs from the average person of my age and sex with respect to this characteristic.
+-50: Certainly less [trait] than the average person of my age and sex, probably very much less.
+
+Q1 (choice: Agree to carry the sign, Refuse to carry the sign): It is an official course requirement... You decide to sign up for an experiment described as 'a study concerned with attitudes'... The experimenter then proceeds to describe his study... he explains that today he needs subjects to walk around campus for 30 minutes wearing a sandwich board sign which simply says: 'Eat at Joe's' [or 'Repent']. While they are wearing this sandwich board subjects are simply to keep a record of the number of people who say something to them... The experimenter makes it clear that you are not compelled to participate if you are unwilling, but that he would obviously prefer that you go along with his request...
+
+Would you agree to carry the sandwich board sign?
+Q2 (percent 0-100): What % of your peers do you estimate would agree to carry the sandwich board around campus?
+Q3 (percent 0-100): What % would refuse to carry it?
+Q4 (rating -50 to +50): Rate the 'typical person' who would agree to wear the sign (and the one who would refuse) on the trait: cooperativeness.
+Q5 (rating -50 to +50): Rate the 'typical person' who would agree to wear the sign (and the one who would refuse) on the trait: shyness.
+Q6 (rating -50 to +50): Rate the 'typical person' who would agree to wear the sign (and the one who would refuse) on the trait: aggressiveness.
+Q7 (rating -50 to +50): Rate the 'typical person' who would agree to wear the sign (and the one who would refuse) on the trait: submissiveness.
+Q8 (rating -50 to +50): Rate the 'typical person' who would agree to wear the sign (and the one who would refuse) on the trait: attractiveness.
+Q9 (rating -50 to +50): Rate the 'typical person' who would agree to wear the sign (and the one who would refuse) on the trait: inquisitiveness.
+Q10 (rating -50 to +50): Rate the 'typical person' who would agree to wear the sign (and the one who would refuse) on the trait: uprightness.
+Q11 (rating -50 to +50): Rate the 'typical person' who would agree to wear the sign (and the one who would refuse) on the trait: cynicism.
+
+
+RESPONSE_SPEC:
+- Output ONLY answer lines in the format: Qk=<value>
+- For self-categorization and estimation pairs (Study 2), use Qk_A=<category>, Qk_B=<percent>
+- Expected lines: 11

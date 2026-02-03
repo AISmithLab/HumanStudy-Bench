@@ -1,0 +1,189 @@
+{
+  "studies": [
+    {
+      "study_id": "Experiment 1",
+      "study_name": "One-shot Prisoner's Dilemma Triads",
+      "phenomenon": "Nonconsequential Reasoning (Disjunction Effect)",
+      "hypotheses": [
+        "People exhibit a greater rate of cooperation in the disjunctive condition (when the other player's strategy is not known) than when the other player's strategy is known to be either 'compete' or 'cooperate'.",
+        "The tendency to cooperate when uncertain cannot be attributed solely to a moral imperative to reciprocate cooperation."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "pd_triad_tasks",
+          "type": "decision_task",
+          "content": "Subjects played a series of one-shot Prisoner's Dilemma (PD) games against different opponents. Each PD game was presented in three versions (a triad): unknown opponent strategy, opponent known to have competed, and opponent known to have cooperated.",
+          "items": [
+            {
+              "item_id": "typical_pd_matrix",
+              "description": "Payoff matrix for a typical PD game used in the study.",
+              "matrix_values": {
+                "both_cooperate": [
+                  75,
+                  75
+                ],
+                "you_cooperate_other_competes": [
+                  25,
+                  85
+                ],
+                "you_compete_other_cooperates": [
+                  85,
+                  25
+                ],
+                "both_compete": [
+                  30,
+                  30
+                ]
+              },
+              "visual_format": "Fig. 2: Cell entries indicate points for 'You' and 'Other' based on choices."
+            }
+          ],
+          "participants": {
+            "n": 80,
+            "description": "Princeton undergraduates",
+            "procedure_details": "40 games total; 6 were PDs; PD games interspersed with other two-person games to prevent standard strategies. First 18 subjects played 4 PD triads; remaining subjects played 6 PD triads (total 444 triads)."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "Other Player Competes",
+                "cooperation_rate": "3%",
+                "count": "14/444"
+              },
+              {
+                "condition": "Other Player Cooperates",
+                "cooperation_rate": "16%",
+                "count": "73/444"
+              },
+              {
+                "condition": "Other Player strategy unknown",
+                "cooperation_rate": "37%",
+                "count": "164/444"
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Not explicitly named (likely Chi-square or proportion test)",
+                "statistic": "Not provided",
+                "p_value": "p < .001",
+                "claim": "The cooperation rates in the three versions (known compete, known cooperate, unknown) are all significantly different.",
+                "location": "Page 455, Results and Discussion"
+              },
+              {
+                "test_name": "Descriptive frequency",
+                "statistic": "25% (113/444)",
+                "p_value": null,
+                "claim": "The second most frequent pattern (after competing in all three) was the disjunction effect: compete when other competes, compete when other cooperates, but cooperate when unknown.",
+                "location": "Page 455-456"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment 2",
+      "study_name": "Newcomb's Problem (Computer Program Version)",
+      "phenomenon": "Quasi-magical Thinking",
+      "hypotheses": [
+        "A majority of subjects will choose a single box (Box B) in a version of Newcomb's problem that lacks supernatural elements, despite the dominance of taking both boxes.",
+        "The choice is driven by the diagnostic value of the action (choosing one box is diagnostic of the desired state: Box B being full)."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "newcombs_computer_task",
+          "type": "decision_scenario",
+          "content": "Subjects were told a computer program at MIT analyzed their previous preferences and predicted their choice in a final problem involving two boxes.",
+          "items": [
+            {
+              "item_id": "newcomb_scenario_text",
+              "text": "Box A contains 20 points for sure. Box B may or may not contain 250 points. Your options are to: (1) Choose both boxes. (2) Choose Box B only. If the program predicted you will take both boxes, it left Box B empty. If it predicted you will take only Box B, it put 250 points in it. The program has been 92% successful so far.",
+              "location": "Page 461-462"
+            }
+          ],
+          "participants": {
+            "n": 40,
+            "description": "Subjects who had just completed the PD study (likely Princeton undergraduates)."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "choice": "Both boxes",
+                "percentage": "35%",
+                "count": "14/40"
+              },
+              {
+                "choice": "Box B only",
+                "percentage": "65%",
+                "count": "26/40"
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Descriptive percentage",
+                "statistic": "65%",
+                "p_value": null,
+                "claim": "The majority of subjects preferred to take Box B only, consistent with nonconsequential evaluation.",
+                "location": "Page 462, Results"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment 3",
+      "study_name": "Prisoner's Dilemma with Information Seeking",
+      "phenomenon": "Nonconsequential Information Seeking",
+      "hypotheses": [
+        "People will pay to obtain information that they do not use to change their decision, seeking it to clarify reasons rather than to inform choice."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "pd_info_seeking_variation",
+          "type": "decision_task",
+          "content": "Subjects were presented with PD games and offered the opportunity to learn the other's decision before choosing, for a very small fee.",
+          "items": [
+            {
+              "item_id": "pd_matrix_info_fee",
+              "description": "Same payoff matrices as Experiment 1, with an added option to pay a small fee to see the opponent's move."
+            }
+          ],
+          "participants": {
+            "n": "Not explicitly stated (described as a 'new group of subjects')",
+            "description": "Contextually Princeton undergraduates"
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "behavior": "Chose to pay for information",
+                "percentage": "81%",
+                "context": "Across trials"
+              },
+              {
+                "behavior": "Choice after seeing information",
+                "observation": "The great majority of subjects chose to compete regardless of the opponent's decision."
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Descriptive percentage",
+                "statistic": "81%",
+                "p_value": null,
+                "claim": "Subjects frequently paid for information that did not impact their subsequent decision.",
+                "location": "Page 467"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "paper_id": "prisoner",
+  "paper_title": "Thinking through Uncertainty: Nonconsequential Reasoning and Choice",
+  "paper_authors": [
+    "Eldar Shafir",
+    "Amos Tversky"
+  ],
+  "paper_abstract": "When thinking under uncertainty, people often do not consider appropriately each of the relevant branches of a decision tree, as required by consequentialism. As a result they sometimes violate Savage’s sure-thing principle. In the Prisoner’s Dilemma game, for example, many subjects compete when they know that the opponent has competed and when they know that the opponent has cooperated, but cooperate when they do not know the opponent’s response. Newcomb’s Problem and Wason’s selection task are also interpreted as manifestations of nonconsequential decision making and reasoning. The causes and implications of such behavior, and the notion of quasi-magical thinking, are discussed."
+}

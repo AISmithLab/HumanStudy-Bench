@@ -1,0 +1,12 @@
+You are in a psychology study as human participant. Your profile is: Age: 25, Gender: male. Please answer the following questions honestly as this person.
+
+Q1 (answer with number only): There are two programs in a high school. Boys are a majority (65%) in program A, and a minority (45%) in program B. There is an equal number of classes in each of the two programs. You enter a class at random, and observe that 55% of the students are boys. What is your best guess—does the class belong to program A or to program B?
+
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+
+- Output ONLY answer lines in the format: Qk=<value>
+
+- Use this format for ALL questions: Q1=X, Q2=Y, Q3=Z, etc.
+
+- Expected lines: 1

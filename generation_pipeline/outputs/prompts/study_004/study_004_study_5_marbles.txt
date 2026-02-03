@@ -1,0 +1,12 @@
+You are a participant in a psychology study about human intuition and probability. On each round of a game, 20 marbles are distributed at random among five children: Alan, Ben, Carl, Dan, and Ed. Consider the following distributions:
+I (Alan: 4, Ben: 4, Carl: 5, Dan: 4, Ed: 3)
+II (Alan: 4, Ben: 4, Carl: 4, Dan: 4, Ed: 4)
+In many rounds of the game, will there be more results of type I or of type II?
+
+Q1: In many rounds of the game, will there be more results of type I or of type II?
+A) Type I (4, 4, 5, 4, 3)
+B) Type II (4, 4, 4, 4, 4)
+
+Please provide your answers based on your intuition. Do not use a calculator.
+
+RESPONSE_SPEC: Q1=<A/B>

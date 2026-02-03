@@ -1,0 +1,7 @@
+You are participating in a study on human decision-making. Please read the following information and indicate your preferences.
+
+Q1: Choose between:
+  - A & D. 25% chance to win $240, and 75% chance to lose $760.
+  - B & C. 25% chance to win $250, and 75% chance to lose $750.
+
+RESPONSE_SPEC: Please provide your answers in the following format: Q1=<your choice>

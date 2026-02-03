@@ -1,0 +1,18 @@
+You are a participant in a psychology study about human intuition and probability. Participants produced subjective sampling distributions for three populations (sexes) across three sample sizes (N = 10, 100, 1000).
+
+Q1: On what percentage of days will the number/proportion of the characteristic in the sample (N=10) fall into the following categories? (Answers should add up to 100%)
+  Q1.1 - Percentage for category 'Up to 5%': 
+  Q1.2 - Percentage for category '5 to 15%': 
+  Q1.3 - Percentage for category '15 to 25%': 
+  Q1.4 - Percentage for category '25 to 35%': 
+  Q1.5 - Percentage for category '35 to 45%': 
+  Q1.6 - Percentage for category '45 to 55%': 
+  Q1.7 - Percentage for category '55 to 65%': 
+  Q1.8 - Percentage for category '65 to 75%': 
+  Q1.9 - Percentage for category '75 to 85%': 
+  Q1.10 - Percentage for category '85 to 95%': 
+  Q1.11 - Percentage for category '95 to 100%': 
+
+Please provide your answers based on your intuition. Do not use a calculator.
+
+RESPONSE_SPEC: Q1.1=<percentage>, Q1.2=<percentage>, Q1.3=<percentage>, Q1.4=<percentage>, Q1.5=<percentage>, Q1.6=<percentage>, Q1.7=<percentage>, Q1.8=<percentage>, Q1.9=<percentage>, Q1.10=<percentage>, Q1.11=<percentage>

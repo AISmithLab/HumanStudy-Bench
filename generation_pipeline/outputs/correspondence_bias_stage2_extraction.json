@@ -1,0 +1,94 @@
+{
+  "studies": [
+    {
+      "study_id": "Experiment 2",
+      "study_name": "Observers' Perceptions",
+      "phenomenon": "Fundamental Attribution Error (Social Role Bias)",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "Uninvolved observers attribute significantly higher general knowledge to the questioner than to the contestant, failing to account for the role-conferred advantages in self-presentation.",
+          "hypothesis": "Observers, like the contestants in Experiment 1, will make inadequate allowance for role-conferred advantages and disadvantages, judging the contestant as inferior in general knowledge to the questioner."
+        },
+        {
+          "finding_id": "Finding 2",
+          "finding_description": "The sex of the observer does not significantly influence the extent of the attributional bias.",
+          "hypothesis": "There are no significant differences in the perceptual strategies or capacities of male and female raters regarding social role bias."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment 2 Simulation Rating",
+          "type": "social perception task",
+          "content": "Subjects observed a simulated reenactment of the quiz game interaction. Two female confederates simulated 12 sessions previously recorded from female pairs in Experiment 1. In each simulation, the 'questioner' composed 10 difficult questions from their own expertise, and the 'contestant' attempted to answer them. Observers were led to believe roles were randomly assigned. They then rated the general knowledge of both the questioner and the contestant.",
+          "items": [
+            {
+              "item_id": "general_knowledge_rating_q",
+              "item_text": "Rate the questioner's general knowledge compared to the average Stanford student.",
+              "response_options": "100-point Likert scale (1 = much worse than average, 50 = average, 100 = much better than average)"
+            },
+            {
+              "item_id": "general_knowledge_rating_c",
+              "item_text": "Rate the contestant's general knowledge compared to the average Stanford student.",
+              "response_options": "100-point Likert scale (1 = much worse than average, 50 = average, 100 = much better than average)"
+            },
+            {
+              "item_id": "example_question_1",
+              "item_text": "What do the initials W. H. in W. H. Auden's name stand for?",
+              "response_options": "Open-ended (Answer: Wystan Hugh)"
+            },
+            {
+              "item_id": "example_question_2",
+              "item_text": "What is the longest glacier in the world?",
+              "response_options": "Open-ended (Answer: Lambert Glacier)"
+            }
+          ],
+          "participants": {
+            "n": 48,
+            "demographics": "24 male and 24 female undergraduate students from an introductory psychology class at Stanford University.",
+            "group_assignment": "Subjects were assigned to observe one of 24 simulation runs (12 original sessions simulated twice to allow confederates to alternate roles)."
+          },
+          "human_data": {
+            "item_level_results": [],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "ANOVA (Main effect of Role)",
+                "statistic": "F(1, 44) = 65.9",
+                "p_value": "p < .001",
+                "raw_data": {
+                  "questioner_mean": 82.08,
+                  "contestant_mean": 48.92,
+                  "difference": 33.16,
+                  "total_n": 48
+                },
+                "claim": "Overall, the questioner is seen as tremendously knowledgeable (M = 82.08); the contestant is seen as only slightly less knowledgeable than the average Stanford student (M = 48.92).",
+                "location": "Page 491, Results (Experiment 2)"
+              },
+              {
+                "finding_id": "Finding 2",
+                "test_name": "ANOVA (Main effect of Observer Sex)",
+                "statistic": "F < 1",
+                "p_value": "not significant",
+                "raw_data": {
+                  "male_observers_n": 24,
+                  "female_observers_n": 24
+                },
+                "claim": "There were no significant differences between the perceptions of male and female observers.",
+                "location": "Page 491, Results (Experiment 2)"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "paper_id": "correspondence_bias",
+  "paper_title": "Social Roles, Social Control, and Biases in Social-Perception Processes",
+  "paper_authors": [
+    "Lee D. Ross",
+    "Teresa M. Amabile",
+    "Julia L. Steinmetz"
+  ],
+  "paper_abstract": "To make accurate social judgments, an individual must both recognize and adequately correct for the self-presentation advantages or disadvantages conferred upon actors by their social roles. Two experiments examined social perceptions formed during an encounter in which one participant composed difficult general knowledge questions and another participant attempted to answer those questions. It was found, as predicted, that perceivers fail to make adequate allowance for the biasing effects of these \"questioner\" and \"answerer\" roles in judging the participants' general knowledge. Questioners, allowed to display their personal store of esoteric knowledge in composing questions, were consistently rated superior to their partners, who attempted to answer the questions. This bias was stronger for the answerers and the uninvolved observers than for the questioners. Some implications of these results for our understanding of the biased perceptions of the powerful and the powerless in society are noted. More general implications for an understanding of the shortcomings of the \"intuitive psychologist\" are also discussed."
+}

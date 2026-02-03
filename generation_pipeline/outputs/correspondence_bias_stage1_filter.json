@@ -1,0 +1,35 @@
+{
+  "paper_title": "Social Roles, Social Control, and Biases in Social-Perception Processes",
+  "paper_authors": [
+    "Lee D. Ross",
+    "Teresa M. Amabile",
+    "Julia L. Steinmetz"
+  ],
+  "paper_abstract": "To make accurate social judgments, an individual must both recognize and adequately correct for the self-presentation advantages or disadvantages conferred upon actors by their social roles. Two experiments examined social perceptions formed during an encounter in which one participant composed difficult general knowledge questions and another participant attempted to answer those questions. It was found, as predicted, that perceivers fail to make adequate allowance for the biasing effects of these \"questioner\" and \"answerer\" roles in judging the participants' general knowledge. Questioners, allowed to display their personal store of esoteric knowledge in composing questions, were consistently rated superior to their partners, who attempted to answer the questions. This bias was stronger for the answerers and the uninvolved observers than for the questioners. Some implications of these results for our understanding of the biased perceptions of the powerful and the powerless in society are noted. More general implications for an understanding of the shortcomings of the \"intuitive psychologist\" are also discussed.",
+  "experiments": [
+    {
+      "experiment_id": "Experiment 1",
+      "experiment_name": "Contestants' and Questioners' Perceptions",
+      "input": "Participants are randomly assigned to the role of 'questioner' or 'contestant' via a card draw. Questioners compose 10 'challenging but not impossible' questions based on their own expertise. Contestants compose 10 'easy' questions as a warm-up (not used in the game). The questioner then poses their questions to the contestant in an oral quiz session. Afterward, both take a written 'Jeopardy' style quiz to provide an objective baseline.",
+      "participants": "18 male pairs and 18 female pairs (72 total) of students from an introductory psychology class at Stanford University.",
+      "output": "Self-ratings and partner-ratings of general knowledge compared to the 'average Stanford student' on 100-point Likert scales.",
+      "replicable": "NO",
+      "exclusion_reasons": [
+        "Requires real-world physical actions or authentic in-person/social interaction that cannot be faithfully simulated in text-only prompts"
+      ]
+    },
+    {
+      "experiment_id": "Experiment 2",
+      "experiment_name": "Observers' Perceptions",
+      "input": "Observers watch a live simulation/reenactment of the quiz game interaction from Experiment 1 (specifically the female pairs). They are led to believe the roles were randomly assigned to the participants they are watching. They observe the questioner posing difficult questions and the contestant failing to answer many of them.",
+      "participants": "48 subjects (24 male, 24 female) recruited from an introductory psychology class at Stanford University.",
+      "output": "Ratings of the questioner's and contestant's general knowledge on 100-point Likert scales.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    }
+  ],
+  "overall_replicable": true,
+  "confidence": 0.95,
+  "notes": "Experiment 1 is classified as not replicable because it relies on the authentic social pressure and 'social control' experienced by participants in a live, face-to-face encounter. Experiment 2 is replicable because it is a third-party observation task; the 'input' (the witnessed interaction) can be provided to an LLM agent as a transcript or a detailed descriptive scenario to elicit the same type of social judgment measured in the original study.",
+  "paper_id": "correspondence_bias"
+}

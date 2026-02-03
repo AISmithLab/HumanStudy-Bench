@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Study Specification Schema",
+  "description": "Schema for experimental specification in HumanStudyBench",
+  "type": "object",
+  "required": ["study_id", "design", "participants", "procedure"],
+  "properties": {
+    "study_id": {
+      "type": "string",
+      "pattern": "^study_[0-9]{3,}$"
+    },
+    "design": {
+      "type": "object",
+      "required": ["type", "independent_variables", "dependent_variables"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["between_subjects", "within_subjects", "mixed"],
+          "description": "Type of experimental design"
+        },
+        "independent_variables": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["name", "type", "levels"],
+            "properties": {
+              "name": {"type": "string"},
+              "type": {
+                "type": "string",
+                "enum": ["categorical", "continuous", "ordinal"]
+              },
+              "levels": {
+                "type": "array",
+                "description": "Levels or range of the variable"
+              },
+              "description": {"type": "string"}
+            }
+          }
+        },
+        "dependent_variables": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["name", "type"],
+            "properties": {
+              "name": {"type": "string"},
+              "type": {
+                "type": "string",
+                "enum": ["continuous", "binary", "count", "categorical", "ordinal"]
+              },
+              "unit": {"type": "string"},
+              "measurement": {"type": "string"},
+              "range": {
+                "type": "array",
+                "items": {"type": "number"},
+                "minItems": 2,
+                "maxItems": 2
+              }
+            }
+          }
+        },
+        "counterbalancing": {
+          "type": "string",
+          "enum": ["none", "complete", "partial", "latin_square", "random"]
+        },
+        "randomization": {
+          "type": "string",
+          "enum": ["none", "fully_randomized", "block_randomized", "stratified"]
+        }
+      }
+    },
+    "participants": {
+      "type": "object",
+      "required": ["n"],
+      "properties": {
+        "n": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Sample size"
+        },
+        "age_range": {
+          "type": "array",
+          "items": {"type": "number"},
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "age_mean": {"type": "number"},
+        "age_sd": {"type": "number"},
+        "gender_distribution": {
+          "type": "object",
+          "properties": {
+            "male": {"type": "integer"},
+            "female": {"type": "integer"},
+            "other": {"type": "integer"}
+          }
+        },
+        "recruitment_source": {"type": "string"},
+        "recruitment_criteria": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "exclusion_criteria": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "compensation": {"type": "string"}
+      }
+    },
+    "procedure": {
+      "type": "object",
+      "required": ["description"],
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Overall procedure description"
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["step", "description"],
+            "properties": {
+              "step": {"type": "integer"},
+              "description": {"type": "string"},
+              "duration_minutes": {"type": "number"},
+              "n_trials": {"type": "integer"},
+              "materials": {"type": "string"}
+            }
+          }
+        },
+        "trial_structure": {
+          "type": "object",
+          "description": "Timing and structure of individual trials"
+        },
+        "instructions_file": {"type": "string"},
+        "stimuli_directory": {"type": "string"}
+      }
+    },
+    "materials": {
+      "type": "object",
+      "properties": {
+        "stimuli": {
+          "type": "object",
+          "properties": {
+            "type": {"type": "string"},
+            "count": {"type": "integer"},
+            "format": {"type": "string"},
+            "source": {"type": "string"}
+          }
+        },
+        "equipment": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "software": {"type": "string"},
+        "display": {
+          "type": "object",
+          "properties": {
+            "resolution": {"type": "string"},
+            "refresh_rate": {"type": "integer"},
+            "viewing_distance_cm": {"type": "number"}
+          }
+        }
+      }
+    }
+  }
+}

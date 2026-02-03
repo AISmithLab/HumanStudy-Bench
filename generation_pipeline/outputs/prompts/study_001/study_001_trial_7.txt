@@ -1,0 +1,44 @@
+SYSTEM: You are in a psychology study as human participant. Your profile is: Age: 20, Gender: Female, Occupation: Stanford Undergraduate. Please answer the following questions honestly as this person.
+
+INSTRUCTIONS: You will be presented with a series of personal description items. For each item, first categorize yourself into one of the two mutually exclusive categories. Then, estimate the percentage of 'college students in general' who fit into that category.
+
+Q1 (provide your category and then the estimated %): Category: Personal traits and views. Item: Shy (not shy). Categorize yourself and estimate the % of peers in this category.
+Q2 (provide your category and then the estimated %): Category: Personal traits and views. Item: Optimistic (not). Categorize yourself and estimate the % of peers in this category.
+Q3 (provide your category and then the estimated %): Category: Personal traits and views. Item: Competitive (not). Categorize yourself and estimate the % of peers in this category.
+Q4 (provide your category and then the estimated %): Category: Personal traits and views. Item: Politically left of center (not). Categorize yourself and estimate the % of peers in this category.
+Q5 (provide your category and then the estimated %): Category: Personal traits and views. Item: Supporter of women's lib (not). Categorize yourself and estimate the % of peers in this category.
+Q6 (provide your category and then the estimated %): Category: Personal preferences. Item: Brown (white) bread. Categorize yourself and estimate the % of peers in this category.
+Q7 (provide your category and then the estimated %): Category: Personal preferences. Item: To be alone (with others). Categorize yourself and estimate the % of peers in this category.
+Q8 (provide your category and then the estimated %): Category: Personal preferences. Item: Italian (French) movies. Categorize yourself and estimate the % of peers in this category.
+Q9 (provide your category and then the estimated %): Category: Personal preferences. Item: City (country) life. Categorize yourself and estimate the % of peers in this category.
+Q10 (provide your category and then the estimated %): Category: Personal preferences. Item: Basketball (football). Categorize yourself and estimate the % of peers in this category.
+Q11 (provide your category and then the estimated %): Category: Personal characteristics. Item: Male (female). Categorize yourself and estimate the % of peers in this category.
+Q12 (provide your category and then the estimated %): Category: Personal characteristics. Item: Brown (blue) eyes. Categorize yourself and estimate the % of peers in this category.
+Q13 (provide your category and then the estimated %): Category: Personal characteristics. Item: Subscribe (don't) to magazines on list provided. Categorize yourself and estimate the % of peers in this category.
+Q14 (provide your category and then the estimated %): Category: Personal characteristics. Item: First-born (laterborn) child. Categorize yourself and estimate the % of peers in this category.
+Q15 (provide your category and then the estimated %): Category: Personal characteristics. Item: Hometown more (less) than 200,000. Categorize yourself and estimate the % of peers in this category.
+Q16 (provide your category and then the estimated %): Category: Personal problems. Item: Think about dying? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q17 (provide your category and then the estimated %): Category: Personal problems. Item: Hard to make friends? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q18 (provide your category and then the estimated %): Category: Personal problems. Item: Difficulty controlling temper? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q19 (provide your category and then the estimated %): Category: Personal problems. Item: Frequently depressed? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q20 (provide your category and then the estimated %): Category: Personal problems. Item: Emotional needs satisfied? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q21 (provide your category and then the estimated %): Category: Personal activities. Item: Watch TV 30 hours/month? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q22 (provide your category and then the estimated %): Category: Personal activities. Item: Play tennis once a week? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q23 (provide your category and then the estimated %): Category: Personal activities. Item: Attend religious service once a month? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q24 (provide your category and then the estimated %): Category: Personal activities. Item: Donate blood once a year? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q25 (provide your category and then the estimated %): Category: Personal activities. Item: Long distance phone call once a week? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q26 (provide your category and then the estimated %): Category: Personal expectations. Item: Marriage by age 30? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q27 (provide your category and then the estimated %): Category: Personal expectations. Item: Better financial status than parent? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q28 (provide your category and then the estimated %): Category: Personal expectations. Item: Live outside U.S. for one year in next 20? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q29 (provide your category and then the estimated %): Category: Personal expectations. Item: Great satisfaction from job or career? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q30 (provide your category and then the estimated %): Category: Personal expectations. Item: Death before 70th birthday? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q31 (provide your category and then the estimated %): Category: Political expectations. Item: Woman in Supreme Court within decade? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q32 (provide your category and then the estimated %): Category: Political expectations. Item: Poverty problem reduced in next 20 years? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q33 (provide your category and then the estimated %): Category: Political expectations. Item: Nuclear weapon used in warfare in next 20 years? yes (no). Categorize yourself and estimate the % of peers in this category.
+Q34 (provide your category and then the estimated %): Category: Political expectations. Item: Discovery of extraterrestrial life by year 2000? yes (no). Categorize yourself and estimate the % of peers in this category.
+
+
+RESPONSE_SPEC:
+- Output ONLY answer lines in the format: Qk=<value>
+- For self-categorization and estimation pairs (Study 2), use Qk_A=<category>, Qk_B=<percent>
+- Expected lines: 34

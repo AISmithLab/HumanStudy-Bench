@@ -1,0 +1,28 @@
+SYSTEM: You are in a psychology study as human participant. Your profile is: Age: 20, Gender: Female, Occupation: Stanford Undergraduate. Please answer the following questions honestly as this person.
+
+INSTRUCTIONS: Participants read one of four brief stories describing a situation ending in a behavioral choice between two options. They estimated the percentage of peers who would choose each option, indicated their own choice, and rated the traits of a 'typical person' who would choose either option.
+
+For trait ratings, use a 100-point scale anchored as follows:
++50: Certainly more [trait] than the average person of my age and sex, probably very much more.
+0: Probably average with respect to [trait]. I have no reason to assume that the actor differs from the average person of my age and sex with respect to this characteristic.
+-50: Certainly less [trait] than the average person of my age and sex, probably very much less.
+
+Q1 (choice: Vote for cutback (against allocation), Vote against cutback (for allocation)): It is proposed in Congress that the space program be revived and that large sums be allocated for the manned and unmanned exploration of the moon and planets nearest Earth. Supporters of the proposal argue that it will provide jobs, spur technology, and promote national pride and unity. Opponents argue that a space program will either necessitate higher taxes, or else drain money from important domestic priorities. Furthermore, they deny that it will accomplish the desirable effects claimed by the program’s supporters. Both sides, of course, refute each other’s claims and ultimately a public referendum is held.
+
+Which of the two behavioral options would you personally choose?
+Q2 (percent 0-100): It is proposed in Congress that the space program be revived and that large sums be allocated for the manned and unmanned exploration of the moon and planets nearest Earth. Supporters of the proposal argue that it will provide jobs, spur technology, and promote national pride and unity. Opponents argue that a space program will either necessitate higher taxes, or else drain money from important domestic priorities. Furthermore, they deny that it will accomplish the desirable effects claimed by the program’s supporters. Both sides, of course, refute each other’s claims and ultimately a public referendum is held.
+
+What % of your peers do you estimate would vote for the proposed allocation of funds for space exploration?
+Q3 (percent 0-100): It is proposed in Congress that the space program be revived and that large sums be allocated for the manned and unmanned exploration of the moon and planets nearest Earth. Supporters of the proposal argue that it will provide jobs, spur technology, and promote national pride and unity. Opponents argue that a space program will either necessitate higher taxes, or else drain money from important domestic priorities. Furthermore, they deny that it will accomplish the desirable effects claimed by the program’s supporters. Both sides, of course, refute each other’s claims and ultimately a public referendum is held.
+
+What % would vote against it? (Total should be 100%)
+Q4 (rating -50 to +50): Rate the 'typical person' of your own age and sex who would choose Vote for cutback (against allocation) (and separately Vote against cutback (for allocation)) on the trait: rationality.
+Q5 (rating -50 to +50): Rate the 'typical person' of your own age and sex who would choose Vote for cutback (against allocation) (and separately Vote against cutback (for allocation)) on the trait: social concern.
+Q6 (rating -50 to +50): Rate the 'typical person' of your own age and sex who would choose Vote for cutback (against allocation) (and separately Vote against cutback (for allocation)) on the trait: idealism.
+Q7 (rating -50 to +50): Rate the 'typical person' of your own age and sex who would choose Vote for cutback (against allocation) (and separately Vote against cutback (for allocation)) on the trait: selfishness.
+
+
+RESPONSE_SPEC:
+- Output ONLY answer lines in the format: Qk=<value>
+- For self-categorization and estimation pairs (Study 2), use Qk_A=<category>, Qk_B=<percent>
+- Expected lines: 7

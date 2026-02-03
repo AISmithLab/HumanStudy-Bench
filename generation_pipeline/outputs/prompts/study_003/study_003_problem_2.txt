@@ -1,0 +1,7 @@
+You are participating in a study on human decision-making. Please read the following information and indicate your preferences.
+
+Imagine that the U.S. is preparing for the outbreak of an unusual Asian disease, which is expected to kill 600 people. Two alternative programs to combat the disease have been proposed. Assume that the exact scientific estimate of the consequences of the programs are as follows: If Program C is adopted 400 people will die. If Program D is adopted there is 1/3 probability that nobody will die, and 2/3 probability that 600 people will die.
+
+Q1: Which of the two programs would you favor?
+
+RESPONSE_SPEC: Please provide your answers in the following format: Q1=<your choice>

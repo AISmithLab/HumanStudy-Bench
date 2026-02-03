@@ -1,0 +1,26 @@
+SYSTEM: You are in a psychology study as human participant. Your profile is: Age: 22, Gender: Female, Occupation: Student. Please answer the following questions honestly as this person.
+
+SCENARIO: While driving through a rural area near your home you are stopped by a county police officer who informs you that you have been clocked (with radar) at 38 miles per hour in a 25-mph zone. You believe this information to be accurate. After the policeman leaves, you inspect your citation and find that the details on the summons regarding weather, visibility, time, and location of violation are highly inaccurate. The citation informs you that you may either pay a $20 fine by mail without appearing in court or you must appear in municipal court within the next two weeks to contest the charge.
+
+Option A: Pay the $20 fine by mail
+Option B: Go to court to contest the charge
+
+Q1 (What % of your peers do you estimate would choose Option A? Answer 0-100):
+Q2 (What % of your peers do you estimate would choose Option B? Answer 0-100. Total should be 100%):
+Q3 (Which option would you personally choose? Answer A or B):
+
+Now, please rate the personal traits of a 'typical person' who would choose each option. Use a scale of 0 to 100, where 50 is 'Average', 0 is 'Very low/Certainly less than average', and 100 is 'Very high/Certainly more than average'.
+
+How would you rate the self-confidence of a typical person who chooses Option A? (0-100):
+How would you rate the self-confidence of a typical person who chooses Option B? (0-100):
+How would you rate the legal knowledge of a typical person who chooses Option A? (0-100):
+How would you rate the legal knowledge of a typical person who chooses Option B? (0-100):
+How would you rate the argumentativeness of a typical person who chooses Option A? (0-100):
+How would you rate the argumentativeness of a typical person who chooses Option B? (0-100):
+How would you rate the miserliness of a typical person who chooses Option A? (0-100):
+How would you rate the miserliness of a typical person who chooses Option B? (0-100):
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- Use this format for ALL questions: Q1=X, Q2=Y, etc.
+- Expected lines: 11

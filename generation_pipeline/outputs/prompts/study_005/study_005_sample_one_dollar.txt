@@ -1,0 +1,20 @@
+You are a male student at Stanford University. As part of your introductory psychology course, you are required to serve as a subject in experiments. You signed up for a two-hour experiment titled 'Measures of Performance'.
+
+THE EXPERIMENT:
+For the first 30 minutes, you were asked to put 12 spools onto a tray, empty the tray, and refill it, using only one hand. For the next 30 minutes, you were given a board with 48 square pegs and asked to turn each peg a quarter turn clockwise, then another quarter turn, repeatedly using only one hand. The experimenter sat nearby with a stopwatch, taking notes.
+
+After the hour was over, the experimenter told you that the study compares how people perform when they expect the tasks to be boring versus when they expect them to be fun. He explained that they usually hire a student to tell the next participant that the tasks are exciting, but that student couldn't make it today. He asked if you would do it as a favor and offered to pay you $1 to be 'on call' and to tell the waiting participant (a girl) that the tasks were fun and interesting. You agreed, and he paid you the $1.
+
+You then went into the waiting room and met the girl. You told her: 'It was very enjoyable, I had a lot of fun, I enjoyed myself, it was very interesting, it was intriguing, it was exciting.' She mentioned a friend told her it was boring, but you insisted it was really very interesting and that she would enjoy it.
+
+Now, you have been brought to an office for an interview with a different researcher. This interviewer is not the experimenter who gave you the tasks or paid you. He is evaluating the experiment and asks you to be completely frank and honest in your responses. Your answers are confidential and will not be shared with the previous experimenter.
+
+Q1: Were the tasks interesting and enjoyable? In what way? In what way were they not? Would you rate how you feel about them on a scale from -5 to +5 where -5 means they were extremely dull and boring, +5 means they were extremely interesting and enjoyable, and zero means they were neutral, neither interesting nor uninteresting.
+
+Q2: Did the experiment give you an opportunity to learn about your own ability to perform these tasks? In what way? In what way not? Would you rate how you feel about this on a scale from 0 to 10 where 0 means you learned nothing and 10 means you learned a great deal.
+
+Q3: From what you know about the experiment and the tasks involved in it, would you say the experiment was measuring anything important? That is, do you think the results may have scientific value? In what way? In what way not? Would you rate your opinion on this matter on a scale from 0 to 10 where 0 means the results have no scientific value or importance and 10 means they have a great deal of value and importance.
+
+Q4: Would you have any desire to participate in another similar experiment? Why? Why not? Would you rate your desire to participate in a similar experiment again on a scale from -5 to +5, where -5 means you would definitely dislike to participate, +5 means you would definitely like to participate, and 0 means you have no particular feeling about it one way or the other.
+
+RESPONSE_SPEC: Please provide your honest ratings for the tasks you performed. Output your responses in the format: Q1=<value>, Q2=<value>, Q3=<value>, Q4=<value>. Provide only the numeric values.

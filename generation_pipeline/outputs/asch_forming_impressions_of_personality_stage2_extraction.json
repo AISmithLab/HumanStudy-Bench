@@ -1,0 +1,790 @@
+{
+  "studies": [
+    {
+      "study_id": "Experiment I",
+      "study_name": "Variation of a Central Quality (Warm vs. Cold)",
+      "phenomenon": "Central and Peripheral Characteristics",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "The characteristic 'warm-cold' produces striking and consistent differences in the entire impression formed of a person.",
+          "hypothesis": "Not all qualities have the same weight in establishing the view of a person; some are felt to be basic (central), others secondary (peripheral)."
+        },
+        {
+          "finding_id": "Finding 2",
+          "finding_description": "A change in a central character-quality produces a widespread change in the entire impression, affecting some traits significantly more than others.",
+          "hypothesis": "A central trait transforms the perception of other characteristics."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment I Task",
+          "type": "task",
+          "content": "Participants were read a list of character traits and asked to write a brief sketch and then complete a check-list of trait pairs.",
+          "items": [
+            {
+              "item_id": "Trait List A (Warm)",
+              "item_text": "intelligent—skillful—industrious—warm—determined—practical—cautious",
+              "response_options": "Free-text sketch and Check List I"
+            },
+            {
+              "item_id": "Trait List B (Cold)",
+              "item_text": "intelligent—skillful—industrious—cold—determined—practical—cautious",
+              "response_options": "Free-text sketch and Check List I"
+            },
+            {
+              "item_id": "Check List I",
+              "item_text": "18 pairs of opposite traits: 1. generous—ungenerous, 2. shrewd—wise, 3. unhappy—happy, 4. irritable—good-natured, 5. humorous—humorless, 6. sociable—unsociable, 7. popular—unpopular, 8. unreliable—reliable, 9. important—insignificant, 10. ruthless—humane, 11. good-looking—unattractive, 12. persistent—unstable, 13. frivolous—serious, 14. restrained—talkative, 15. self-centered—altruistic, 16. imaginative—hard-headed, 17. strong—weak, 18. dishonest—honest.",
+              "response_options": "Select the term from each pair most in accordance with the view formed."
+            }
+          ],
+          "participants": {
+            "n": 166,
+            "group_assignment": "Group A (Warm): 90 subjects; Group B (Cold): 76 subjects.",
+            "demographics": "College students, mostly women, beginners in psychology."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "trait_pair": "1. generous",
+                "warm_percentage": 91,
+                "cold_percentage": 8
+              },
+              {
+                "trait_pair": "2. wise",
+                "warm_percentage": 65,
+                "cold_percentage": 25
+              },
+              {
+                "trait_pair": "3. happy",
+                "warm_percentage": 90,
+                "cold_percentage": 34
+              },
+              {
+                "trait_pair": "4. good-natured",
+                "warm_percentage": 94,
+                "cold_percentage": 17
+              },
+              {
+                "trait_pair": "5. humorous",
+                "warm_percentage": 77,
+                "cold_percentage": 13
+              },
+              {
+                "trait_pair": "6. sociable",
+                "warm_percentage": 91,
+                "cold_percentage": 38
+              },
+              {
+                "trait_pair": "7. popular",
+                "warm_percentage": 84,
+                "cold_percentage": 28
+              },
+              {
+                "trait_pair": "8. reliable",
+                "warm_percentage": 94,
+                "cold_percentage": 99
+              },
+              {
+                "trait_pair": "9. important",
+                "warm_percentage": 88,
+                "cold_percentage": 99
+              },
+              {
+                "trait_pair": "10. humane",
+                "warm_percentage": 86,
+                "cold_percentage": 31
+              },
+              {
+                "trait_pair": "11. good-looking",
+                "warm_percentage": 77,
+                "cold_percentage": 69
+              },
+              {
+                "trait_pair": "12. persistent",
+                "warm_percentage": 100,
+                "cold_percentage": 97
+              },
+              {
+                "trait_pair": "13. serious",
+                "warm_percentage": 100,
+                "cold_percentage": 99
+              },
+              {
+                "trait_pair": "14. restrained",
+                "warm_percentage": 77,
+                "cold_percentage": 89
+              },
+              {
+                "trait_pair": "15. altruistic",
+                "warm_percentage": 69,
+                "cold_percentage": 18
+              },
+              {
+                "trait_pair": "16. imaginative",
+                "warm_percentage": 51,
+                "cold_percentage": 19
+              },
+              {
+                "trait_pair": "17. strong",
+                "warm_percentage": 98,
+                "cold_percentage": 95
+              },
+              {
+                "trait_pair": "18. honest",
+                "warm_percentage": 98,
+                "cold_percentage": 94
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Percentage comparison",
+                "statistic": "91% vs 8% for 'generous'",
+                "p_value": "Not explicitly reported (Descriptive)",
+                "raw_data": {
+                  "group_a_warm": {
+                    "n": 90,
+                    "generous_percentage": 91
+                  },
+                  "group_b_cold": {
+                    "n": 76,
+                    "generous_percentage": 8
+                  }
+                },
+                "claim": "The characteristic 'warm-cold' produces striking and consistent differences of impression.",
+                "location": "Page 263, Table 2"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment II",
+      "study_name": "Omission of a Central Quality",
+      "phenomenon": "Central Traits and Impression Unity",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "When a central trait is omitted, subjects still tend to form a unified impression that leans toward either a positive ('warm') or negative ('cold') direction, rather than a neutral mean.",
+          "hypothesis": "A full impression of a person cannot remain indifferent to a fundamental category; subjects will infer a direction based on the other traits."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment II Task",
+          "type": "task",
+          "content": "Identical to Exp I, but 'warm' and 'cold' were omitted from the stimulus list and added as a final pair to the check-list.",
+          "items": [
+            {
+              "item_id": "Trait List",
+              "item_text": "intelligent—skillful—industrious—determined—practical—cautious",
+              "response_options": "Free-text sketch and Check List I (with 'warm-cold' added)"
+            }
+          ],
+          "participants": {
+            "n": 56,
+            "group_assignment": "Single group of 56 subjects.",
+            "demographics": "College students."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "metric": "Percentage choosing 'warm' vs 'cold' on check-list",
+                "warm_subgroup": 41,
+                "cold_subgroup": 59
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Percentage comparison",
+                "statistic": "41% warm vs 59% cold",
+                "p_value": "Not reported",
+                "raw_data": {
+                  "total_n": 56,
+                  "warm_choices": 23,
+                  "cold_choices": 33
+                },
+                "claim": "The total group results are a statistical artifact; individual subjects quickly revealed strong and consistent differences, tending to be either consistently positive or negative.",
+                "location": "Page 265"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment III",
+      "study_name": "Variation of a Peripheral Quality (Polite vs. Blunt)",
+      "phenomenon": "Peripheral Traits",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "Changing a peripheral trait (polite vs. blunt) produces a much weaker effect on the total impression than changing a central trait.",
+          "hypothesis": "A change in a peripheral trait produces a weaker effect on the total impression than does a change in a central trait."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment III Task",
+          "type": "task",
+          "content": "Identical to Exp I, but using 'polite' and 'blunt' instead of 'warm' and 'cold'.",
+          "items": [
+            {
+              "item_id": "Trait List A (Polite)",
+              "item_text": "intelligent—skillful—industrious—polite—determined—practical—cautious"
+            },
+            {
+              "item_id": "Trait List B (Blunt)",
+              "item_text": "intelligent—skillful—industrious—blunt—determined—practical—cautious"
+            }
+          ],
+          "participants": {
+            "n": 46,
+            "group_assignment": "Group A (Polite): 20 subjects; Group B (Blunt): 26 subjects.",
+            "demographics": "College students."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "trait_pair": "1. generous",
+                "polite_percentage": 56,
+                "blunt_percentage": 58
+              },
+              {
+                "trait_pair": "5. humorous",
+                "polite_percentage": 71,
+                "blunt_percentage": 48
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Percentage comparison",
+                "statistic": "56% vs 58% for 'generous'",
+                "p_value": "Not reported",
+                "raw_data": {
+                  "group_a_polite": {
+                    "n": 20
+                  },
+                  "group_b_blunt": {
+                    "n": 26
+                  }
+                },
+                "claim": "The changes introduced by the transition from 'polite' to 'blunt' were far weaker than those found in Experiment I.",
+                "location": "Page 263, Table 2; Page 266"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment IV",
+      "study_name": "Transformation from a Central to a Peripheral Quality",
+      "phenomenon": "Context-Dependent Centrality",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "A quality that is central in one context can become peripheral or subsidiary in another context.",
+          "hypothesis": "The functional value of a trait—whether it becomes central or not—is a consequence of its relation to the set of surrounding traits."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment IV Task",
+          "type": "task",
+          "content": "Participants ranked the importance of the term 'warm' or 'cold' within different lists of traits.",
+          "items": [
+            {
+              "item_id": "Series A",
+              "item_text": "obedient—weak—shallow—warm—unambitious—vain"
+            },
+            {
+              "item_id": "Series B",
+              "item_text": "vain—shrewd—unscrupulous—warm—shallow—envious"
+            },
+            {
+              "item_id": "Series C",
+              "item_text": "intelligent—skillful—sincere—cold—conscientious—helpful—modest"
+            }
+          ],
+          "participants": {
+            "n": 64,
+            "group_assignment": "Series A: 23; Series B: 21; Series C: 20.",
+            "demographics": "College students."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "rank": "Rank 6 or 7 (lowest importance)",
+                "series_a_warm_percentage": 30,
+                "series_b_warm_percentage": 57,
+                "series_c_cold_percentage": 65
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Ranking distribution",
+                "statistic": "57% ranked 'warm' at Rank 6 in Series B",
+                "p_value": "Not reported",
+                "raw_data": {
+                  "table_5_data": "See Table 5 on Page 267"
+                },
+                "claim": "Immediately 'warm' drops as a significant characteristic in relation to the others.",
+                "location": "Page 267, Table 5"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment V",
+      "study_name": "Contextual Change of Trait Content",
+      "phenomenon": "Mutual Determination of Traits",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "The cognitive content of a trait is determined by its relation to other traits in the list.",
+          "hypothesis": "The quality 'calm' does not function as an independent, fixed trait; its content is determined by its relation to the other terms."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment V Task",
+          "type": "task",
+          "content": "Participants provided synonyms for the terms 'calm' and 'strong' after hearing one of two lists.",
+          "items": [
+            {
+              "item_id": "List A",
+              "item_text": "kind—wise—honest—calm—strong"
+            },
+            {
+              "item_id": "List B",
+              "item_text": "cruel—shrewd—unscrupulous—calm—strong"
+            }
+          ],
+          "participants": {
+            "n": 79,
+            "group_assignment": "Group A (Kind): 38; Group B (Cruel): 41.",
+            "demographics": "College students."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "synonym_group": "serene",
+                "kind_series_count": 18,
+                "cruel_series_count": 3
+              },
+              {
+                "synonym_group": "cold, frigid, calculating...",
+                "kind_series_count": 0,
+                "cruel_series_count": 20
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Frequency of synonyms",
+                "statistic": "18 vs 3 for 'serene'",
+                "p_value": "Not reported",
+                "raw_data": {
+                  "table_6_data": "See Table 6 on Page 269"
+                },
+                "claim": "The quality 'calm' was not the same under the two experimental conditions.",
+                "location": "Page 269, Table 6"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment VI",
+      "study_name": "The Factor of Direction (Primacy Effect - Intelligent to Envious)",
+      "phenomenon": "Primacy Effect",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "The first terms in a list set a direction that exerts a continuous effect on the interpretation of later terms.",
+          "hypothesis": "If impressions are a summation, order should not matter; if they are organized, order will be decisive."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment VI Task",
+          "type": "task",
+          "content": "Participants heard the same list of traits in reversed orders and formed an impression.",
+          "items": [
+            {
+              "item_id": "Series A (Positive First)",
+              "item_text": "intelligent—industrious—impulsive—critical—stubborn—envious"
+            },
+            {
+              "item_id": "Series B (Negative First)",
+              "item_text": "envious—stubborn—critical—impulsive—industrious—intelligent"
+            }
+          ],
+          "participants": {
+            "n": 58,
+            "group_assignment": "Group A (Intelligent First): 34; Group B (Envious First): 24.",
+            "demographics": "College students."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "trait_pair": "3. happy",
+                "a_percentage": 32,
+                "b_percentage": 5
+              },
+              {
+                "trait_pair": "5. humorous",
+                "a_percentage": 52,
+                "b_percentage": 21
+              },
+              {
+                "trait_pair": "6. sociable",
+                "a_percentage": 56,
+                "b_percentage": 27
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Percentage comparison",
+                "statistic": "52% vs 21% for 'humorous'",
+                "p_value": "Not reported",
+                "raw_data": {
+                  "table_7_data": "See Table 7 on Page 271"
+                },
+                "claim": "The impression produced by A is predominantly that of an able person with shortcomings; B impresses as a 'problem' whose abilities are hampered.",
+                "location": "Page 270-271, Table 7"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment VII",
+      "study_name": "The Factor of Direction (Primacy Effect - Intelligent to Evasive)",
+      "phenomenon": "Primacy Effect with Abrupt Change",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "Even with an abrupt introduction of a dubious trait, the primacy effect holds, though it may be slightly weakened compared to gradual lists.",
+          "hypothesis": "The primacy effect is structural, based on the functional relation of content to following items."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment VII Task",
+          "type": "task",
+          "content": "Participants heard a list ending or starting with 'evasive'.",
+          "items": [
+            {
+              "item_id": "Series A",
+              "item_text": "intelligent—skillful—industrious—determined—practical—cautious—evasive"
+            },
+            {
+              "item_id": "Series B",
+              "item_text": "evasive—cautious—practical—determined—industrious—skillful—intelligent"
+            }
+          ],
+          "participants": {
+            "n": 99,
+            "group_assignment": "Group A: 46; Group B: 53.",
+            "demographics": "College students."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "trait_pair": "1. generous",
+                "a_percentage": 42,
+                "b_percentage": 23
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Percentage comparison",
+                "statistic": "42% vs 23% for 'generous'",
+                "p_value": "Not reported",
+                "raw_data": {
+                  "table_7_data": "See Table 7 on Page 271"
+                },
+                "claim": "There is still a definite tendency for A to produce a more favorable impression with greater frequency.",
+                "location": "Page 271-272, Table 7"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment VIII",
+      "study_name": "Broken vs. Continuous Presentation",
+      "phenomenon": "Integration of Contradictory Information",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "Presenting traits as two separate people initially makes it significantly harder to form a unified impression when they are later revealed to be the same person.",
+          "hypothesis": "Successive presentation of contradictory parts enhances contrast and hinders integration."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment VIII Task",
+          "type": "task",
+          "content": "Group 1 heard traits as two separate people, then was told they were one. Group 2 heard them as one person from the start.",
+          "items": [
+            {
+              "item_id": "Part 1",
+              "item_text": "intelligent—industrious—impulsive"
+            },
+            {
+              "item_id": "Part 2",
+              "item_text": "critical—stubborn—envious"
+            }
+          ],
+          "participants": {
+            "n": 76,
+            "group_assignment": "Group 1: 52; Group 2: 24.",
+            "demographics": "College students."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "metric": "Reported difficulty forming a unified impression",
+                "group_1_n": 32,
+                "group_1_total": 52,
+                "group_2_n": 9,
+                "group_2_total": 24
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Frequency comparison",
+                "statistic": "32/52 vs 9/24 reporting difficulty",
+                "p_value": "Not reported",
+                "raw_data": {
+                  "group_1": 0.615,
+                  "group_2": 0.375
+                },
+                "claim": "The majority of Group 1 experienced difficulty in forming an impression on the basis of the six terms, seeing the person as a mass of contradictions.",
+                "location": "Page 274"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment IX",
+      "study_name": "Strongly Simplified Impressions",
+      "phenomenon": "Global Impressions from Minimal Traits",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "A global, one-directed impression can be formed effortlessly from as few as three traits.",
+          "hypothesis": "Simplified impressions are easily dominated by a single direction."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment IX Task",
+          "type": "task",
+          "content": "Participants formed an impression from a three-trait list.",
+          "items": [
+            {
+              "item_id": "Trait List",
+              "item_text": "intelligent—skillful—warm"
+            }
+          ],
+          "participants": {
+            "n": 34,
+            "group_assignment": "Single group of 34 subjects.",
+            "demographics": "College students."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "trait_pair": "1. generous",
+                "percentage": 100
+              },
+              {
+                "trait_pair": "3. happy",
+                "percentage": 100
+              },
+              {
+                "trait_pair": "8. reliable",
+                "percentage": 100
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Percentage check",
+                "statistic": "100% for many positive traits",
+                "p_value": "Not reported",
+                "raw_data": {
+                  "table_10_data": "See Table 10 on Page 276"
+                },
+                "claim": "There develops a one-directed impression, far stronger than any observed in the preceding experiments.",
+                "location": "Page 275-276, Table 10"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment IXa",
+      "study_name": "Single Trait Impressions",
+      "phenomenon": "Implications of Single Central Traits",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "A single central trait like 'warm' or 'cold' carries implications for a wide range of personal characteristics.",
+          "hypothesis": "Central terms simultaneously contain implications for wide regions of the person."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment IXa Task",
+          "type": "task",
+          "content": "Participants formed an impression based on a single trait ('warm' or 'cold') and completed check-lists.",
+          "items": [
+            {
+              "item_id": "Stimulus",
+              "item_text": "'warm' or 'cold'",
+              "response_options": "Check List I and Check List II"
+            },
+            {
+              "item_id": "Check List II",
+              "item_text": "12 pairs: 1. emotional—unemotional, 2. practical—theoretical, 3. optimistic—pessimistic, 4. informal—formal, 5. cheerful—sad, 6. short—tall, 7. modest—proud, 8. imaginative—unimaginative, 9. thin—stout, 10. intelligent—unintelligent, 11. brave—cowardly, 12. pale—ruddy.",
+              "response_options": "Select fitting term."
+            }
+          ],
+          "participants": {
+            "n": 55,
+            "group_assignment": "Warm: 22; Cold: 33.",
+            "demographics": "College students."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "trait_pair": "1. emotional",
+                "warm_percentage": 100,
+                "cold_percentage": 12
+              },
+              {
+                "trait_pair": "5. cheerful",
+                "warm_percentage": 100,
+                "cold_percentage": 18
+              },
+              {
+                "trait_pair": "12. ruddy",
+                "warm_percentage": 85,
+                "cold_percentage": 3
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Percentage comparison",
+                "statistic": "100% vs 12% for 'emotional'",
+                "p_value": "Not reported",
+                "raw_data": {
+                  "table_11_data": "See Table 11 on Page 277"
+                },
+                "claim": "A remarkably wide range of qualities is embraced in the dimension 'warm-cold'. It even includes physical characteristics.",
+                "location": "Page 276-277, Table 11"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment X",
+      "study_name": "Similarity and Difference of Impressions",
+      "phenomenon": "Functional Identity of Traits",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "Traits that are identical in isolation are perceived as different in different contexts; conversely, different traits can be functionally equivalent.",
+          "hypothesis": "A given trait in two different persons may not be the same trait."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment X Task",
+          "type": "task",
+          "content": "Participants judged which sets of traits resembled each other most.",
+          "items": [
+            {
+              "item_id": "Set 1",
+              "item_text": "quick, skillful, helpful"
+            },
+            {
+              "item_id": "Set 2",
+              "item_text": "quick, clumsy, helpful"
+            },
+            {
+              "item_id": "Set 3",
+              "item_text": "slow, skillful, helpful"
+            },
+            {
+              "item_id": "Set 4",
+              "item_text": "slow, clumsy, helpful"
+            }
+          ],
+          "participants": {
+            "n": 78,
+            "group_assignment": "Single group of 78 subjects.",
+            "demographics": "College students."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "metric": "Set 1 resembles...",
+                "set_3_percentage": 87,
+                "set_2_percentage": 13
+              },
+              {
+                "metric": "Set 2 resembles...",
+                "set_4_percentage": 85,
+                "set_1_percentage": 9
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Resemblance judgment",
+                "statistic": "87% equating Set 1 with Set 3",
+                "p_value": "Not reported",
+                "raw_data": {
+                  "table_12_data": "See Table 12 on Page 278"
+                },
+                "claim": "Qualities which, abstractly taken, are identical, are infrequently equated, while qualities which are abstractly opposed are equated with greater frequency.",
+                "location": "Page 278-279, Table 12"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "paper_id": "asch_forming_impressions_of_personality",
+  "paper_title": "FORMING IMPRESSIONS OF PERSONALITY",
+  "paper_authors": [
+    "S. E. ASCH"
+  ],
+  "paper_abstract": "This classic study investigates the processes by which unified impressions of personality are formed. The author challenges the view that impressions are formed by the simple summation of independent traits. Through a series of experiments, Asch demonstrates that certain 'central' traits (such as 'warm' and 'cold') have a disproportionate effect on the final impression, while other 'peripheral' traits have less impact. The research also explores how the meaning of a trait changes depending on its context and the order in which information is received (the primacy effect). The findings suggest that impressions are structured wholes rather than mere collections of discrete characteristics."
+}

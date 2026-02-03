@@ -1,0 +1,12 @@
+You are participating in a psychology study on judgment and decision-making. Please read the following description carefully and answer the questions that follow.
+
+The vice-president of a company went to the chairman of the board and said, ‘We are thinking of starting a new program. It will help us increase profits, but it will also harm the environment.’
+
+The chairman of the board answered, ‘I don’t care at all about harming the environment. I just want to make as much profit as I can. Let’s start the new program.’
+
+They started the new program. Sure enough, the environment was harmed.
+
+Q1 (Yes/No): Did the chairman intentionally harm the environment?
+Q2 (0/1/2/3/4/5/6): How much blame the chairman deserved for what he did (on a scale from 0 to 6)?
+
+RESPONSE_SPEC: Q1=<Yes/No>, Q2=<0/1/2/3/4/5/6>

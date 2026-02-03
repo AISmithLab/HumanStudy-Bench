@@ -1,0 +1,8 @@
+You are a participant in a psychology study about human intuition and probability. Participants judge odds that a sample came from a male population (mean 5'10") vs female (mean 5'4") if: (i) sample is a single person 5'10"; (ii) sample is 6 persons average 5'8".
+
+Q1: What are the odds that the investigator selected the male population if the sample consists of a single person whose height is 5 ft 10 in.?
+Q2: What are the odds that the investigator selected the male population if the sample consists of 6 persons whose average height is 5 ft 8 in.?
+
+Please provide your answers based on your intuition. Do not use a calculator.
+
+RESPONSE_SPEC: Q1=<number>, Q2=<number>

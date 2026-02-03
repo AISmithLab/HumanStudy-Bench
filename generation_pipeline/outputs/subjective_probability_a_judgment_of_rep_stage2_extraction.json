@@ -1,0 +1,321 @@
+{
+  "studies": [
+    {
+      "study_id": "Study 1",
+      "study_name": "Similarity of Sample to Population: Birth Sequences",
+      "phenomenon": "Representativeness Heuristic",
+      "sub_studies": [
+        {
+          "sub_study_id": "study_1_proportion",
+          "type": "questionnaire",
+          "content": "All families of six children in a city were surveyed. In 72 families the exact order of births of boys and girls was G B G B B G. What is your estimate of the number of families surveyed in which the exact order of births was B G B B B B?",
+          "participants": {
+            "n": 92,
+            "population": "High school students",
+            "recruitment_source": "College-preparatory high schools in Israel",
+            "demographics": {
+              "age_range": "15-18",
+              "grades": "10, 11, and 12"
+            }
+          },
+          "human_data": {
+            "median_estimate_BGBBBB": 30,
+            "count_judged_less_likely": 75,
+            "total_count": 92
+          },
+          "statistical_tests": [
+            {
+              "test_type": "sign_test",
+              "p_value": 0.01,
+              "paper_location": "Page 432"
+            }
+          ]
+        },
+        {
+          "sub_study_id": "study_1_randomness",
+          "type": "questionnaire",
+          "content": "Participants were asked to estimate the frequency of the sequence B B B G G G compared to G B B G B G.",
+          "participants": {
+            "n": 92,
+            "population": "High school students",
+            "recruitment_source": "College-preparatory high schools in Israel",
+            "demographics": {
+              "age_range": "15-18"
+            }
+          },
+          "human_data": {
+            "finding": "Sequence BBBGGG viewed as significantly less likely than GBBGBG"
+          },
+          "statistical_tests": [
+            {
+              "test_type": "sign_test",
+              "p_value": 0.01,
+              "paper_location": "Page 432"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "study_id": "Study 2",
+      "study_name": "Majority-Minority Relation: High School Programs",
+      "phenomenon": "Representativeness Heuristic",
+      "sub_studies": [
+        {
+          "sub_study_id": "study_2_programs",
+          "type": "scenario",
+          "content": "There are two programs in a high school. Boys are a majority (65%) in program A, and a minority (45%) in program B. There is an equal number of classes in each of the two programs. You enter a class at random, and observe that 55% of the students are boys. What is your best guess—does the class belong to program A or to program B?",
+          "participants": {
+            "n": 89,
+            "population": "High school students",
+            "recruitment_source": "College-preparatory high schools in Israel",
+            "demographics": {
+              "age_range": "15-18"
+            }
+          },
+          "human_data": {
+            "count_guessed_program_A": 67,
+            "total_count": 89
+          },
+          "statistical_tests": [
+            {
+              "test_type": "sign_test",
+              "p_value": 0.01,
+              "paper_location": "Page 433"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "study_id": "Study 3",
+      "study_name": "Binomial Outcomes Comparison",
+      "phenomenon": "Representativeness Heuristic",
+      "sub_studies": [
+        {
+          "sub_study_id": "study_3_binomial",
+          "type": "task",
+          "content": "Given a binomial process with p = 4/5, participants judge the likelihood of a sample of 10 successes and 0 failures versus 6 successes and 4 failures.",
+          "participants": {
+            "population": "High school students",
+            "recruitment_source": "College-preparatory high schools in Israel"
+          },
+          "human_data": {
+            "finding": "A significant majority judge 10 successes and 0 failures as less likely than 6 successes and 4 failures, though the former is objectively more likely."
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Study 4",
+      "study_name": "Replicability of Significance",
+      "phenomenon": "Belief in the Law of Small Numbers",
+      "sub_studies": [
+        {
+          "sub_study_id": "study_4_psychologists",
+          "type": "questionnaire",
+          "content": "Suppose you have run an experiment on 20 Ss, and have obtained a significant result which confirms your theory (z = 2.23, p < .05, two-tailed). You now have cause to run an additional group of 10 Ss. What do you think the probability is that the results will be significant, by a one-tailed test, separately for this group?",
+          "participants": {
+            "population": "Participants of a meeting of the Mathematical Psychology Group and of the American Psychological Association",
+            "recruitment_source": "Professional meeting"
+          },
+          "human_data": {
+            "median_subjective_probability": 0.85,
+            "realistic_estimate": 0.5
+          },
+          "statistical_tests": []
+        }
+      ]
+    },
+    {
+      "study_id": "Study 5",
+      "study_name": "Reflection of Randomness: Marble Distribution",
+      "phenomenon": "Representativeness Heuristic",
+      "sub_studies": [
+        {
+          "sub_study_id": "study_5_marbles",
+          "type": "scenario",
+          "content": "On each round of a game, 20 marbles are distributed at random among five children: Alan, Ben, Carl, Dan, and Ed. Consider the following distributions:\nI (Alan: 4, Ben: 4, Carl: 5, Dan: 4, Ed: 3)\nII (Alan: 4, Ben: 4, Carl: 4, Dan: 4, Ed: 4)\nIn many rounds of the game, will there be more results of type I or of type II?",
+          "participants": {
+            "n": 52,
+            "population": "High school students",
+            "recruitment_source": "College-preparatory high schools in Israel"
+          },
+          "human_data": {
+            "count_preferred_distribution_I": 36,
+            "total_count": 52
+          },
+          "statistical_tests": [
+            {
+              "test_type": "sign_test",
+              "p_value": 0.01,
+              "paper_location": "Page 434"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "study_id": "Study 6",
+      "study_name": "Subjective Sampling Distributions (N-Invariance)",
+      "phenomenon": "Insensitivity to Sample Size",
+      "sub_studies": [
+        {
+          "sub_study_id": "study_6_sampling_distributions",
+          "type": "task",
+          "content": "Participants produced subjective sampling distributions for three populations (sexes p=.50, heartbeat type p=.80, and height) across three sample sizes (N = 10, 100, 1000).",
+          "participants": {
+            "total_n": 1500,
+            "population": "High school students",
+            "recruitment_source": "College-preparatory high schools in Israel",
+            "demographics": {
+              "age_range": "15-18"
+            }
+          },
+          "human_data": {
+            "finding": "Sample size had no effect on subjective sampling distributions across all populations.",
+            "universal_variance_p50": 0.048,
+            "universal_variance_p80": 0.068
+          },
+          "statistical_tests": [
+            {
+              "test_type": "descriptive_comparison",
+              "finding": "Distributions for N=10, 100, 1000 were indistinguishable (Figs 1a, 1b, 1c).",
+              "paper_location": "Page 439-440"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "study_id": "Study 7",
+      "study_name": "Ordinal Judgments of Sample Size",
+      "phenomenon": "Insensitivity to Sample Size",
+      "sub_studies": [
+        {
+          "sub_study_id": "study_7_ordinal",
+          "type": "questionnaire",
+          "content": "Three problems: 1. Hospital (Birth of boys > 60% in hospital with 45 vs 15 births); 2. Word Length (Mean length 6 in page vs line); 3. Median Heights (Median of 3 men vs 1 man > 5'11\").",
+          "participants": {
+            "n": 97,
+            "population": "Stanford undergraduates",
+            "recruitment_source": "Stanford University",
+            "demographics": {
+              "background": "No background in probability or statistics"
+            }
+          },
+          "human_data": {
+            "hospital_more_60_larger": 12,
+            "hospital_more_60_smaller": 10,
+            "hospital_more_60_same": 28,
+            "hospital_less_60_larger": 9,
+            "hospital_less_60_smaller": 11,
+            "hospital_less_60_same": 25,
+            "word_more_6_page": 8,
+            "word_more_6_line": 21,
+            "word_more_6_same": 20,
+            "word_less_6_page": 10,
+            "word_less_6_line": 15,
+            "word_less_6_same": 23,
+            "height_more_5_11_team3": 7,
+            "height_more_5_11_team1": 18,
+            "height_more_5_11_same": 23,
+            "height_less_5_11_team3": 14,
+            "height_less_5_11_team1": 17,
+            "height_less_5_11_same": 17
+          },
+          "statistical_tests": [
+            {
+              "test_type": "descriptive",
+              "finding": "Modal answer was 'same' in almost all comparisons; no significant preference for the correct answer.",
+              "paper_location": "Page 444"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "study_id": "Study 8",
+      "study_name": "Posterior Probability: Symmetric Binomial Task",
+      "phenomenon": "Sample Ratio vs. Sample Difference Neglect",
+      "sub_studies": [
+        {
+          "sub_study_id": "study_8_posterior",
+          "type": "task",
+          "content": "Participants estimated posterior probabilities for 10 symmetric binomial problems varying population proportion (p), sample ratio, and sample difference using decks of cards marked X and O.",
+          "participants": {
+            "total_n": 560,
+            "average_n_per_group": 56,
+            "population": "Subjects (students)",
+            "recruitment_source": "Israel (presumably)"
+          },
+          "human_data": {
+            "median_estimates_p_5_6": {
+              "ratio_4_2_diff_2": 0.7,
+              "ratio_18_14_diff_4": 0.6,
+              "ratio_8_4_diff_4": 0.7,
+              "ratio_5_1_diff_4": 0.83,
+              "ratio_40_20_diff_20": 0.7
+            },
+            "median_estimates_p_2_3": {
+              "ratio_4_2_diff_2": 0.68,
+              "ratio_18_14_diff_4": 0.58,
+              "ratio_8_4_diff_4": 0.7,
+              "ratio_5_1_diff_4": 0.85,
+              "ratio_40_20_diff_20": 0.7
+            }
+          },
+          "statistical_tests": [
+            {
+              "test_type": "median_test",
+              "finding": "Estimates for ratio 5:1 significantly higher than 2:1, which were higher than 18:14.",
+              "p_value": 0.01,
+              "paper_location": "Page 449"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "study_id": "Study 9",
+      "study_name": "Posterior Probability: Height Odds",
+      "phenomenon": "Sample Size Neglect in Posterior Odds",
+      "sub_studies": [
+        {
+          "sub_study_id": "study_9_heights",
+          "type": "scenario",
+          "content": "Participants judge odds that a sample came from a male population (mean 5'10\") vs female (mean 5'4\") if: (i) sample is a single person 5'10\"; (ii) sample is 6 persons average 5'8\".",
+          "participants": {
+            "n": 115,
+            "population": "University of Michigan students",
+            "demographics": {
+              "education": "At least one course in statistics"
+            }
+          },
+          "human_data": {
+            "median_subjective_odds_case_i": 8.0,
+            "median_subjective_odds_case_ii": 2.5,
+            "correct_odds_case_i": 16.0,
+            "correct_odds_case_ii": 29.0,
+            "count_higher_odds_for_case_i": 86,
+            "total_count": 115
+          },
+          "statistical_tests": [
+            {
+              "test_type": "median_test",
+              "p_value": 0.01,
+              "paper_location": "Page 449"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "paper_id": "subjective_probability_a_judgment_of_rep",
+  "paper_title": "Subjective Probability: A Judgment of Representativeness",
+  "paper_authors": [
+    "Daniel Kahneman",
+    "Amos Tversky"
+  ],
+  "paper_abstract": "This paper explores a heuristic—representativeness—according to which the subjective probability of an event, or a sample, is determined by the degree to which it: (i) is similar in essential characteristics to its parent population; and (ii) reflects the salient features of the process by which it is generated. This heuristic is explicated in a series of empirical examples demonstrating predictable and systematic errors in the evaluation of uncertain events. In particular, since sample size does not represent any property of the population, it is expected to have little or no effect on judgment of likelihood. This prediction is confirmed in studies showing that subjective sampling distributions and posterior probability judgments are determined by the most salient characteristic of the sample (e.g., proportion, mean) without regard to the size of the sample. The present heuristic approach is contrasted with the normative (Bayesian) approach to the analysis of the judgment of uncertainty."
+}

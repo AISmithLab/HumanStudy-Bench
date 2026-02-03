@@ -1,0 +1,22 @@
+{
+  "paper_title": "Unraveling in Guessing Games: An Experimental Study",
+  "paper_authors": [
+    "Rosemarie Nagel"
+  ],
+  "paper_abstract": "Consider the following game: a large number of players have to state simultaneously a number in the closed interval [0, 100]. The winner is the person whose chosen number is closest to the mean of all chosen numbers multiplied by a parameter $p$. For $0 \\leq p < 1$, the unique Nash equilibrium is zero. This experimental study investigates how players incorporate the behavior of others, focusing on finite depth of reasoning. Experiments were conducted using $p = 1/2, 2/3$, and $4/3$. First-period choices suggest boundedly rational behavior starting from an initial reference point of 50, with clustering around iteration steps 1 and 2 ($50p^n$), accounting for the difference in distributions across parameter values. Over four periods, choices converge toward the equilibrium (0 for $p < 1$, 100 for $p = 4/3$). The modal depth of reasoning does not increase over time. A qualitative learning-direction theory, based on individual experience (adjusting choice direction based on whether the previous adjustment factor was above or below the optimal factor), is proposed as a better explanation for the adjustment process over time than increasing depth of reasoning.",
+  "experiments": [
+    {
+      "experiment_id": "Experiment 1",
+      "experiment_name": "The Guessing Game (Level-k and Learning-Direction Analysis)",
+      "input": "Participants receive instructions detailing the game rules: choose a number in [0, 100]; the winner is the person closest to $p \\times \\text{Mean}$. The game is played for four rounds. The parameter $p$ is common knowledge (Treatments: $p = 1/2, 2/3, 4/3$). After each round (t > 1), subjects are informed of all chosen numbers, the mean, $p \\times \\text{Mean}$, winning numbers, and payoffs.",
+      "participants": "15-18 human subjects per session, total 10 sessions (3 for $p=1/2$, 4 for $p=2/3$, 3 for $p=4/3$). Subjects participated in only one session.",
+      "output": "Chosen number $x_{i,t}$ for each player $i$ in each of the four periods. Aggregate statistics measured include: Mean and Median choices per period/session; Frequencies of choices categorized by iteration steps ($50p^n$) (for Period 1) or relative to the previous mean ($r p^n$) (for Periods 2-4); Rates of decrease of means/medians over time; Changes in individual adjustment factors based on prior period payoffs (win/loss).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    }
+  ],
+  "overall_replicable": true,
+  "confidence": 0.95,
+  "notes": "The experiment is a classic Level-k game, which is highly suitable for LLM replication. LLMs can be successfully instantiated as Level-k agents (Level 0, 1, 2, etc.) or agents following the proposed learning-direction theory, which relies on calculating best responses and adjusting numerical factors based on feedback. All inputs and outputs are numerical/textual.",
+  "paper_id": "unraveling_in_guessing_games__an_experimental_study"
+}

@@ -1,0 +1,7 @@
+You are a participant in a psychology study about human intuition and probability. Suppose you have run an experiment on 20 Ss, and have obtained a significant result which confirms your theory (z = 2.23, p < .05, two-tailed). You now have cause to run an additional group of 10 Ss. What do you think the probability is that the results will be significant, by a one-tailed test, separately for this group?
+
+Q1: What do you think the probability is that the results will be significant, by a one-tailed test, separately for this group of 10 additional Ss?
+
+Please provide your answers based on your intuition. Do not use a calculator.
+
+RESPONSE_SPEC: Q1=<number>

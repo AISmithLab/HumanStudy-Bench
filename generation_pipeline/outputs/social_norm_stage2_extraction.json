@@ -1,0 +1,267 @@
+{
+  "studies": [
+    {
+      "study_id": "Study 1",
+      "study_name": "Pluralistic Ignorance regarding Alcohol Habits",
+      "phenomenon": "Pluralistic Ignorance",
+      "hypotheses": [
+        "Students will vary in their own comfort with alcohol drinking on campus but will believe other students to be uniformly more comfortable than they are.",
+        "Students' estimates of the variability of others' attitudes will reflect an illusion of universality (perceiving less variability in others than exists in reality)."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "study_1_comfort_estimation",
+          "type": "questionnaire",
+          "content": "Participants rated their own comfort and estimated the average student's comfort with campus alcohol habits, including an estimate of the interquartile range of the student body.",
+          "items": [
+            {
+              "question_text": "How comfortable do you feel with the alcohol drinking habits of students at Princeton?",
+              "response_scale": "11-point scale (1 = not at all comfortable, 11 = very comfortable)"
+            },
+            {
+              "question_text": "How comfortable does the average Princeton undergraduate feel with the alcohol drinking habits of students at Princeton?",
+              "response_scale": "11-point scale (1 = not at all comfortable, 11 = very comfortable). Participants were also asked to 'circle the average student's response and then bracket the two values between which the attitudes of 50% of students fall.'"
+            }
+          ],
+          "participants": {
+            "n": 132,
+            "description": "Princeton University undergraduates (69 women, 63 men) across 1st- through 4th-year classes."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "measure": "Self-comfort (Women)",
+                "mean": 4.68,
+                "sd": 2.69
+              },
+              {
+                "measure": "Average student comfort (Women's estimate)",
+                "mean": 7.07,
+                "sd": 1.68
+              },
+              {
+                "measure": "Self-comfort (Men)",
+                "mean": 6.03,
+                "sd": 2.76
+              },
+              {
+                "measure": "Average student comfort (Men's estimate)",
+                "mean": 7.0,
+                "sd": 1.57
+              },
+              {
+                "measure": "Self-comfort (Total)",
+                "mean": 5.33,
+                "sd": 2.73
+              },
+              {
+                "measure": "Average student comfort (Total estimate)",
+                "mean": 7.04,
+                "sd": 1.63
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "2 (sex) X 2 (target) analysis of variance (ANOVA)",
+                "statistic": "F(1, 130) = 55.52",
+                "p_value": "p < .0001",
+                "claim": "Highly significant main effect of target: Respondents were much less comfortable than they believed the average student to be.",
+                "location": "Page 245, Results and Discussion"
+              },
+              {
+                "test_name": "Sex X Target interaction ANOVA",
+                "statistic": "F(1, 130) = 9.96",
+                "p_value": "p < .005",
+                "claim": "The gap between ratings of own and others' comfort was substantially larger for women than for men.",
+                "location": "Page 245, Results and Discussion"
+              },
+              {
+                "test_name": "Statistical comparison of variances (F-test)",
+                "statistic": "F(131, 131) = 2.99",
+                "p_value": "p < .0001",
+                "claim": "Significant difference in variances: students' estimates of the average student's comfort were much less variable than their own comfort ratings.",
+                "location": "Page 245, Results and Discussion"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Study 2",
+      "study_name": "Pluralistic Ignorance regarding Friends and Order Effects",
+      "phenomenon": "Pluralistic Ignorance",
+      "hypotheses": [
+        "Pluralistic ignorance will be found with respect to one's friends as well as the average student.",
+        "The effect is not a byproduct of question order (self vs. other)."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "study_2_order_and_friend_comparison",
+          "type": "questionnaire",
+          "content": "Participants rated their own comfort, their friends' comfort, and the average student's comfort. The order of questions (self first vs. average student first) was manipulated.",
+          "items": [
+            {
+              "question_text": "How comfortable do you feel with the alcohol drinking habits of students at Princeton?",
+              "response_scale": "11-point scale (1 = not at all comfortable, 11 = very comfortable)"
+            },
+            {
+              "question_text": "How comfortable does the average Princeton undergraduate feel with the alcohol drinking habits of students at Princeton?",
+              "response_scale": "11-point scale"
+            },
+            {
+              "question_text": "How comfortable do your friends feel with the alcohol drinking habits of students at Princeton?",
+              "response_scale": "11-point scale"
+            }
+          ],
+          "participants": {
+            "n": 242,
+            "description": "Princeton University undergraduates (145 women, 97 men) across 1st- through 4th-year classes."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "Self-question first (Total)",
+                "self_mean": 5.91,
+                "friend_mean": 6.61,
+                "average_student_mean": 7.01
+              },
+              {
+                "condition": "Other-question first (Total)",
+                "self_mean": 5.41,
+                "friend_mean": 6.49,
+                "average_student_mean": 7.3
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "2 (sex) X 3 (target) X 2 (question order) ANOVA",
+                "statistic": "F(2, 476) = 54.52",
+                "p_value": "p < .0001",
+                "claim": "Highly significant main effect of target: ratings of own comfort were significantly lower than ratings of friends' comfort or the average student's comfort.",
+                "location": "Page 246, Results and Discussion"
+              },
+              {
+                "test_name": "Target X Order interaction ANOVA",
+                "statistic": "F(2, 476) = 3.45",
+                "p_value": "p < .05",
+                "claim": "Differences between targets were greater when the average student question came first, but remained significant in both orders.",
+                "location": "Page 246, Results and Discussion"
+              },
+              {
+                "test_name": "Variance comparison (Self vs Average)",
+                "statistic": "F(241, 241) = 3.14",
+                "p_value": "p < .0001",
+                "claim": "Ratings of the average student were significantly less variable than ratings of the self.",
+                "location": "Page 246, Results and Discussion"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Study 4",
+      "study_name": "Pluralistic Ignorance and Campus Alienation regarding Keg Ban",
+      "phenomenon": "Pluralistic Ignorance and Institutional Alienation",
+      "hypotheses": [
+        "Pluralistic ignorance will occur regarding the campus keg ban (students will believe others are more negative than they are).",
+        "Regardless of actual attitude, feeling deviant from the perceived norm will inhibit students from taking social action and produce symptoms of alienation from the university."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "study_4_keg_ban_alienation",
+          "type": "task",
+          "content": "Participants rated their own attitude toward a campus keg ban, estimated the average student's attitude, and indicated willingness to take social action and their connection to the university.",
+          "items": [
+            {
+              "question_text": "How do you feel about the university's new policy banning kegs on campus?",
+              "response_scale": "0 to 10 (0 = totally opposed, 10 = totally in favor)"
+            },
+            {
+              "question_text": "Compared to you, how does the average Princeton undergraduate feel about the university's new policy banning kegs on campus?",
+              "response_scale": "1 to 5 (1 = much more negative, 2 = somewhat more negative, 3 = about the same, 4 = somewhat more positive, 5 = much more positive)"
+            },
+            {
+              "question_text": "How many signatures in protest of the ban would you be willing to go out and collect?",
+              "response_scale": "0 to 100 or more signatures"
+            },
+            {
+              "question_text": "How much of your time would you be willing to spend discussing ways to protest the ban?",
+              "response_scale": "No time to 10 or more hours"
+            },
+            {
+              "question_text": "What percentage of reunions do you expect to attend after you graduate from Princeton?",
+              "response_scale": "0 to 100 (in increments of 10)"
+            },
+            {
+              "question_text": "How likely are you to donate money to Princeton after you graduate?",
+              "response_scale": "1 (not at all likely) to 9 (very likely)"
+            }
+          ],
+          "participants": {
+            "n": 94,
+            "description": "Princeton University undergraduates (52 women, 42 men) across 1st- through 4th-year classes."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "group": "Others-more-negative (Women)",
+                "keg_ban_attitude_mean": 4.7,
+                "signatures_mean": 6.05,
+                "hours_mean": 0.4,
+                "reunions_mean": 33.88,
+                "donations_mean": 4.65
+              },
+              {
+                "group": "Others-the-same (Women)",
+                "keg_ban_attitude_mean": 0.64,
+                "signatures_mean": 49.09,
+                "hours_mean": 2.55,
+                "reunions_mean": 57.27,
+                "donations_mean": 6.27
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "ANCOVA on willingness to collect signatures (controlling for attitudes)",
+                "statistic": "F(1, 90) = 18.94",
+                "p_value": "p < .0001",
+                "claim": "Significant effect of comparison group: those who felt deviant were less willing to collect signatures.",
+                "location": "Page 251, Results"
+              },
+              {
+                "test_name": "ANCOVA on willingness to work hours (controlling for attitudes)",
+                "statistic": "F(1, 90) = 10.99",
+                "p_value": "p < .005",
+                "claim": "Significant effect of comparison group: those who felt deviant were less willing to spend time discussing protest.",
+                "location": "Page 251, Results"
+              },
+              {
+                "test_name": "ANCOVA on percentage of reunions expected (controlling for attitudes)",
+                "statistic": "F(1, 89) = 8.10",
+                "p_value": "p < .01",
+                "claim": "Significant effect of comparison group: those who felt deviant expected to attend fewer reunions.",
+                "location": "Page 251, Results"
+              },
+              {
+                "test_name": "ANOVA on personal attitude (Others-more-negative vs. Others-the-same)",
+                "statistic": "F(1, 90) = 48.26",
+                "p_value": "p < .0001",
+                "claim": "Subjects in the others-more-negative group expressed more favorable attitudes toward the ban than did subjects in the others-the-same group.",
+                "location": "Page 251, Results"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "paper_id": "social_norm",
+  "paper_title": "Pluralistic Ignorance and Alcohol Use on Campus: Some Consequences of Misperceiving the Social Norm",
+  "paper_authors": [
+    "Deborah A. Prentice",
+    "Dale T. Miller"
+  ],
+  "paper_abstract": "Four studies examined the relation between college students' own attitudes toward alcohol use and their estimates of the attitudes of their peers. All studies found widespread evidence of pluralistic ignorance: Students believed that they were more uncomfortable with campus alcohol practices than was the average student. Study 2 demonstrated this perceived self-other difference also with respect to one's friends. Study 3 tracked attitudes toward drinking over the course of a semester and found gender differences in response to perceived deviance: Male students shifted their attitudes over time in the direction of what they mistakenly believed to be the norm, whereas female students showed no such attitude change. Study 4 found that students' perceived deviance correlated with various measures of campus alienation, even though that deviance was illusory. The implications of these results for general issues of norm estimation and responses to perceived deviance are discussed."
+}

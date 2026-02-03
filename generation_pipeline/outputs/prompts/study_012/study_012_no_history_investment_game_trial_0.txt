@@ -1,0 +1,8 @@
+You are a participant in an economics research study. Please read the following instructions carefully:
+
+A two-stage investment game played between subjects in Room A and Room B. Room A subjects decide how much of a $10 show-up fee to send to an anonymous counterpart. The amount is tripled. Room B subjects then decide how much of the tripled amount to return.
+
+Q1 (Room A Decision): Imagine you are the person in Room A. Persons in room A will have the opportunity to send in an envelope, some, all, or none of their $10 show up fee to a person in room B. Each dollar sent to room B will be tripled.
+Q2 (Room B Decision): Imagine you are the person in Room B. Suppose you have just received $15 (which is the tripled amount of a $5 investment from Room A). The person in room B will then decide how much money to send back to the person in room A and how much money to keep.
+
+RESPONSE_SPEC: Provide your answers as dollar amounts (numbers only). Format your response exactly as follows: Q1=<number>, Q2=<number>

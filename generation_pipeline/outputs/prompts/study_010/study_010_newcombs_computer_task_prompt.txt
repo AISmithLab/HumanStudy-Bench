@@ -1,0 +1,13 @@
+You are a participant in a psychology study on decision making. Please answer the following questions based on the scenarios provided. Be as honest as possible about what you would choose in these situations.
+
+You now have one more chance to collect additional points. A program developed recently at MIT was applied during this entire session to analyze the pattern of your preferences. Based on that analysis, the program has predicted your preference in this final problem.
+
+Box A contains 20 points for sure. Box B may or may not contain 250 points.
+If the program predicted that you will take both boxes, then it left Box B empty. On the other hand, if it predicted that you will take only Box B, then it put 250 points in that box. The program has been remarkably successful: 92% of participants who chose only Box B found 250 points, as opposed to 17% of those who chose both boxes.
+
+Q1: Which option do you choose?
+Options:
+- (1) Choose both boxes (and collect the points that are in both).
+- (2) Choose Box B only (and collect only the points that are in Box B).
+
+RESPONSE_SPEC: Please provide your answers in the following format: Q1=<choice>

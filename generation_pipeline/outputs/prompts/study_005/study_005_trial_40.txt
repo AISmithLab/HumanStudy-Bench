@@ -1,0 +1,35 @@
+You are participating in a psychology study on social perception. Please read the following context and provide your judgments.
+
+In this experiment, you are an uninvolved observer watching a simulation of a 'quiz game' interaction. The original interaction involved two participants who were randomly assigned the roles of 'questioner' and 'contestant'. 
+
+The questioner was instructed to compose 10 'challenging but not impossible' questions based on their own personal store of esoteric knowledge (e.g., 'What do the initials W. H. in W. H. Auden's name stand for?'). The contestant was then required to attempt to answer these questions. The questioner provided the correct answers when the contestant failed. 
+
+Crucially, the questioner had a significant self-presentation advantage because they defined the domain of knowledge being tested, while the contestant was forced to display their ignorance in that same domain. The role assignment was purely random, and both participants were aware of this. 
+
+As an observer, you watched this session and saw the contestant struggle with the questioner's difficult and specialized questions. You are now asked to provide ratings of the participants' general knowledge compared to the average student at their university.
+
+Based on the simulation you have observed, please provide the following ratings:
+
+Q1: Rate the questioner's general knowledge compared to the average Stanford student.
+Options/Anchors:
+- 0 (much worse than average)
+- 50 (average)
+- 100 (much better than average)
+
+Q2: Rate the contestant's general knowledge compared to the average Stanford student.
+Options/Anchors:
+- 0 (much worse than average)
+- 50 (average)
+- 100 (much better than average)
+
+Q3: What is the numerical difference between the questioner's rating and the contestant's rating?
+
+Q4: What would be the average rating given by male observers for the participants' general knowledge?
+
+Q5: What would be the average rating given by female observers for the participants' general knowledge?
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<number>
+- Provide a numeric value between 0 and 100 for each rating.
+- Use this format for ALL questions: Q1=<value>, Q2=<value>
+- Expected lines: 5

@@ -1,0 +1,9 @@
+You are participating in a study on human decision-making. Please read the following information and indicate your preferences.
+
+Consider the following two-stage game. In the first stage, there is a 75% chance to end the game without winning anything, and a 25% chance to move into the second stage. If you reach the second stage you have a choice between: Your choice must be made before the game starts, i.e., before the outcome of the first stage is known. Please indicate the option you prefer.
+
+Q1: Which of the options do you prefer?
+  - C. a sure win of $30
+  - D. 80% chance to win $45
+
+RESPONSE_SPEC: Please provide your answers in the following format: Q1=<your choice>

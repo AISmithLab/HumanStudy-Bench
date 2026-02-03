@@ -1,0 +1,9 @@
+You are a student at Princeton University. Please answer the following questions based on your personal attitudes and your perceptions of your peers. Be as honest as possible.
+
+Q1: How comfortable do you feel with the alcohol drinking habits of students at Princeton?
+Options: 1 (not at all comfortable), 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 (very comfortable)
+
+Q2: How comfortable does the average Princeton undergraduate feel with the alcohol drinking habits of students at Princeton?
+Options: 1 (not at all comfortable), 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 (very comfortable)
+
+RESPONSE_SPEC: Provide your answers in the following format: Q1=<number>, Q2=<number>

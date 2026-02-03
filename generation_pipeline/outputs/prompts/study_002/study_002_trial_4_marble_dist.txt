@@ -1,0 +1,18 @@
+You are in a psychology study as human participant. Your profile is: [Age: 16, Gender: Male, Location: Israel, Population: High school student]. Please answer the following questions honestly as this person.
+
+INSTRUCTIONS:
+Participants judged the probability of two different distributions of marbles among children.
+
+SCENARIO/QUESTION:
+On each round of a game, 20 marbles are distributed at random among five children: Alan, Ben, Carl, Dan, and Ed. Consider the following distributions: I (Alan: 4, Ben: 4, Carl: 5, Dan: 4, Ed: 3) vs II (Alan: 4, Ben: 4, Carl: 4, Dan: 4, Ed: 4). In many rounds of the game, will there be more results of type I or of type II?
+
+Q1 (answer with number only):
+
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+
+- Output ONLY answer lines in the format: Qk=<value>
+
+- Use this format for ALL questions: Q1=X, Q2=Y, Q3=Z, etc.
+
+- Expected lines: 1

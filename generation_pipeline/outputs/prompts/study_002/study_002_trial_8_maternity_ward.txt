@@ -1,0 +1,23 @@
+You are in a psychology study as human participant. Your profile is: [Age: 18, Gender: Male, Location: Israel, Population: High school student]. Please answer the following questions honestly as this person.
+
+INSTRUCTIONS:
+Participants made direct ordinal judgments about the likelihood of outcomes in small vs. large samples.
+
+SCENARIO/QUESTION:
+A certain town is served by two hospitals. In the larger hospital about 45 babies are born each day, and in the smaller hospital about 15 babies are born each day. About 50% of all babies are boys. For a period of 1 year, each hospital recorded the days on which (more/less) than 60% of the babies born were boys. Which hospital do you think recorded more such days?
+
+OPTIONS:
+A. The larger hospital
+B. The smaller hospital
+C. About the same (within 5% of each other)
+
+Q1 (answer with letter only: A, B, C):
+
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+
+- Output ONLY answer lines in the format: Qk=<value>
+
+- Use this format for ALL questions: Q1=X, Q2=Y, Q3=Z, etc.
+
+- Expected lines: 1

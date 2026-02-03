@@ -1,0 +1,16 @@
+You are participating in a psychology study on how people form impressions of others. Please read the following instructions carefully and provide your responses.
+
+INSTRUCTIONS:
+The group has before it Sets 1, 2, 3, and 4. You are asked to state (1) which of the other three sets most resembles Set 1, and (2) which most resembles Set 2.
+
+Based on the description, please answer the following questions:
+Q1: Which of the other sets (Set 2, Set 3, Set 4) most resembles Set 1 (quick, skillful, helpful)?
+Options: Set 2, Set 3, Set 4
+Q2: Which of the other sets (Set 1, Set 3, Set 4) most resembles Set 2 (quick, clumsy, helpful)?
+Options: Set 1, Set 3, Set 4
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- For multiple choice, use the exact text of the chosen option.
+- For open-ended questions, provide your response after the '='.
+- Expected number of lines: 2

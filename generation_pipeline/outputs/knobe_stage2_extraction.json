@@ -1,0 +1,183 @@
+{
+  "studies": [
+    {
+      "study_id": "Experiment 1",
+      "study_name": "Corporate Chairman Vignette",
+      "phenomenon": "The Side-Effect Effect (The Knobe Effect)",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "People are more likely to say a side-effect was brought about intentionally when it is harmful than when it is helpful.",
+          "hypothesis": "A person’s intuitions as to whether or not a given side-effect was produced 'intentionally' can be influenced by that person’s attitude toward the specific side-effect in question (specifically whether it is good or bad)."
+        },
+        {
+          "finding_id": "Finding 2",
+          "finding_description": "There is an asymmetry in the assignment of praise and blame for side-effects, where agents receive more blame for bad side-effects than praise for good ones.",
+          "hypothesis": "People are considerably more willing to blame the agent for bad side-effects than to praise the agent for good side-effects."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment 1 - Full",
+          "type": "between-subjects vignette experiment",
+          "content": "Participants read a story about a chairman implementing a program to increase profits, with a known environmental side-effect (harming or helping) that the chairman claims not to care about.",
+          "items": [
+            {
+              "question_text": "How much blame the chairman deserved for what he did (harm condition) / how much praise the chairman deserved (help condition)",
+              "response_options": "Scale from 0 to 6",
+              "context": "Assessing moral responsibility for the side-effect."
+            },
+            {
+              "question_text": "Did the chairman intentionally harm/help the environment?",
+              "response_options": "Categorical (Yes/No)",
+              "context": "Assessing intentionality of the side-effect."
+            }
+          ],
+          "participants": {
+            "n": 78,
+            "demographics": "People spending time in a Manhattan public park.",
+            "group_assignments": "Randomly assigned to either the 'harm condition' or the 'help condition'."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "Harm condition",
+                "intentional_judgment": "82% said intentional"
+              },
+              {
+                "condition": "Help condition",
+                "intentional_judgment": "23% said intentional (77% said not intentional)"
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Chi-square test",
+                "statistic": "χ²(1, N = 78) = 27.2",
+                "p_value": "p < .001",
+                "raw_data": {
+                  "harm_condition": {
+                    "percentage_intentional": 82,
+                    "n": "Approx 39"
+                  },
+                  "help_condition": {
+                    "percentage_intentional": 23,
+                    "n": "Approx 39"
+                  }
+                },
+                "claim": "The difference in intentionality judgments between the harm and help conditions was highly statistically significant.",
+                "location": "Page 4, Section 1"
+              },
+              {
+                "finding_id": "Finding 2",
+                "test_name": "t-test (Combined with Exp 2)",
+                "statistic": "t(120) = 8.4",
+                "p_value": "p < .001",
+                "raw_data": {
+                  "harm_condition_blame": {
+                    "mean": 4.8
+                  },
+                  "help_condition_praise": {
+                    "mean": 1.4
+                  }
+                },
+                "claim": "Overall, subjects said that the agent deserved a lot of blame in the harm condition but very little praise in the help condition.",
+                "location": "Page 7, Section 3"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "study_id": "Experiment 2",
+      "study_name": "Military Lieutenant Vignette",
+      "phenomenon": "The Side-Effect Effect (The Knobe Effect)",
+      "findings": [
+        {
+          "finding_id": "Finding 1",
+          "finding_description": "The asymmetry in intentionality judgments persists in a military context, independent of corporate-specific perceptions.",
+          "hypothesis": "The effect observed in Experiment 1 is general and not specific to corporations or environmental damage."
+        },
+        {
+          "finding_id": "Finding 3",
+          "finding_description": "The assignment of praise/blame is correlated with intentionality judgments.",
+          "hypothesis": "The asymmetry in praise and blame assignment may be at the root of the asymmetry in the application of the concept intentional."
+        }
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "Experiment 2 - Full",
+          "type": "between-subjects vignette experiment",
+          "content": "Participants read a story about a lieutenant ordering a squad to a hill to take control of it, with a known side-effect on the soldiers' safety (killed or rescued) that the lieutenant claims not to care about.",
+          "items": [
+            {
+              "question_text": "How much blame the lieutenant deserved for what he did (harm condition) / how much praise the lieutenant deserved (help condition)",
+              "response_options": "Likely 0-6 scale (implied by combined analysis)",
+              "context": "Assessing moral responsibility for the side-effect."
+            },
+            {
+              "question_text": "Whether or not he intentionally put the soldiers in the line of fire (harm) / took the soldiers out of the line of fire (help)",
+              "response_options": "Categorical (Yes/No)",
+              "context": "Assessing intentionality of the side-effect."
+            }
+          ],
+          "participants": {
+            "n": 42,
+            "demographics": "People spending time in a Manhattan public park.",
+            "group_assignments": "Randomly assigned to either the 'harm condition' or the 'help condition'."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "condition": "Harm condition",
+                "intentional_judgment": "77% said intentional"
+              },
+              {
+                "condition": "Help condition",
+                "intentional_judgment": "30% said intentional (70% said not intentional)"
+              }
+            ],
+            "statistical_results": [
+              {
+                "finding_id": "Finding 1",
+                "test_name": "Chi-square test",
+                "statistic": "χ²(1, N = 42) = 9.5",
+                "p_value": "p < .01",
+                "raw_data": {
+                  "harm_condition": {
+                    "percentage_intentional": 77,
+                    "n": "Approx 21"
+                  },
+                  "help_condition": {
+                    "percentage_intentional": 30,
+                    "n": "Approx 21"
+                  }
+                },
+                "claim": "The difference in intentionality judgments between the harm and help conditions was statistically significant in the military context.",
+                "location": "Page 6, Section 2"
+              },
+              {
+                "finding_id": "Finding 3",
+                "test_name": "Correlation (Combined with Exp 1)",
+                "statistic": "r(120) = .53",
+                "p_value": "p < .001",
+                "raw_data": {
+                  "total_sample_size": 120
+                },
+                "claim": "The total amount of praise or blame that subjects offered was correlated with their judgements about whether or not the side-effect was brought about intentionally.",
+                "location": "Page 7, Section 3"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "paper_id": "knobe",
+  "paper_title": "Intentional Action and Side-Effects in Ordinary Language",
+  "paper_authors": [
+    "Joshua Knobe"
+  ],
+  "paper_abstract": "The paper addresses a controversy in the concept of intentional action: whether side-effects of an action are brought about intentionally. The author hypothesizes that people's intuitions are influenced by their attitude toward the specific side-effect. Through two experiments, the author demonstrates an asymmetry: people are considerably more willing to say a side-effect was brought about intentionally when they regard that side-effect as bad (harmful) than when they regard it as good (helpful). This finding suggests that the assignment of praise and blame is at the root of how people apply the concept of intentionality."
+}

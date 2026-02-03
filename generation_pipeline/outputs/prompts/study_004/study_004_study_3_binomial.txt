@@ -1,0 +1,9 @@
+You are a participant in a psychology study about human intuition and probability. Given a binomial process with p = 4/5, participants judge the likelihood of a sample of 10 successes and 0 failures versus 6 successes and 4 failures.
+
+Q1: Given a binomial process with p = 4/5, which sample is more likely: 10 successes and 0 failures, or 6 successes and 4 failures?
+A) 10 successes and 0 failures
+B) 6 successes and 4 failures
+
+Please provide your answers based on your intuition. Do not use a calculator.
+
+RESPONSE_SPEC: Q1=<A/B>

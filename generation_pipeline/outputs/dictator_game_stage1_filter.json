@@ -1,0 +1,70 @@
+{
+  "paper_title": "Fairness in Simple Bargaining Experiments",
+  "paper_authors": [
+    "ROBERT FORSYTHE",
+    "JOEL L. HOROWITZ",
+    "N. E. SAVIN",
+    "AND MARTIN SEFTON"
+  ],
+  "paper_abstract": "We present an experiment to test whether fairness alone can explain proposers' willingness to make nontrivial offers in simple bargaining games. We examine two treatments: game (ultimatum or dictator) and pay (pay or no pay). The outcomes of the ultimatum and dictator games with pay are significantly different, implying that fairness, by itself, cannot explain the observed behavior. Doubling the amount of money available in games with pay does not affect these results. The outcomes of both games are replicable when players are paid, but the outcome of the ultimatum game is not replicable when players are not paid. Journal of Economic Literature Classification Numbers: 026, 215.",
+  "experiments": [
+    {
+      "experiment_id": "Experiment 1",
+      "experiment_name": "$5 Dictator Game with Pay (DG-P)",
+      "input": "Instructions detailing the Dictator Game rules. Player 1 (Proposer) dictates how to divide a $5 pie. Player 2 (Receiver) has no rejection power. Payoffs are real.",
+      "participants": "Students (undergraduate Econ/Accounting, MBA) at the University of Iowa, recruited from a voluntary subject pool. Paid a $3 participation fee plus real monetary winnings based on the division.",
+      "output": "The dollar amount proposed by Player 1 to Player 2.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment 2",
+      "experiment_name": "$5 Ultimatum Game with Pay (UG-P)",
+      "input": "Instructions detailing the Ultimatum Game rules. Player 1 (Proposer) offers a division of a $5 pie. Player 2 (Receiver) can accept (proposal enforced) or reject (both players receive $0). Payoffs are real.",
+      "participants": "Students (undergraduate Econ/Accounting, MBA) at the University of Iowa, recruited from a voluntary subject pool. Paid a $3 participation fee plus real monetary winnings based on the outcome.",
+      "output": "The dollar amount proposed by Player 1 to Player 2, and Player 2's acceptance/rejection decision.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment 3",
+      "experiment_name": "$5 Dictator Game without Pay (DG-NP)",
+      "input": "Instructions detailing the Dictator Game rules, involving a $5 pie. Participants are informed that the proposed division is hypothetical and does not affect their financial earnings (only the $3 participation fee is paid).",
+      "participants": "Students (undergraduate Econ/Accounting, MBA) at the University of Iowa, paid a $3 participation fee only.",
+      "output": "The dollar amount proposed by Player 1 to Player 2.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment 4",
+      "experiment_name": "$5 Ultimatum Game without Pay (UG-NP)",
+      "input": "Instructions detailing the Ultimatum Game rules, involving a $5 pie. The proposed division and the receiver's decision are hypothetical, and neither player receives monetary payoffs based on the outcome.",
+      "participants": "Students (undergraduate Econ/Accounting, MBA) at the University of Iowa, paid a $3 participation fee only.",
+      "output": "The dollar amount proposed by Player 1 to Player 2, and Player 2's acceptance/rejection decision.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment 5",
+      "experiment_name": "$10 Dictator Game with Pay ($10 DG-P)",
+      "input": "Instructions detailing the Dictator Game rules, involving a $10 pie. Player 1 dictates how to divide the pie. Payoffs are real.",
+      "participants": "Students (undergraduate Econ/Accounting, MBA) at the University of Iowa, recruited from a voluntary subject pool. Paid a participation fee plus real monetary winnings based on the division.",
+      "output": "The dollar amount proposed by Player 1 to Player 2.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment 6",
+      "experiment_name": "$10 Ultimatum Game with Pay ($10 UG-P)",
+      "input": "Instructions detailing the Ultimatum Game rules, involving a $10 pie. Player 1 offers a division. Player 2 can accept or reject. Payoffs are real.",
+      "participants": "Students (undergraduate Econ/Accounting, MBA) at the University of Iowa, recruited from a voluntary subject pool. Paid a participation fee plus real monetary winnings based on the outcome.",
+      "output": "The dollar amount proposed by Player 1 to Player 2, and Player 2's acceptance/rejection decision.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    }
+  ],
+  "overall_replicable": true,
+  "confidence": 1.0,
+  "notes": "All experiments involve standard economic bargaining games (Ultimatum and Dictator) with varying stakes ($5 or $10) and incentives (Pay or No Pay). The procedures rely solely on textual instructions and sequential decision-making, making them suitable for LLM replication.",
+  "paper_id": "dictator_game"
+}

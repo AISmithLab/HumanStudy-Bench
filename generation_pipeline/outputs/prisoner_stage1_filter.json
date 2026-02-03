@@ -1,0 +1,41 @@
+{
+  "paper_title": "Thinking through Uncertainty: Nonconsequential Reasoning and Choice",
+  "paper_authors": [
+    "Eldar Shafir",
+    "Amos Tversky"
+  ],
+  "paper_abstract": "When thinking under uncertainty, people often do not consider appropriately each of the relevant branches of a decision tree, as required by consequentialism. As a result they sometimes violate Savage’s sure-thing principle. In the Prisoner’s Dilemma game, for example, many subjects compete when they know that the opponent has competed and when they know that the opponent has cooperated, but cooperate when they do not know the opponent’s response. Newcomb’s Problem and Wason’s selection task are also interpreted as manifestations of nonconsequential decision making and reasoning. The causes and implications of such behavior, and the notion of quasi-magical thinking, are discussed.",
+  "experiments": [
+    {
+      "experiment_id": "Experiment 1",
+      "experiment_name": "One-shot Prisoner's Dilemma Triads",
+      "input": "Subjects were presented with Prisoner's Dilemma (PD) games on a computer screen. Each game appeared in three versions: (1) strategy of the other player unknown, (2) other player competed, (3) other player cooperated. Payoff matrices were provided for each game.",
+      "participants": "Eighty Princeton undergraduates",
+      "output": "Choice to 'compete' or 'cooperate' across the three conditions (triads).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment 2",
+      "experiment_name": "Newcomb's Problem (Computer Program Version)",
+      "input": "A scenario where a computer program at MIT predicted the subject's choice based on previous preferences. Subjects chose between Box A (20 points for sure) and Box B (might contain 250 points). If the program predicted they'd take both, Box B is empty; if it predicted they'd take Box B only, it contains 250 points.",
+      "participants": "Forty subjects (presumably Princeton undergraduates, following the PD study)",
+      "output": "Choice of 'both boxes' vs 'Box B only'.",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    },
+    {
+      "experiment_id": "Experiment 3",
+      "experiment_name": "Prisoner's Dilemma with Information Seeking",
+      "input": "Subjects were presented with PD games and offered the opportunity to learn the other player's decision before making their own choice for a very small fee.",
+      "participants": "A new group of subjects (Princeton undergraduates contextually)",
+      "output": "Percentage of trials where subjects chose to pay for information and their subsequent choice (compete/cooperate).",
+      "replicable": "YES",
+      "exclusion_reasons": []
+    }
+  ],
+  "overall_replicable": true,
+  "confidence": 0.95,
+  "notes": "The experiments in this paper are purely text-based behavioral decision-making tasks (Prisoner's Dilemma and Newcomb's Problem). They do not require visual stimuli or time-sensitive measurements. The participant demographics are well-defined as university students, which is a common profile for LLM agent simulation. The paper provides clear quantitative results for all three primary studies.",
+  "paper_id": "prisoner"
+}

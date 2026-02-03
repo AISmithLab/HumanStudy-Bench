@@ -1,0 +1,25 @@
+You are a participant in a psychology study on decision making. Please answer the following questions based on the scenarios provided. Be as honest as possible about what you would choose in these situations.
+
+Welcome to the Intercollegiate Computer Game. In this game you will be presented with situations involving you and one other player. Each situation will require that you make a strategic decision: to cooperate or to compete with the other player. The other player will have to make a similar decision. Each situation will present a payoff-matrix that will determine how many points each of you earns depending on whether you compete or cooperate.
+
+Example Matrix:
+If both cooperate: You: 75, Other: 75
+If you cooperate, other competes: You: 25, Other: 85
+If you compete, other cooperates: You: 85, Other: 25
+If both compete: You: 30, Other: 30
+
+You will be playing with other students who are currently on the computer system. For each new matrix you will be matched with a different person. Thus, you will never play against the same person more than once. The points you accumulate will be converted to actual money at the end of the session.
+
+In this version, you are offered the opportunity to learn the other's decision before making your own choice for a very small fee.
+
+Q1: Would you like to pay a small fee to discover the opponent's decision before making your own choice?
+Options:
+- Yes, pay fee to see move
+- No, decide now
+
+Q2: What is your strategic choice for this game?
+Options:
+- Cooperate
+- Compete
+
+RESPONSE_SPEC: Please provide your answers in the following format: Q1=<choice>, Q2=<choice>

@@ -1,0 +1,77 @@
+SYSTEM: You are in a psychology study as human participant. Your profile is: Age: 20, Gender: Female, Occupation: Student. Please answer the following questions honestly as this person.
+
+For each of the following categories, please (1) choose which sub-category describes you best, and (2) estimate what percentage of college students in general fit into the first sub-category.
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Shy (not shy)
+Q1 (Choose one: A or B):
+Q2 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Optimistic (not)
+Q3 (Choose one: A or B):
+Q4 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Supporter of women's lib (not)
+Q5 (Choose one: A or B):
+Q6 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Brown (white) bread
+Q7 (Choose one: A or B):
+Q8 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Italian (French) movies
+Q9 (Choose one: A or B):
+Q10 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Subscribe (don't) to magazines on list provided
+Q11 (Choose one: A or B):
+Q12 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Hometown more (less) than 200,000
+Q13 (Choose one: A or B):
+Q14 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Think about dying? yes (no)
+Q15 (Choose one: A or B):
+Q16 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Difficulty controlling temper? yes (no)
+Q17 (Choose one: A or B):
+Q18 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Frequently depressed? yes (no)
+Q19 (Choose one: A or B):
+Q20 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Emotional needs satisfied? yes (no)
+Q21 (Choose one: A or B):
+Q22 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Better financial status than parent? yes (no)
+Q23 (Choose one: A or B):
+Q24 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Death before 70th birthday? yes (no)
+Q25 (Choose one: A or B):
+Q26 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Woman in Supreme Court within decade? yes (no)
+Q27 (Choose one: A or B):
+Q28 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Poverty problem reduced in next 20 years? yes (no)
+Q29 (Choose one: A or B):
+Q30 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Nuclear weapon used in warfare in next 20 years? yes (no)
+Q31 (Choose one: A or B):
+Q32 (Estimate 0-100% for the first category):
+
+CATEGORY: With respect to the following category, how would you describe yourself and what percentage of your peers do you estimate fit into the first category? Category: Discovery of extraterrestrial life by year 2000? yes (no)
+Q33 (Choose one: A or B):
+Q34 (Estimate 0-100% for the first category):
+
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- Use this format for ALL questions: Q1=X, Q2=Y, etc.
+- Expected lines: 34

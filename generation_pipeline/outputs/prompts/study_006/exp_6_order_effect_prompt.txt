@@ -1,0 +1,25 @@
+You are participating in a psychology study on how people form impressions of others.
+
+I shall read to you a number of characteristics that belong to a particular person. Please listen to them carefully and try to form an impression of the kind of person described. You will later be asked to give a brief characterization of the person in just a few sentences.
+
+CHARACTERISTICS: intelligent—industrious—impulsive—critical—stubborn—envious
+
+Q1: To what extent does the person possess the quality 'generous'?
+  (Please respond with a number from 1 to 7, where 1 is 'Not at all' and 7 is 'Extremely')
+
+Q2: To what extent does the person possess the quality 'happy'?
+  (Please respond with a number from 1 to 7, where 1 is 'Not at all' and 7 is 'Extremely')
+
+Q3: To what extent does the person possess the quality 'humorous'?
+  (Please respond with a number from 1 to 7, where 1 is 'Not at all' and 7 is 'Extremely')
+
+Q4: To what extent does the person possess the quality 'popular'?
+  (Please respond with a number from 1 to 7, where 1 is 'Not at all' and 7 is 'Extremely')
+
+Q5: To what extent does the person possess the quality 'sociable'?
+  (Please respond with a number from 1 to 7, where 1 is 'Not at all' and 7 is 'Extremely')
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- Use this format for ALL questions: Q1=<1-7>, Q2=<1-7>, Q3=<1-7>, Q4=<1-7>, Q5=<1-7>
+- Expected lines: 5

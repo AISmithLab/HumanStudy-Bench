@@ -1,0 +1,178 @@
+{
+  "studies": [
+    {
+      "study_id": "Experiment 1",
+      "study_name": "Unraveling in Guessing Games (p-Beauty Contest)",
+      "phenomenon": "Iterated Reasoning and Unraveling",
+      "hypotheses": [
+        "Players engage in a finite depth of reasoning (level-k reasoning) based on a salient reference point (50).",
+        "The depth of reasoning is independent of the parameter p.",
+        "In repeated rounds, choices move toward the Nash equilibrium (unraveling) via learning-direction theory.",
+        "The reference point for reasoning in subsequent periods is the mean of the previous period."
+      ],
+      "sub_studies": [
+        {
+          "sub_study_id": "p_0.5_condition",
+          "type": "experimental_condition",
+          "content": "Guessing game with p = 1/2. Participants choose a number in [0, 100]. Winner is closest to 1/2 * Mean.",
+          "items": [
+            {
+              "item_id": "guessing_task_p_0.5",
+              "item_text": "Choose a number in the closed interval [0, 100]. The winner is the person whose chosen number is closest to the mean of all chosen numbers multiplied by a parameter p (p = 1/2).",
+              "response_scale": "[0, 100]",
+              "rounds": 4
+            }
+          ],
+          "participants": {
+            "n": 50,
+            "description": "3 sessions (Sessions 1-3) with 15-18 subjects each.",
+            "setting": "Large classroom, subjects seated far apart."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "period": 1,
+                "mean": 27.05,
+                "median": 17.0,
+                "location": "Page 1316, Figure 1A"
+              },
+              {
+                "session_1_means": [
+                  23.7,
+                  10.9,
+                  5.3,
+                  8.1
+                ],
+                "session_1_medians": [
+                  17,
+                  7,
+                  3,
+                  2
+                ],
+                "location": "Page 1321, Table 1"
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Mann-Whitney U test",
+                "statistic": "comparison of distributions for p=1/2 vs p=2/3",
+                "p_value": "p < 0.001",
+                "claim": "Distributions of choices in the first period for p=1/2 and p=2/3 sessions are significantly different.",
+                "location": "Page 1317"
+              },
+              {
+                "test_name": "Binomial test",
+                "statistic": "one-sided test of concentration in neighborhood intervals",
+                "p_value": "p < 0.01",
+                "claim": "Observed observations are more concentrated in neighborhood intervals (Step 0, 1, 2) than expected by chance.",
+                "location": "Page 1318"
+              }
+            ]
+          }
+        },
+        {
+          "sub_study_id": "p_0.66_condition",
+          "type": "experimental_condition",
+          "content": "Guessing game with p = 2/3. Participants choose a number in [0, 100]. Winner is closest to 2/3 * Mean.",
+          "items": [
+            {
+              "item_id": "guessing_task_p_2/3",
+              "item_text": "Choose a number in the closed interval [0, 100]. The winner is the person whose chosen number is closest to the mean of all chosen numbers multiplied by a parameter p (p = 2/3).",
+              "response_scale": "[0, 100]",
+              "rounds": 4
+            }
+          ],
+          "participants": {
+            "n": 67,
+            "description": "4 sessions (Sessions 4-7) with 15-18 subjects each.",
+            "setting": "Large classroom, subjects seated far apart."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "period": 1,
+                "mean": 36.73,
+                "median": 33.0,
+                "location": "Page 1316, Figure 1B"
+              },
+              {
+                "session_4_means": [
+                  39.7,
+                  28.6,
+                  20.2,
+                  16.7
+                ],
+                "session_4_medians": [
+                  33,
+                  29,
+                  14,
+                  10
+                ],
+                "location": "Page 1321, Table 1"
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Mann-Whitney U test",
+                "statistic": "comparison of distributions for p=2/3 vs p=4/3",
+                "p_value": "p < 0.0001",
+                "claim": "Distributions of choices in the first period for p=2/3 and p=4/3 sessions are significantly different.",
+                "location": "Page 1317"
+              },
+              {
+                "test_name": "Binomial test",
+                "statistic": "one-sided test of concentration in neighborhood intervals",
+                "p_value": "p < 0.01",
+                "claim": "Observed observations are more concentrated in neighborhood intervals (Step 0, 1, 2) than expected by chance.",
+                "location": "Page 1318"
+              }
+            ]
+          }
+        },
+        {
+          "sub_study_id": "p_1.33_condition",
+          "type": "experimental_condition",
+          "content": "Guessing game with p = 4/3. Participants choose a number in [0, 100]. Winner is closest to 4/3 * Mean.",
+          "items": [
+            {
+              "item_id": "guessing_task_p_4/3",
+              "item_text": "Choose a number in the closed interval [0, 100]. The winner is the person whose chosen number is closest to the mean of all chosen numbers multiplied by a parameter p (p = 4/3).",
+              "response_scale": "[0, 100]",
+              "rounds": 4
+            }
+          ],
+          "participants": {
+            "n": 51,
+            "description": "3 sessions (Sessions 8-10) with 15-18 subjects each.",
+            "setting": "Large classroom, subjects seated far apart."
+          },
+          "human_data": {
+            "item_level_results": [
+              {
+                "period": 1,
+                "mean": 60.12,
+                "median": 66.0,
+                "location": "Page 1316, Figure 1C"
+              }
+            ],
+            "statistical_results": [
+              {
+                "test_name": "Binomial test",
+                "statistic": "one-sided test of concentration in neighborhood intervals",
+                "p_value": "p < 0.05",
+                "claim": "Observed observations are more concentrated in neighborhood intervals than expected by chance.",
+                "location": "Page 1318"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "paper_id": "unraveling_in_guessing_games__an_experimental_study",
+  "paper_title": "Unraveling in Guessing Games: An Experimental Study",
+  "paper_authors": [
+    "Rosemarie Nagel"
+  ],
+  "paper_abstract": "Consider the following game: a large number of players have to state simultaneously a number in the closed interval [0, 100]. The winner is the person whose chosen number is closest to the mean of all chosen numbers multiplied by a parameter $p$. For $0 \\leq p < 1$, the unique Nash equilibrium is zero. This experimental study investigates how players incorporate the behavior of others, focusing on finite depth of reasoning. Experiments were conducted using $p = 1/2, 2/3$, and $4/3$. First-period choices suggest boundedly rational behavior starting from an initial reference point of 50, with clustering around iteration steps 1 and 2 ($50p^n$), accounting for the difference in distributions across parameter values. Over four periods, choices converge toward the equilibrium (0 for $p < 1$, 100 for $p = 4/3$). The modal depth of reasoning does not increase over time. A qualitative learning-direction theory, based on individual experience (adjusting choice direction based on whether the previous adjustment factor was above or below the optimal factor), is proposed as a better explanation for the adjustment process over time than increasing depth of reasoning."
+}

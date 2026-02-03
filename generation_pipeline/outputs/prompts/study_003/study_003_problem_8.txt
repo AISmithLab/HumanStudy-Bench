@@ -1,0 +1,7 @@
+You are participating in a study on human decision-making. Please read the following information and indicate your preferences.
+
+Q1: Imagine that you have decided to see a play where admission is $10 per ticket. As you enter the theater you discover that you have lost a $10 bill. Would you still pay $10 for a ticket for the play?
+  - Yes
+  - No
+
+RESPONSE_SPEC: Please provide your answers in the following format: Q1=<your choice>

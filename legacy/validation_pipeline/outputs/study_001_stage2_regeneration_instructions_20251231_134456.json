@@ -1,0 +1,100 @@
+{
+  "study_id": "study_001",
+  "generated_at": "2025-12-31T13:44:56.286644",
+  "missing_experiments": [
+    "Study 4"
+  ],
+  "exact_stats_needed": [
+    {
+      "reason": "Missing degrees of freedom for Study 1 F-tests; paper reports F(1, 78) for individual stories and F(1, 312) for summary.",
+      "suggested_fix": "Update 'reported_statistics' to include DFs, e.g., 'F(1, 78) = 17.7'."
+    },
+    {
+      "reason": "Missing item-level t-statistics for Study 2.",
+      "suggested_fix": "Add t-statistics for items in Table 3: Shy (2.66), Optimistic (2.58), Women's Lib (3.96), Brown bread (3.26), Italian movies (2.00), Magazines (2.76), Hometown (1.68), Dying (2.87), Temper (3.26), Depressed (3.25), Needs (2.29), Financial (1.86), Death < 70 (2.81), Supreme Court (6.19), Poverty (3.81), Nuclear (3.21), Extraterrestrial (5.48)."
+    },
+    {
+      "reason": "Implement exact t-statistics for Study 2 and add missing Study 4 and Trait Rating tests.",
+      "suggested_fix": "study_2_t_stats = {1: 2.66, 2: 2.58, 3: 1.35, 4: 0.5, 5: 3.96, 6: 3.26, 7: 1.18, 8: 2.00, 9: 0.5, 10: -0.5, 11: 1.01, 12: 1.63, 13: 2.76, 14: 1.57, 15: 1.68, 16: 2.87, 17: 0.5, 18: 3.26, 19: 3.25, 20: 2.29, 21: 0.5, 22: 0.5, 23: -0.5, 24: 0.5, 25: 1.06, 26: 0.5, 27: 1.86, 28: 0.5, 29: 0.5, 30: 2.81, 31: 6.19, 32: 3.81, 33: 3.21, 34: 5.48}\n\n# In the Study 2 loop:\nt_human = study_2_t_stats.get(item_id, 0.5)\nbf_human = calc_bf_t(t_human, 80-2) # df = N-2\n\n# Additional test_configs:\n{'id': 'study_4_consensus', 'name': 'Consensus: Study 4 Sandwich Board', 'human_stat': 'F=26.47, p<0.001'},\n{'id': 'study_1_trait', 'name': 'Attribution: Study 1 Trait Ratings', 'human_stat': 'F=37.40, p<0.001'},\n{'id': 'study_3_trait', 'name': 'Attribution: Study 3 Trait Ratings', 'human_stat': 'F=17.79, p<0.001'},\n{'id': 'study_4_trait', 'name': 'Attribution: Study 4 Trait Ratings', 'human_stat': 'F=8.93, p<0.01'}"
+    },
+    {
+      "reason": "Data mismatch in **Study 1** (ANOVA (F-test) for consensus (Supermarket)): Paper=F(1, 78) = 17.7, Benchmark=F = 17.7",
+      "suggested_fix": ""
+    },
+    {
+      "reason": "Data mismatch in **Study 1** (ANOVA (F-test) for trait ratings (Supermarket)): Paper=F(1, 78) = 17.27, Benchmark=F = 17.27",
+      "suggested_fix": ""
+    },
+    {
+      "reason": "Data mismatch in **Study 4** (Consensus and Trait Ratings): Paper=Consensus F(1, 78) = 26.47; Trait Ratings F(1, 78) = 8.93, Benchmark=None",
+      "suggested_fix": ""
+    },
+    {
+      "reason": "[HIGH] Missing exact statistics (Degrees of Freedom and t-values) - *Rec: Update all F-tests to include (df1, df2) and add item-level t-values for Study 2.*",
+      "suggested_fix": ""
+    }
+  ],
+  "data_corrections": [
+    {
+      "reason": "Study 4 is missing from findings and raw data.",
+      "suggested_fix": "Add Study 4 findings: Consensus F(1, 78) = 26.47, p < .001; Trait Ratings F(1, 78) = 8.93, p < .01. Add raw data: N=80 (48 wearers, 32 refusers)."
+    },
+    {
+      "reason": "Missing experiments detected: Study 4. Please update the benchmark to include these.",
+      "suggested_fix": ""
+    },
+    {
+      "reason": "Inconsistency in **analyses**: The benchmark uses a simplified 'finding' logic rather than the rigorous statistical testing (ANOVA/ANCOVA) performed in the original study.",
+      "suggested_fix": ""
+    },
+    {
+      "reason": "Data mismatch in **Study 2** (Item-level t-tests): Paper=e.g., Shy t=2.66, Optimistic t=2.58, Supporter of women's lib t=3.96, Benchmark=None",
+      "suggested_fix": ""
+    }
+  ],
+  "material_issues": [
+    {
+      "reason": "Study 4 is a distinct experimental condition using real-world conflict and specific 'Likes and Dislikes' questionnaires for targets, which are missing from the benchmark.",
+      "suggested_fix": "Include the text for Version A and Version B of the 'Likes and Dislikes' questionnaires described on page 13."
+    },
+    {
+      "reason": "The 100-point scale is essential for calculating the 'absolute discrepancies' used in the results.",
+      "suggested_fix": "Update 'type': 'likert' to 'type': 'continuous_scale' or 'integer' with metadata {'min': -50, 'max': 50, 'step': 1}."
+    },
+    {
+      "reason": "Missing material file for Study 4.",
+      "suggested_fix": ""
+    },
+    {
+      "reason": "[HIGH] Omission of Study 4 - *Rec: Add Study 4 as a distinct study in the benchmark to reflect the paper's full scope.*",
+      "suggested_fix": ""
+    },
+    {
+      "reason": "Check instructions/scenario: Inconsistency in **materials**: Study 4 is likely omitted because it involves 'authentic conflict' (real-world behavior), which is impossible to replicate with an LLM. However, the omission of the 'Repent' vs 'Eat at Joe's' variation in the metadata (only one sandwich board scenario is listed) is a reduction in stimulus breadth.",
+      "suggested_fix": ""
+    },
+    {
+      "reason": "Verify item settings or descriptions for Study 2 due to result mismatch.",
+      "suggested_fix": ""
+    }
+  ],
+  "evaluator_issues": [],
+  "other_feedback": [
+    {
+      "reason": "Missing experiments detected: Study 4. Please update the benchmark to include these.",
+      "suggested_fix": ""
+    },
+    {
+      "reason": "Inconsistency in **participants**: The benchmark metadata lists N=824, but the sub-study breakdown only accounts for 504 participants. Study 4 (N=80) is entirely missing from the specification.",
+      "suggested_fix": ""
+    },
+    {
+      "reason": "Inconsistency in **procedure**: The paper explicitly states that subjects were 'not immediately required to state their own choice' to avoid bias. Bundling these in one prompt for an LLM violates this procedural control.",
+      "suggested_fix": ""
+    },
+    {
+      "reason": "Participant sample_size mismatch: Paper says Study 1: 320; Study 2: 80; Study 3: 104; Study 4: 80, Benchmark has Study 1: 320; Study 2: 80; Study 3: 104; Study 4: Missing from raw data summary",
+      "suggested_fix": ""
+    }
+  ]
+}

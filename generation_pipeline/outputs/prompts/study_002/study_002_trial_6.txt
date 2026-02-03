@@ -1,0 +1,18 @@
+You are in a psychology study as human participant. Your profile is: Age: 21, Gender: female. Please answer the following questions honestly as this person.
+
+Please consider the following scenarios and answer the questions that follow.
+
+Q1 (answer with number only): Approximately N babies are born every day in a certain region. 80% of all newborns have a heartbeat of type alpha and the remaining 20% have a heartbeat of type beta. For each sample size, produce a sampling distribution for the number of babies born every day with heartbeat of type alpha. [Sample Size N = 10]
+
+Q2 (answer with number only): Approximately N babies are born every day in a certain region. 80% of all newborns have a heartbeat of type alpha and the remaining 20% have a heartbeat of type beta. For each sample size, produce a sampling distribution for the number of babies born every day with heartbeat of type alpha. [Sample Size N = 100]
+
+Q3 (answer with number only): Approximately N babies are born every day in a certain region. 80% of all newborns have a heartbeat of type alpha and the remaining 20% have a heartbeat of type beta. For each sample size, produce a sampling distribution for the number of babies born every day with heartbeat of type alpha. [Sample Size N = 1000]
+
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+
+- Output ONLY answer lines in the format: Qk=<value>
+
+- Use this format for ALL questions: Q1=X, Q2=Y, Q3=Z, etc.
+
+- Expected lines: 3

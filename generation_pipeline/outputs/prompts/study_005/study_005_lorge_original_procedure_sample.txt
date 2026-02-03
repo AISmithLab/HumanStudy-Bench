@@ -1,0 +1,69 @@
+You are a participant in a social psychology research task. Please consider the following profile and instructions.
+
+Participant Profile:
+- Age: 49
+- Gender: male
+
+Study Context and Instructions:
+In this experiment, you are presented with 50 brief quotations on political and economic issues. For each quotation, you are given two possible authors (one true, one false) and must identify the true source. You then rate your agreement with the statement on a 5-point scale (1=Extreme Agreement, 5=Negative Extreme). Later, you rate your respect for the political opinions of all listed authors. Finally, after several weeks, you rate the same 50 statements again, but this time only the true author is identified. We are measuring how the change in attributed authorship (prestige) influences your evaluation of the statements.
+
+Based on the historical findings of S. E. Asch (1948) regarding the effects of prestige and suggestion, please provide numerical estimates or answers for the following questions:
+
+Q1: Total number of correct matchings of statements and authors across all subjects.
+Q2: Total number of incorrect matchings of statements and authors across all subjects.
+Q3: Percentage of correct matchings for Clear Source item 1.
+Q4: Percentage of correct matchings for Clear Source item 2.
+Q5: Percentage of correct matchings for Clear Source item 3.
+Q6: Percentage of correct matchings for Clear Source item 4.
+Q7: Percentage of correct matchings for Clear Source item 5.
+Q8: Percentage of correct matchings for Clear Source item 6.
+Q9: Percentage of correct matchings for Ambiguous Source item 1.
+Q10: Percentage of correct matchings for Ambiguous Source item 2.
+Q11: Percentage of correct matchings for Ambiguous Source item 3.
+Q12: Percentage of correct matchings for Ambiguous Source item 4.
+Q13: Percentage of correct matchings for Ambiguous Source item 5.
+Q14: Percentage of correct matchings for Ambiguous Source item 6.
+Q15: Percentage of correct matchings for Ambiguous Source item 7.
+Q16: Percentage of correct matchings for Ambiguous Source item 8.
+Q17: Percentage of correct matchings for Misleading Source item 1.
+Q18: Percentage of correct matchings for Misleading Source item 2.
+Q19: Percentage of correct matchings for Misleading Source item 3.
+Q20: Percentage of correct matchings for Misleading Source item 4.
+Q21: Percentage of correct matchings for Misleading Source item 5.
+Q22: Percentage of correct matchings for Misleading Source item 6.
+Q23: Mean shift in statement ratings when author prestige difference is -4.
+Q24: Median shift in statement ratings when author prestige difference is -4.
+Q25: Mean shift in statement ratings when author prestige difference is -3.
+Q26: Median shift in statement ratings when author prestige difference is -3.
+Q27: Mean shift in statement ratings when author prestige difference is -2.
+Q28: Median shift in statement ratings when author prestige difference is -2.
+Q29: Mean shift in statement ratings when author prestige difference is -1.
+Q30: Median shift in statement ratings when author prestige difference is -1.
+Q31: Mean shift in statement ratings when author prestige difference is 0.
+Q32: Median shift in statement ratings when author prestige difference is 0.
+Q33: Mean shift in statement ratings when author prestige difference is 1.
+Q34: Median shift in statement ratings when author prestige difference is 1.
+Q35: Mean shift in statement ratings when author prestige difference is 2.
+Q36: Median shift in statement ratings when author prestige difference is 2.
+Q37: Mean shift in statement ratings when author prestige difference is 3.
+Q38: Median shift in statement ratings when author prestige difference is 3.
+Q39: Mean shift in statement ratings when author prestige difference is 4.
+Q40: Median shift in statement ratings when author prestige difference is 4.
+Q41: Number of statement evaluations in the control group (zero shift in author rating).
+Q42: Number of statement evaluations in the positive shift group (positive shift in author rating).
+Q43: Number of statement evaluations in the negative shift group (negative shift in author rating).
+Q44: Frequency of initial rating '1' for statements that later had positive differences in author ratings.
+Q45: Frequency of initial rating '1' for statements that later had negative differences in author ratings.
+Q46: Frequency of initial rating '2' for statements that later had positive differences in author ratings.
+Q47: Frequency of initial rating '2' for statements that later had negative differences in author ratings.
+Q48: Frequency of initial rating '3' for statements that later had positive differences in author ratings.
+Q49: Frequency of initial rating '3' for statements that later had negative differences in author ratings.
+Q50: Frequency of initial rating '4' for statements that later had positive differences in author ratings.
+Q51: Frequency of initial rating '4' for statements that later had negative differences in author ratings.
+Q52: Frequency of initial rating '5' for statements that later had positive differences in author ratings.
+Q53: Frequency of initial rating '5' for statements that later had negative differences in author ratings.
+
+RESPONSE_SPEC (MANDATORY FORMAT):
+- Output ONLY answer lines in the format: Qk=<value>
+- Provide only the numerical value or specific answer requested.
+- Total expected lines: 53

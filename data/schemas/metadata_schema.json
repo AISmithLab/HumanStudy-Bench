@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Study Metadata Schema",
+  "description": "Schema for study metadata in HumanStudyBench",
+  "type": "object",
+  "required": ["id", "title", "authors", "year", "source", "domain", "difficulty"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^study_[0-9]{3,}$",
+      "description": "Unique study identifier (e.g., study_001)"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 5,
+      "description": "Full title of the study"
+    },
+    "authors": {
+      "type": "array",
+      "items": {"type": "string"},
+      "minItems": 1,
+      "description": "List of study authors"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1879,
+      "maximum": 2100,
+      "description": "Publication year"
+    },
+    "source": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["journal_article", "conference_paper", "thesis", "preprint", "book_chapter"]
+        },
+        "journal": {"type": "string"},
+        "conference": {"type": "string"},
+        "volume": {"type": "integer"},
+        "issue": {"type": "integer"},
+        "pages": {"type": "string"},
+        "doi": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "osf_link": {"type": "string", "format": "uri"}
+      }
+    },
+    "domain": {
+      "type": "string",
+      "enum": [
+        "cognitive_psychology",
+        "social_psychology",
+        "developmental_psychology",
+        "behavioral_economics",
+        "neuroscience"
+      ],
+      "description": "Primary research domain"
+    },
+    "subdomain": {
+      "type": "string",
+      "description": "More specific subdomain (e.g., 'attention', 'memory')"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard"],
+      "description": "Difficulty level for agent replication"
+    },
+    "estimated_time_minutes": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Estimated time to complete study in minutes"
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Keywords and tags for categorization"
+    },
+    "citation": {
+      "type": "string",
+      "description": "Full APA-style citation"
+    },
+    "license": {
+      "type": "string",
+      "description": "License for study materials (e.g., CC-BY-4.0)"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any additional notes about the study"
+    }
+  }
+}
