@@ -96,6 +96,24 @@ python scripts/run_baseline_pipeline.py --study-id study_001 --real-llm --system
 *   **[Adding New Studies](docs/GENERATE_STUDY.md)** – Parse research PDFs and auto-generate simulation code
 *   **[Model Configuration](docs/ENVIRONMENT.md)** – Set up API keys for OpenAI, Anthropic, Google, or OpenRouter
 
+## 📎 Citation & Hugging Face
+
+If you use HumanStudy-Bench, please cite:
+
+```bibtex
+@misc{liu2026humanstudybenchaiagentdesign,
+      title={HumanStudy-Bench: Towards AI Agent Design for Participant Simulation}, 
+      author={Xuan Liu and Haoyang Shang and Zizhang Liu and Xinyan Liu and Yunze Xiao and Yiwen Tu and Haojian Jin},
+      year={2026},
+      eprint={2602.00685},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2602.00685}, 
+}
+```
+
+**Hugging Face:** Benchmark and resources are available on the [Hugging Face Hub](https://huggingface.co/) — `fuyyckwhy/HS-Bench-results`.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
