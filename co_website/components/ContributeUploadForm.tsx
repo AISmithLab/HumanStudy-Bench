@@ -7,6 +7,8 @@ type Result = { success: true; pr_url: string } | { success: false; errors: stri
 export default function ContributeUploadForm() {
   const [file, setFile] = useState<File | null>(null);
   const [contributorGithub, setContributorGithub] = useState("");
+  const [contributorName, setContributorName] = useState("");
+  const [contributorInstitution, setContributorInstitution] = useState("");
   const [dragActive, setDragActive] = useState(false);
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<Result | null>(null);
@@ -48,6 +50,8 @@ export default function ContributeUploadForm() {
       const formData = new FormData();
       formData.append("file", file);
       formData.append("contributor_github", contributorGithub.trim());
+      formData.append("contributor_name", contributorName.trim());
+      formData.append("contributor_institution", contributorInstitution.trim() || "Independent Researcher");
       try {
         const res = await fetch("/api/contribute/upload", {
           method: "POST",
@@ -62,11 +66,19 @@ export default function ContributeUploadForm() {
         setLoading(false);
       }
     },
-    [file, contributorGithub]
+    [file, contributorGithub, contributorName, contributorInstitution]
   );
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+      <input
+        type="text"
+        value={contributorName}
+        onChange={(e) => setContributorName(e.target.value)}
+        placeholder="Your name (required)"
+        className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:border-cyan-500 focus:outline-none"
+        required
+      />
       <input
         type="text"
         value={contributorGithub}
@@ -74,6 +86,13 @@ export default function ContributeUploadForm() {
         placeholder="GitHub ID or profile URL (required)"
         className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:border-cyan-500 focus:outline-none"
         required
+      />
+      <input
+        type="text"
+        value={contributorInstitution}
+        onChange={(e) => setContributorInstitution(e.target.value)}
+        placeholder="Institution (leave blank for Independent Researcher)"
+        className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:border-cyan-500 focus:outline-none"
       />
       <div
         onDragEnter={handleDrag}

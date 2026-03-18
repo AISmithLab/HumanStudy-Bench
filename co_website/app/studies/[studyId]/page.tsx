@@ -15,7 +15,7 @@ export async function generateStaticParams() {
   }
 }
 
-type Contributor = { name: string; github?: string };
+type Contributor = { name: string; github?: string; institution?: string };
 type StudyEntry = {
   study_id: string;
   title: string;
@@ -93,7 +93,7 @@ export default async function StudyDetailPage({
               <h2 className="text-xl font-semibold text-gray-900 font-serif mb-4">Contributors</h2>
               <ul className="flex flex-wrap gap-3">
                 {study.contributors.map((c) => (
-                  <li key={c.name}>
+                  <li key={c.name} className="flex items-baseline gap-1">
                     {c.github ? (
                       <a
                         href={c.github}
@@ -105,6 +105,9 @@ export default async function StudyDetailPage({
                       </a>
                     ) : (
                       <span className="text-gray-600">{c.name}</span>
+                    )}
+                    {c.institution && (
+                      <span className="text-sm text-gray-400">({c.institution})</span>
                     )}
                   </li>
                 ))}

@@ -139,6 +139,8 @@ export async function POST(request: NextRequest) {
     const formData = await request.formData();
     const file = formData.get("file") as File | null;
     const contributorGithub = normalizeGithub(String(formData.get("contributor_github") || ""));
+    const contributorName = String(formData.get("contributor_name") || "").trim();
+    const contributorInstitution = String(formData.get("contributor_institution") || "Independent Researcher").trim();
     if (!file || !(file instanceof File)) {
       return NextResponse.json({ success: false, errors: ["No file provided."] }, { status: 400 });
     }
@@ -223,7 +225,7 @@ export async function POST(request: NextRequest) {
       authors: Array.isArray(meta.authors) ? meta.authors : [],
       year: typeof meta.year === "number" ? meta.year : null,
       description: typeof meta.summary === "string" ? meta.summary : typeof meta.abstract === "string" ? meta.abstract : "",
-      contributors: [{ github: contributorGithub }],
+      contributors: [{ name: contributorName || undefined, github: contributorGithub, institution: contributorInstitution }],
     };
     pathToContent.set(
       `studies/${studyId}/index.json`,

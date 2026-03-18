@@ -34,13 +34,19 @@ git push origin contrib-yourgithubid-013
 
 Head to GitHub and open a **Pull Request** targeting the `dev` branch. Include a brief description of the study and any notes for reviewers.
 
-Make sure your `index.json` includes a `contributors` field with your name and GitHub link — CI will verify this matches your GitHub account:
+Make sure your `index.json` includes a `contributors` field with your name, GitHub link, and institution — CI will verify your GitHub ID matches the PR author:
 
 ```json
 "contributors": [
-  { "name": "Your Name", "github": "https://github.com/your-username" }
+  {
+    "name": "Your Name",
+    "github": "https://github.com/your-username",
+    "institution": "Stanford University"
+  }
 ]
 ```
+
+If you are not affiliated with a university or organization, use `"Independent Researcher"` as your institution.
 
 ### What happens after you hit "Create PR"
 

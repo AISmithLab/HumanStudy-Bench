@@ -26,7 +26,13 @@ This file lives at the root of your study directory. The website reads it for th
 
 **Required fields:** `title` (string), `authors` (string[]), `year` (number | null), `description` (string) — all non-empty.
 
-**Optional:** `contributors` — array of `{"name": "...", "github": "..."}` so you get credit on the site.
+**Optional:** `contributors` — array of objects so you get credit on the site.
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `name` | Yes | Your full name |
+| `github` | No | Your GitHub profile URL |
+| `institution` | No | Your university or organization. Use `"Independent Researcher"` if unaffiliated |
 
 ```json
 {
@@ -35,7 +41,11 @@ This file lives at the root of your study directory. The website reads it for th
   "year": 1977,
   "description": "People overestimate how many others share their beliefs and behaviors.",
   "contributors": [
-    { "name": "Your Name", "github": "https://github.com/your-username" }
+    {
+      "name": "Your Name",
+      "github": "https://github.com/your-username",
+      "institution": "Stanford University"
+    }
   ]
 }
 ```

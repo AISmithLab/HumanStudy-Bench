@@ -57,6 +57,8 @@ def build_index() -> list[dict]:
                 if c.get("github"):
                     gh = str(c["github"]).strip()
                     nc["github"] = gh if gh.startswith("http") else f"https://github.com/{gh.lstrip('/')}"
+                if c.get("institution"):
+                    nc["institution"] = c["institution"]
                 contributors.append(nc)
         entry = {
             "study_id": study_dir.name,

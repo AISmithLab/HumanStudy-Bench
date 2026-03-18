@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import Link from "next/link";
 
-type Contributor = { name: string; github?: string };
+type Contributor = { name: string; github?: string; institution?: string };
 type StudySummary = {
   study_id: string;
   title: string;
