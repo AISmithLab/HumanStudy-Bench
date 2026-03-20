@@ -7,7 +7,8 @@
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-  
+  [![Community Edition](https://img.shields.io/badge/Community_Edition-Contribute_New_Studies-brightgreen)](https://github.com/AISmithLab/HumanStudy-Bench-Community)
+
 </div>
 
 ---
@@ -95,6 +96,10 @@ python scripts/run_baseline_pipeline.py --study-id study_001 --real-llm --system
 
 *   **[Adding New Studies](docs/GENERATE_STUDY.md)** – Parse research PDFs and auto-generate simulation code
 *   **[Model Configuration](docs/ENVIRONMENT.md)** – Set up API keys for OpenAI, Anthropic, Google, or OpenRouter
+
+## 🌐 Community Edition
+
+Looking to contribute new studies or explore community-contributed experiments? Check out the **[HumanStudy-Bench Community Edition](https://github.com/AISmithLab/HumanStudy-Bench-Community)** — an open repository where researchers can submit, review, and share new study implementations beyond the original benchmark.
 
 ## 📎 Citation & Hugging Face
 
