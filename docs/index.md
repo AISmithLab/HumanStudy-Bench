@@ -22,7 +22,7 @@ Each study lives under `studies/study_XXX/` with source data, scripts for trial 
 
 ## Quick contribution flow
 
-1. Fork the repo and clone it.
+1. Fork the [Community Edition](https://github.com/HumanStudy-Hub/HumanStudy-Bench) repo and clone it.
 2. Create a branch (e.g. `study_013`) and add `studies/study_013/` with the required files.
 3. Run `bash scripts/verify_study.sh study_013`.
 4. Open a Pull Request. After review, your study is merged and appears in the index and on the website.

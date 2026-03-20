@@ -3,77 +3,40 @@
 
   <h1>HumanStudy-Bench: Towards AI Agent Design for Participant Simulation</h1>
 
-  <h3><a href="https://www.hs-bench.clawder.ai">📊 See Leaderboard & Results</a> | <a href="https://arxiv.org/abs/2602.00685">📖 Read the Paper</a></h3>
-
-  [![Release v1.0.0](https://img.shields.io/github/v/release/AISmithLab/HumanStudy-Bench)](https://github.com/AISmithLab/HumanStudy-Bench/releases/tag/v1.0.0)
+  [![Leaderboard & Results](https://img.shields.io/badge/Leaderboard_%26_Results-hs--bench.clawder.ai-orange)](https://www.hs-bench.clawder.ai)
+  [![Read the Paper](https://img.shields.io/badge/Paper-arXiv%3A2602.00685-b31b1b)](https://arxiv.org/abs/2602.00685)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-  [![Docs](https://img.shields.io/badge/docs-website-blue)](https://www.hs-bench.clawder.ai)
+  [![Community Edition](https://img.shields.io/badge/Community_Edition-Contribute_New_Studies-brightgreen)](https://github.com/HumanStudy-Hub/HumanStudy-Bench)
 
 </div>
 
 ---
 
+> **New contributions are now accepted at the [Community Edition](https://github.com/HumanStudy-Hub/HumanStudy-Bench).** Please fork and submit PRs there.
+
 > LLMs are increasingly used to simulate human participants in social science research, but existing evaluations conflate base model capabilities with agent design choices, making it unclear whether results reflect the model or the configuration.
 
-## 👋 Overview
+## Overview
 
 HumanStudy-Bench treats participant simulation as an *agent design problem* and provides a **standardized testbed** — combining an **Execution Engine** that reconstructs full experimental protocols from published studies and a **Benchmark** with standardized evaluation metrics — for *replaying human-subject experiments end-to-end* with alignment evaluation at the level of scientific inference.
 
-## How to Contribute a Study
+This repository contains the **original 12 foundational studies** and benchmark code as described in the paper. For the paper's exact results, use tag `v1.0.0`.
 
-### 1. Fork and clone
+## Community Edition
 
-```bash
-git clone https://github.com/<your-github-id>/HumanStudy-Bench.git
-cd HumanStudy-Bench
-git checkout -b contrib-<yourgithubid>-013
-```
+**Want to contribute a study or use the latest community-expanded benchmark?**
 
-### 2. Create your study folder
+Head to the **[Community Edition](https://github.com/HumanStudy-Hub/HumanStudy-Bench)** — an open, community-driven repo where anyone can submit new studies via PR. The community version includes the same 12 foundational studies plus all community contributions.
 
-Add a new directory under `studies/` with the required folders:
+[![Contribute on HumanStudy-Hub](https://img.shields.io/badge/Contribute-HumanStudy--Hub-brightgreen)](https://github.com/HumanStudy-Hub/HumanStudy-Bench)
 
-```
-studies/<yourgithubid>_013/
-  ├── index.json
-  ├── source/
-  ├── scripts/
-  └── README.md
-```
+## Reproduction (Paper Results)
 
-See the docs below for what goes inside each folder and the exact schemas:
-
-| # | Guide | Description |
-|---|-------|-------------|
-| 1 | [What Should I Submit?](https://www.hs-bench.clawder.ai/docs/what_to_submit) | Overview of contribution, required folders and files |
-| 2 | [How to Extract Data from a Paper](https://www.hs-bench.clawder.ai/docs/extract_from_paper) | Paper hierarchy, AI extraction prompt, walkthrough example |
-| 3 | [How to Build Your Study Files](https://www.hs-bench.clawder.ai/docs/build_study_files) | Schemas, code examples, and contracts for each file |
-| 4 | [How to Submit Your Study](https://www.hs-bench.clawder.ai/docs/submit_study) | Fork, verify, push, and open a PR |
-
-### 3. Verify locally
+To reproduce the exact benchmark and results reported in the paper:
 
 ```bash
-bash scripts/verify_study.sh <yourgithubid>_013
+git checkout v1.0.0
 ```
-
-### 4. Commit and push
-
-```bash
-git add studies/<yourgithubid>_013/
-git commit -m "Add study: <Your Study Title>"
-git push origin contrib-<yourgithubid>-013
-```
-
-### 5. Open a Pull Request
-
-Open a PR on GitHub targeting the `dev` branch. Maintainers assign final `study_XXX` numbering by merge order. CI runs validation automatically; confirmation is by human review.
-
-You can also submit a study via **web upload** at [hs-bench.clawder.ai/contribute](https://www.hs-bench.clawder.ai/contribute).
-
-## Existing Studies
-
-The 12 foundational studies (cognition, strategic interaction, social psychology) serve as reference examples. Browse them on the [website](https://www.hs-bench.clawder.ai/contribute#studies) or locally under `studies/`.
 
 ## Citation & Hugging Face
 
@@ -92,14 +55,6 @@ If you use HumanStudy-Bench, please cite:
 ```
 
 **Hugging Face:** Benchmark and resources are available on the [Hugging Face Hub](https://huggingface.co/) — `fuyyckwhy/HS-Bench-results`.
-
-## Reproduction (Paper Results)
-
-To test and reproduce the exact benchmark and results reported in our paper, check out the **arXiv-benchmark-version**:
-
-```bash
-git checkout v1.0.0
-```
 
 ## License
 
