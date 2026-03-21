@@ -22,9 +22,13 @@ export const metadata: Metadata = {
   title: "HumanStudy-Bench: Towards AI Agent Design for Participant Simulation",
   description: "A reusable platform for replaying human-subject experiments end-to-end, evaluating agent design alignment with human ground-truth outcomes at the level of scientific inference.",
   icons: {
-    icon: [{ url: "/favicon.svg?v=2", type: "image/svg+xml" }],
-    shortcut: "/favicon.svg?v=2",
-    apple: "/favicon.svg?v=2",
+    icon: [
+      { url: "/favicon.svg?v=3", type: "image/svg+xml" },
+      { url: "/favicon-32x32.png?v=3", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16x16.png?v=3", type: "image/png", sizes: "16x16" },
+    ],
+    shortcut: "/favicon-32x32.png?v=3",
+    apple: "/apple-touch-icon.png?v=3",
   },
 };
 
